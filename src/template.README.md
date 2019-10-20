@@ -19,11 +19,19 @@ A list of Google made Android apps (a.k.a. Android System Apps) that can be foun
 
 **Privileged*** - Privileged apps are system apps that are located in a **priv-app** directory on one of the system image partitions. [Documentation](https://source.android.com/devices/tech/config/perms-whitelist).
 
-# Editing & Building
+# Editing
 
-To add or modify an app, please append a new entry to the [app-ids.csv](src/app-ids.csv) file.
+To add or modify an app open and edit the [app-ids.csv](src/app-ids.csv) file.
 
-Make sure you've got Python `2.7` or `3.x` and an active Internet connection.
+You may now open a [pull request](https://github.com/petarov/google-app-ids/pulls), or preferably rebuild the dist files as described below and then open a PR.
+
+# Building
+
+Requires Python `3.x` and an active Internet connection.
+
+Install build dependencies:
+
+    ./make
 
 Run the `build.py` script in order to build all the `dist/` output files and a new `README.md` file. 
 
