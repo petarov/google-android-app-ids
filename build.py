@@ -23,17 +23,19 @@ DIST_JSON = 'google-app-ids.json'
 APP_LINK_PLACEHOLDER = "[{0}](https://play.google.com/work/apps/details?id={1})"
 
 def csv_parse(csv_path):
+    print ('Parsing apps from CSV file...')
     if not os.path.exists(csv_path):
         raise Exception('{} source file could not be found!'.format(csv_path))
 
     apps = []
-    with open(csv_path, 'rb') as csvfile:
+    with open(csv_path, 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
         for row in reader:
             apps.append([row[0], row[1] == 'true'])
     return apps[1:]
 
 def dist_json(apps, output_path):
+    print ('Writing json file...')
     json_data = []
     for app in apps:
         obj = {
@@ -47,6 +49,7 @@ def dist_json(apps, output_path):
         json.dump(json_data, outfile, indent=2, ensure_ascii=False)
 
 def dist_readme(apps, template_path, output_path):
+    print ('Writing Markdown file...')
     with open(template_path, 'r') as template:
         template_contents = template.read()
 
@@ -77,6 +80,8 @@ if __name__ == "__main__":
         dist_readme(apps, os.path.join(cur_path, 'src', SRC_MARKDOWN_FILE), 
             os.path.join(cur_path, DIST_README))
         dist_json(apps, os.path.join(cur_path, 'dist', DIST_JSON))
+
+        print ('Done.')
 
     except Exception as e:
         traceback.print_exc(file=sys.stdout)
