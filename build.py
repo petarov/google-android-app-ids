@@ -23,6 +23,7 @@ SRC_MARKDOWN_PLACEHOLDER = '%%APPS%%'
 SRC_MARKDOWN_TIMESTAMP = '%%BUILD_TIMESTAMP%%'
 DIST_README = 'README.md'
 DIST_JSON = 'google-app-ids.json'
+DIST_CSV = 'google-app-ids.csv'
 APP_LINK_PLACEHOLDER = "[{0}](https://play.google.com/work/apps/details?id={1})"
 
 def csv_parse(csv_path):
@@ -48,7 +49,7 @@ def apps_preprocess(apps):
         logo_img = soup.find('img' ,attrs={'itemprop':'image',
             'alt': 'Cover art'})
         title = soup.find('h1' ,attrs={'itemprop':'name'})
-        title_text = title.text if title else ''
+        title_text = title.text if title else 'NOT FOUND'
         logo_src = logo_img['src'] if logo_img else ''        
         return [app[0], app[1], title_text, logo_src]
 
@@ -71,12 +72,12 @@ def apps_preprocess(apps):
     return apps_new
 
 def dist_json(apps, output_path):
-    print ('Writing json file...')
+    print ('Saving json file...')
     json_data = []
     for app in apps:
         obj = {
-            'img_src': app[3] if len(app) > 3 else '',
-            'name': app[2] if len(app) > 2 else 'NOT FOUND',
+            'img_src': app[3],
+            'name': app[2],
             'package_name': app[0],
             'privileged': app[1]
             }
@@ -85,17 +86,28 @@ def dist_json(apps, output_path):
     with open(output_path, 'w') as outfile:
         json.dump(json_data, outfile, indent=2, ensure_ascii=False)
 
+def dist_csv(apps, output_path):
+    print ('Saving csv file...')
+    with open(output_path, 'w') as outfile:
+        outfile.write("Icon,Name,Package,Privileged\n")
+        for app in apps:
+            outfile.write("{0},{1},{2},{3}\n".format(
+                app[3],
+                app[2],
+                app[0],
+                app[1])
+            )
+
 def dist_readme(apps, template_path, output_path):
-    print ('Writing Markdown file...')
+    print ('Saving Markdown file...')
     with open(template_path, 'r') as template:
         template_contents = template.read()
 
     app_contents = ''
     for app in apps:
-        name = app[2] if len(app) > 2 else 'NOT FOUND'
         logo_src = app[3].replace('=s180', '=s64') if len(app) > 3 else ''
         line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, app[0], 
-            APP_LINK_PLACEHOLDER.format(name, app[0]), 
+            APP_LINK_PLACEHOLDER.format(app[2], app[0]), 
             'Yes' if app[1] == True else 'No' )
         line += "\n"
         app_contents += line
@@ -119,6 +131,7 @@ if __name__ == "__main__":
         dist_readme(apps, os.path.join(cur_path, 'src', SRC_MARKDOWN_FILE), 
             os.path.join(cur_path, DIST_README))
         dist_json(apps, os.path.join(cur_path, 'dist', DIST_JSON))
+        dist_csv(apps, os.path.join(cur_path, 'dist', DIST_CSV))
 
         print ('Done.')
     except Exception as e:

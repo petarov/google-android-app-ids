@@ -1,5 +1,11 @@
 [
   {
+    "img_src": "https://lh3.googleusercontent.com/5puZavg4x2pThSTJgos1sARWoARea7tzr_B8AWEwn2lV05RoXo9M8BM2XwcvwG6nIGc=s180",
+    "name": "Hangouts",
+    "package_name": "com.google.android.talk",
+    "privileged": true
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/7M2PyII8UNkUIkzC92Knz5HRDCo-Rce_lr6T6ROz5c8SlY92ISKjsjbdWaC05ZiKV0k=s180",
     "name": "Phone",
     "package_name": "com.google.android.dialer",
@@ -12,27 +18,15 @@
     "privileged": true
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/5puZavg4x2pThSTJgos1sARWoARea7tzr_B8AWEwn2lV05RoXo9M8BM2XwcvwG6nIGc=s180",
-    "name": "Hangouts",
-    "package_name": "com.google.android.talk",
-    "privileged": true
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/f6ZSUJrtL5uniwWCTp1OeJj8MdoDaSTqi2XFyy9A0yPv6DpBo2giisRKDpXD9qk66KE=s180",
-    "name": "Google Play services",
-    "package_name": "com.google.android.gms",
-    "privileged": true
-  },
-  {
     "img_src": "https://lh3.googleusercontent.com/DKoidc0T3T1KvYC2stChcX9zwmjKj1pgmg3hXzGBDQXM8RG_7JjgiuS0CLOh8DUa7as=s180",
     "name": "Google",
     "package_name": "com.google.android.googlequicksearchbox",
     "privileged": true
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/1d85Nw9Iq65Ioge-zDBYnrlr-A_sA82vLKzuR7Rn7bdBJq8sUG_qUyEUno82f5kPp28=s180",
-    "name": "Google Pay: Pay with your phone and send cash",
-    "package_name": "com.google.android.apps.walletnfcrel",
+    "img_src": "https://lh3.googleusercontent.com/f6ZSUJrtL5uniwWCTp1OeJj8MdoDaSTqi2XFyy9A0yPv6DpBo2giisRKDpXD9qk66KE=s180",
+    "name": "Google Play services",
+    "package_name": "com.google.android.gms",
     "privileged": true
   },
   {
@@ -46,6 +40,12 @@
     "name": "Google Calendar",
     "package_name": "com.google.android.calendar",
     "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/1d85Nw9Iq65Ioge-zDBYnrlr-A_sA82vLKzuR7Rn7bdBJq8sUG_qUyEUno82f5kPp28=s180",
+    "name": "Google Pay: Pay with your phone and send cash",
+    "package_name": "com.google.android.apps.walletnfcrel",
+    "privileged": true
   },
   {
     "img_src": "https://lh3.googleusercontent.com/KwUBNPbMTk9jDXYS2AeX3illtVRTkrKVh5xR1Mg4WHd0CG2tV4mrh1z3kXi5z_warlk=s180",
@@ -78,27 +78,15 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/1pw-tHjrkmMgnr63nxOQStYnpVkieXKP9-1RafDRtHBAQ65cN7GcsNKf4k0rWsB--W8d=s180",
-    "name": "Google Drive",
-    "package_name": "com.google.android.apps.docs",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/RYEyviCFtwVsRHolYDHbnuDf6s9FEttJmPT-6W0ZY0xYwcmEQsG5glDV-h2afrNIFnB_=s180",
-    "name": "Google Sheets",
-    "package_name": "com.google.android.apps.docs.editors.sheets",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/NNP08MjBoIrYbgiTnUsaNepMh6QhH0UqHSUtbEJEIBPfogcx27X-KkwUU94yL8lw_A=s180",
-    "name": "Google Docs",
-    "package_name": "com.google.android.apps.docs.editors.docs",
-    "privileged": false
-  },
-  {
     "img_src": "https://lh3.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=s180",
     "name": "Google Fit: Health and Activity Tracking",
     "package_name": "com.google.android.apps.fitness",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/1pw-tHjrkmMgnr63nxOQStYnpVkieXKP9-1RafDRtHBAQ65cN7GcsNKf4k0rWsB--W8d=s180",
+    "name": "Google Drive",
+    "package_name": "com.google.android.apps.docs",
     "privileged": false
   },
   {
@@ -108,9 +96,21 @@
     "privileged": false
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/NNP08MjBoIrYbgiTnUsaNepMh6QhH0UqHSUtbEJEIBPfogcx27X-KkwUU94yL8lw_A=s180",
+    "name": "Google Docs",
+    "package_name": "com.google.android.apps.docs.editors.docs",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/UEhZQtc_3LCwkKIayRjHG63EfC9bsXvJjuWiFMvVRAe_tHyk0pW4ZmCBJQCENxmYlYk=s180",
     "name": "Google Camera",
     "package_name": "com.google.android.GoogleCamera",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/ZwkvxWr1hIyOsRMhJ3qfFN8NIcOjbDmDykJqX0u-GZ0MQbR0ZEoEUmsouwLhvKYJ-x8=s180",
+    "name": "Google Indic Keyboard",
+    "package_name": "com.google.android.apps.inputmethod.hindi",
     "privileged": false
   },
   {
@@ -120,9 +120,9 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/ZwkvxWr1hIyOsRMhJ3qfFN8NIcOjbDmDykJqX0u-GZ0MQbR0ZEoEUmsouwLhvKYJ-x8=s180",
-    "name": "Google Indic Keyboard",
-    "package_name": "com.google.android.apps.inputmethod.hindi",
+    "img_src": "https://lh3.googleusercontent.com/RYEyviCFtwVsRHolYDHbnuDf6s9FEttJmPT-6W0ZY0xYwcmEQsG5glDV-h2afrNIFnB_=s180",
+    "name": "Google Sheets",
+    "package_name": "com.google.android.apps.docs.editors.sheets",
     "privileged": false
   },
   {
@@ -138,15 +138,33 @@
     "privileged": false
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/7UM2VMuIKa5RK6_vg8D2yaeJ9FpXSuN3tj9d4KSpfN28GOZkiE2V_ZcqxRhSwB-yMA=s180",
+    "name": "iWnn IME for Nexus",
+    "package_name": "jp.co.omronsoft.iwnnime.ml",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/NqWvryDAnkEWLTq36xlrdx0CJ9rzxc3jfYJmIcrlxuJ_0X0QAG7Ojch8mX8_vFRauIvH=s180",
     "name": "Google Text-to-Speech",
     "package_name": "com.google.android.tts",
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/7UM2VMuIKa5RK6_vg8D2yaeJ9FpXSuN3tj9d4KSpfN28GOZkiE2V_ZcqxRhSwB-yMA=s180",
-    "name": "iWnn IME for Nexus",
-    "package_name": "jp.co.omronsoft.iwnnime.ml",
+    "img_src": "https://lh3.googleusercontent.com/HQm_x5ZH-Y61Ca6Q8_TJLmkROyW4yso6DjRxqBaf3Y7yO1yfAyWkmyB5Cry5GNBx45PI=s180",
+    "name": "Google Play Music",
+    "package_name": "com.google.android.music",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/-SpWCqjW5WLr_kLvVXhZN6xmk1ax67umPVqSfXgVxqcgCCwWesGgtbcIB5FRbBp58A=s180",
+    "name": "Maps - Navigate & Explore",
+    "package_name": "com.google.android.apps.maps",
+    "privileged": false
+  },
+  {
+    "img_src": "",
+    "name": "NOT FOUND",
+    "package_name": "com.google.android.apps.genie.geniewidget",
     "privileged": false
   },
   {
@@ -162,21 +180,9 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/-SpWCqjW5WLr_kLvVXhZN6xmk1ax67umPVqSfXgVxqcgCCwWesGgtbcIB5FRbBp58A=s180",
-    "name": "Maps - Navigate & Explore",
-    "package_name": "com.google.android.apps.maps",
-    "privileged": false
-  },
-  {
     "img_src": "https://lh3.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s180",
     "name": "Google News: Top World & Local News Headlines",
     "package_name": "com.google.android.apps.magazines",
-    "privileged": false
-  },
-  {
-    "img_src": "",
-    "name": "",
-    "package_name": "com.google.android.apps.genie.geniewidget",
     "privileged": false
   },
   {
@@ -186,15 +192,9 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/szHQCpMAb0MikYIhvNG1MlruXFUggd6DJHXkMPG1H4lJPB7Lee_BkODfwxpQazxfO9mA=s180",
-    "name": "Google Play Games",
-    "package_name": "com.google.android.play.games",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/jzLrwtDjpC310krEGwechL_mIoPYxflez3hciYbl0XTPKPwJ6i9XhqRivKVv18OUi2Ej=s180",
-    "name": "Google+ for G Suite",
-    "package_name": "com.google.android.apps.plus",
+    "img_src": "https://lh3.googleusercontent.com/zGDJ3nGGv_QqhHoY6wXI1qvG9eo-bj03HGVreITCkr-BIfVfGEvnczJKsNzgiC57Ds0=s180",
+    "name": "Google Keep - Notes and Lists",
+    "package_name": "com.google.android.keep",
     "privileged": false
   },
   {
@@ -204,15 +204,9 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/zGDJ3nGGv_QqhHoY6wXI1qvG9eo-bj03HGVreITCkr-BIfVfGEvnczJKsNzgiC57Ds0=s180",
-    "name": "Google Keep - Notes and Lists",
-    "package_name": "com.google.android.keep",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/HQm_x5ZH-Y61Ca6Q8_TJLmkROyW4yso6DjRxqBaf3Y7yO1yfAyWkmyB5Cry5GNBx45PI=s180",
-    "name": "Google Play Music",
-    "package_name": "com.google.android.music",
+    "img_src": "https://lh3.googleusercontent.com/jzLrwtDjpC310krEGwechL_mIoPYxflez3hciYbl0XTPKPwJ6i9XhqRivKVv18OUi2Ej=s180",
+    "name": "Google+ for G Suite",
+    "package_name": "com.google.android.apps.plus",
     "privileged": false
   },
   {
@@ -222,15 +216,15 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/xBFTJQCPqUh0i97AwiPo-tPBndyn9GWwAqeoxPgKEPLdFcCaRsqcBpr6SC4uYgJ6Ew=s180",
-    "name": "Android Accessibility Suite",
-    "package_name": "com.google.android.marvin.talkback",
-    "privileged": false
-  },
-  {
     "img_src": "https://lh3.googleusercontent.com/fjACGhFTGaWYU_XMEoVIBdVJKSP4sFLwN2YNqiK3rKN85dZ5I7IKSsmkdcR39QyXJg=s180",
     "name": "Google Play Movies & TV",
     "package_name": "com.google.android.videos",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/xBFTJQCPqUh0i97AwiPo-tPBndyn9GWwAqeoxPgKEPLdFcCaRsqcBpr6SC4uYgJ6Ew=s180",
+    "name": "Android Accessibility Suite",
+    "package_name": "com.google.android.marvin.talkback",
     "privileged": false
   },
   {
@@ -243,6 +237,12 @@
     "img_src": "https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=s180",
     "name": "YouTube",
     "package_name": "com.google.android.youtube",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/szHQCpMAb0MikYIhvNG1MlruXFUggd6DJHXkMPG1H4lJPB7Lee_BkODfwxpQazxfO9mA=s180",
+    "name": "Google Play Games",
+    "package_name": "com.google.android.play.games",
     "privileged": false
   }
 ]
