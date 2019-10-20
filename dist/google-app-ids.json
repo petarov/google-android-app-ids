@@ -1,0 +1,207 @@
+[
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.contacts", 
+    "privileged": true
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.dialer", 
+    "privileged": true
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.talk", 
+    "privileged": true
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.gms", 
+    "privileged": true
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.googlequicksearchbox", 
+    "privileged": true
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.walletnfcrel", 
+    "privileged": true
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.books", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.calendar", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.android.chrome", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.cloudprint", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.deskclock", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.enterprise.dmagent", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.work.clouddpc", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.docs", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.docs.editors.docs", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.docs.editors.sheets", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.docs.editors.slides", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.fitness", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.GoogleCamera", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.earth", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.inputmethod.hindi", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.launcher", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.inputmethod.pinyin", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.tts", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "jp.co.omronsoft.iwnnime.ml", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.inputmethod.korean", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.inputmethod.latin", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.maps", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.music", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.magazines", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.genie.geniewidget", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.photos", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.play.games", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.apps.plus", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.gm", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.keep", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.street", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.marvin.talkback", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.videos", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.webview", 
+    "privileged": false
+  }, 
+  {
+    "name": "DUMMY", 
+    "package_name": "com.google.android.youtube", 
+    "privileged": false
+  }
+]
