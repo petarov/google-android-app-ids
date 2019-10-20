@@ -1,17 +1,18 @@
 <p align="center">
-  <img src="play-store-icon.png" width="128"/>
+  <img src="src/play-store-icon.png" width="128"/>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Operating%20System-iOS-blue.svg"/>
-  <img src="https://img.shields.io/badge/-Bundle%20Identifiers-blue.svg"/>
-  <img src="https://img.shields.io/github/license/joeblau/apple-bundle-identifiers.svg"/>
+  <img src="https://img.shields.io/badge/OS-Android-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Android-Package%20Names-green?style=for-the-badge"/>
+  <img alt="GitHub" src="https://img.shields.io/github/license/petarov/google-app-ids?style=for-the-badge">
 </p>
 
-# Google Play Store App Identifiers
 
-Built on: Oct 20, 2019 at 13:07:53
+# Google Android Play Store Apps
 
-A list of Google made Android apps that can be found on the Play Store.
+Built on: Oct 20, 2019 at 13:25:42
+
+A list of Google made Android apps (a.k.a. Android System Apps) that can be found on the Play Store.
 
 | Icon | Package Name | App Name | Privileged* |
 | --- | --- | --- | --- |
@@ -57,6 +58,8 @@ A list of Google made Android apps that can be found on the Play Store.
 | ... | com.google.android.webview |  DUMMY | False
 | ... | com.google.android.youtube |  DUMMY | False
 
+
+**Privileged*** - Privileged apps are system apps that are located in a **priv-app** directory on one of the system image partitions. [Documentation](https://source.android.com/devices/tech/config/perms-whitelist).
 
 # License
 

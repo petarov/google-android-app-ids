@@ -1,15 +1,18 @@
 <p align="center">
-  <img src="play-store-icon.png" width="128"/>
+  <img src="src/play-store-icon.png" width="128"/>
 </p>
 <p align="center">
-
+  <img src="https://img.shields.io/badge/OS-Android-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Android-Package%20Names-green?style=for-the-badge"/>
+  <img alt="GitHub" src="https://img.shields.io/github/license/petarov/google-app-ids?style=for-the-badge">
 </p>
 
-# Google Play Store App Identifiers
+
+# Google Android Play Store Apps
 
 Built on: %%BUILD_TIMESTAMP%%
 
-A list of Google made Android apps that can be found on the Play Store.
+A list of Google made Android apps (a.k.a. Android System Apps) that can be found on the Play Store.
 
 | Icon | Package Name | App Name | Privileged* |
 | --- | --- | --- | --- |
