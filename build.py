@@ -47,7 +47,7 @@ def apps_preprocess(apps):
             'alt': 'Cover art'})
         title = soup.find('h1' ,attrs={'itemprop':'name'})
         title_text = title.text if title else ''
-        logo_src = logo_img['src'] if logo_img else ''
+        logo_src = logo_img['src'] if logo_img else ''        
         apps_new.append([app[0], app[1], title_text, logo_src])
     return apps_new
 
@@ -73,7 +73,8 @@ def dist_readme(apps, template_path, output_path):
 
     app_contents = ''
     for app in apps:
-        line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(app[3], app[0], 
+        logo_src = app[3].replace('=s180', '=s64')
+        line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, app[0], 
             APP_LINK_PLACEHOLDER.format(app[2], app[0]), 
             'Yes' if app[1] == True else 'No' )
         line += "\n"
@@ -91,9 +92,6 @@ def dist_readme(apps, template_path, output_path):
 # Main
 if __name__ == "__main__":
     try:
-        # apps = [['com.google.android.contacts', True]]
-        # print (apps_preprocess(apps))
-        # sys.exit(-1)
         cur_path = os.path.dirname(os.path.realpath(__file__))
         csv_path = os.path.join(cur_path, 'src', SRC_CSV_FILE)
 
