@@ -12,6 +12,7 @@ import traceback
 import re
 import csv
 import json
+from operator import itemgetter
 import requests
 from bs4 import BeautifulSoup
 import multiprocessing
@@ -68,6 +69,8 @@ def apps_preprocess(apps):
 
     pool.close()
     pool.join()
+
+    apps_new = sorted(apps_new, key=lambda x: x[2].lower())
 
     return apps_new
 
