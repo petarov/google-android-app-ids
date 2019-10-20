@@ -27,7 +27,7 @@ You may now open a [pull request](https://github.com/petarov/google-app-ids/pull
 
 # Building
 
-Requires Python `3.x` and an active Internet connection.
+Requires Python `3.x` and active Internet connection.
 
 Install build dependencies:
 

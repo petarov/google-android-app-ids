@@ -17,7 +17,6 @@ from bs4 import BeautifulSoup
 import multiprocessing
 from multiprocessing.pool import ThreadPool
 
-VERSION = '1.0'
 SRC_CSV_FILE = "app-ids.csv"
 SRC_MARKDOWN_FILE = "template.README.md"
 SRC_MARKDOWN_PLACEHOLDER = '%%APPS%%'
@@ -77,7 +76,7 @@ def dist_json(apps, output_path):
     for app in apps:
         obj = {
             'img_src': app[3] if len(app) > 3 else '',
-            'name': app[2] if len(app) > 2 else '',
+            'name': app[2] if len(app) > 2 else 'NOT FOUND',
             'package_name': app[0],
             'privileged': app[1]
             }
@@ -93,7 +92,7 @@ def dist_readme(apps, template_path, output_path):
 
     app_contents = ''
     for app in apps:
-        name = app[2] if len(app) > 2 else ''
+        name = app[2] if len(app) > 2 else 'NOT FOUND'
         logo_src = app[3].replace('=s180', '=s64') if len(app) > 3 else ''
         line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, app[0], 
             APP_LINK_PLACEHOLDER.format(name, app[0]), 
