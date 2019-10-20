@@ -1,14 +1,14 @@
 [
   {
-    "img_src": "https://lh3.googleusercontent.com/D-haUsSx771Pt4brCyFEJUNKZaC8NUsD2bMB-ZL_yE2LnYdmt3YbgfZwDDM9B-wBHw=s180",
-    "name": "Contacts",
-    "package_name": "com.google.android.contacts",
-    "privileged": true
-  },
-  {
     "img_src": "https://lh3.googleusercontent.com/7M2PyII8UNkUIkzC92Knz5HRDCo-Rce_lr6T6ROz5c8SlY92ISKjsjbdWaC05ZiKV0k=s180",
     "name": "Phone",
     "package_name": "com.google.android.dialer",
+    "privileged": true
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/D-haUsSx771Pt4brCyFEJUNKZaC8NUsD2bMB-ZL_yE2LnYdmt3YbgfZwDDM9B-wBHw=s180",
+    "name": "Contacts",
+    "package_name": "com.google.android.contacts",
     "privileged": true
   },
   {
@@ -84,27 +84,27 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/NNP08MjBoIrYbgiTnUsaNepMh6QhH0UqHSUtbEJEIBPfogcx27X-KkwUU94yL8lw_A=s180",
-    "name": "Google Docs",
-    "package_name": "com.google.android.apps.docs.editors.docs",
-    "privileged": false
-  },
-  {
     "img_src": "https://lh3.googleusercontent.com/RYEyviCFtwVsRHolYDHbnuDf6s9FEttJmPT-6W0ZY0xYwcmEQsG5glDV-h2afrNIFnB_=s180",
     "name": "Google Sheets",
     "package_name": "com.google.android.apps.docs.editors.sheets",
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/9BPFkLP1jfXPnjLB-usfOHUHD8L-ZziPN_MmdWxrV_tIfyYEe1ch169XagaDzBmq0w=s180",
-    "name": "Google Slides",
-    "package_name": "com.google.android.apps.docs.editors.slides",
+    "img_src": "https://lh3.googleusercontent.com/NNP08MjBoIrYbgiTnUsaNepMh6QhH0UqHSUtbEJEIBPfogcx27X-KkwUU94yL8lw_A=s180",
+    "name": "Google Docs",
+    "package_name": "com.google.android.apps.docs.editors.docs",
     "privileged": false
   },
   {
     "img_src": "https://lh3.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=s180",
     "name": "Google Fit: Health and Activity Tracking",
     "package_name": "com.google.android.apps.fitness",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/9BPFkLP1jfXPnjLB-usfOHUHD8L-ZziPN_MmdWxrV_tIfyYEe1ch169XagaDzBmq0w=s180",
+    "name": "Google Slides",
+    "package_name": "com.google.android.apps.docs.editors.slides",
     "privileged": false
   },
   {
@@ -168,12 +168,6 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/HQm_x5ZH-Y61Ca6Q8_TJLmkROyW4yso6DjRxqBaf3Y7yO1yfAyWkmyB5Cry5GNBx45PI=s180",
-    "name": "Google Play Music",
-    "package_name": "com.google.android.music",
-    "privileged": false
-  },
-  {
     "img_src": "https://lh3.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s180",
     "name": "Google News: Top World & Local News Headlines",
     "package_name": "com.google.android.apps.magazines",
@@ -213,6 +207,12 @@
     "img_src": "https://lh3.googleusercontent.com/zGDJ3nGGv_QqhHoY6wXI1qvG9eo-bj03HGVreITCkr-BIfVfGEvnczJKsNzgiC57Ds0=s180",
     "name": "Google Keep - Notes and Lists",
     "package_name": "com.google.android.keep",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/HQm_x5ZH-Y61Ca6Q8_TJLmkROyW4yso6DjRxqBaf3Y7yO1yfAyWkmyB5Cry5GNBx45PI=s180",
+    "name": "Google Play Music",
+    "package_name": "com.google.android.music",
     "privileged": false
   },
   {

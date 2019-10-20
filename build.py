@@ -14,6 +14,8 @@ import csv
 import json
 import requests
 from bs4 import BeautifulSoup
+import multiprocessing
+from multiprocessing.pool import ThreadPool
 
 VERSION = '1.0'
 SRC_CSV_FILE = "app-ids.csv"
@@ -37,9 +39,10 @@ def csv_parse(csv_path):
     return apps[1:]
 
 def apps_preprocess(apps):
-    print ('Downloading app details...')
     apps_new = []
-    for app in apps:
+
+    def app_download_details(app):
+        print ('|--Downloading ', app[0])
         html_contents = requests.get(
             'https://play.google.com/work/apps/details?id={0}'.format(app[0]))
         soup = BeautifulSoup(html_contents.text, 'html.parser')
@@ -48,7 +51,24 @@ def apps_preprocess(apps):
         title = soup.find('h1' ,attrs={'itemprop':'name'})
         title_text = title.text if title else ''
         logo_src = logo_img['src'] if logo_img else ''        
-        apps_new.append([app[0], app[1], title_text, logo_src])
+        return [app[0], app[1], title_text, logo_src]
+
+    try:
+        cpus = min(multiprocessing.cpu_count(), 8)
+    except NotImplementedError:
+        cpus = 2    # default
+    
+    print ("| Downloading {0} app details using {1} parallel threads ...".format(
+        len(apps), cpus))
+
+    pool = ThreadPool(processes=cpus)
+    for app in apps:
+        pool.apply_async(app_download_details, args=(app,), 
+            callback=lambda new_app : apps_new.append(new_app))
+
+    pool.close()
+    pool.join()
+
     return apps_new
 
 def dist_json(apps, output_path):
@@ -56,8 +76,8 @@ def dist_json(apps, output_path):
     json_data = []
     for app in apps:
         obj = {
-            'img_src': app[3],
-            'name': app[2],
+            'img_src': app[3] if len(app) > 3 else '',
+            'name': app[2] if len(app) > 2 else '',
             'package_name': app[0],
             'privileged': app[1]
             }
@@ -73,9 +93,10 @@ def dist_readme(apps, template_path, output_path):
 
     app_contents = ''
     for app in apps:
-        logo_src = app[3].replace('=s180', '=s64')
+        name = app[2] if len(app) > 2 else ''
+        logo_src = app[3].replace('=s180', '=s64') if len(app) > 3 else ''
         line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, app[0], 
-            APP_LINK_PLACEHOLDER.format(app[2], app[0]), 
+            APP_LINK_PLACEHOLDER.format(name, app[0]), 
             'Yes' if app[1] == True else 'No' )
         line += "\n"
         app_contents += line
