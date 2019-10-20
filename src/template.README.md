@@ -2,11 +2,10 @@
   <img src="src/play-store-icon.png" width="128"/>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/OS-Android-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Android-Package%20Names-green?style=for-the-badge"/>
-  <img alt="GitHub" src="https://img.shields.io/github/license/petarov/google-app-ids?style=for-the-badge">
+  <img alt="OS-Android" src="https://img.shields.io/badge/OS-Android-green?style=for-the-badge"/>
+  <img alt="AppIds" src="https://img.shields.io/badge/Android-Package%20Names-green?style=for-the-badge"/>
+  <img alt="License" src="https://img.shields.io/github/license/petarov/google-app-ids?style=for-the-badge">
 </p>
-
 
 # Google Android Play Store Apps
 

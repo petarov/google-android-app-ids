@@ -51,7 +51,8 @@ def dist_readme(apps, template_path, output_path):
 
     app_contents = ''
     for app in apps:
-        line = '| ... | {0} |  {1} | {2}'.format(app[0], 'DUMMY', app[1])
+        line = '| ... | {0} |  {1} | {2}'.format(app[0], 'DUMMY', 
+            'Yes' if app[1] == True else 'No' )
         line += "\n"
         app_contents += line
 
