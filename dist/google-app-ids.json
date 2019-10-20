@@ -1,14 +1,14 @@
 [
   {
+    "img_src": "https://lh3.googleusercontent.com/oGR9I1X9No3SfFEXrq655tETtVVzI3jIphhmEVPGPEVuM5gfwh8lOGWHQFf6gjSTvw=s180",
+    "name": "Google Calendar",
+    "package_name": "com.google.android.calendar",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/5puZavg4x2pThSTJgos1sARWoARea7tzr_B8AWEwn2lV05RoXo9M8BM2XwcvwG6nIGc=s180",
     "name": "Hangouts",
     "package_name": "com.google.android.talk",
-    "privileged": true
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/7M2PyII8UNkUIkzC92Knz5HRDCo-Rce_lr6T6ROz5c8SlY92ISKjsjbdWaC05ZiKV0k=s180",
-    "name": "Phone",
-    "package_name": "com.google.android.dialer",
     "privileged": true
   },
   {
@@ -18,15 +18,21 @@
     "privileged": true
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/1d85Nw9Iq65Ioge-zDBYnrlr-A_sA82vLKzuR7Rn7bdBJq8sUG_qUyEUno82f5kPp28=s180",
+    "name": "Google Pay: Pay with your phone and send cash",
+    "package_name": "com.google.android.apps.walletnfcrel",
+    "privileged": true
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/DKoidc0T3T1KvYC2stChcX9zwmjKj1pgmg3hXzGBDQXM8RG_7JjgiuS0CLOh8DUa7as=s180",
     "name": "Google",
     "package_name": "com.google.android.googlequicksearchbox",
     "privileged": true
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/f6ZSUJrtL5uniwWCTp1OeJj8MdoDaSTqi2XFyy9A0yPv6DpBo2giisRKDpXD9qk66KE=s180",
-    "name": "Google Play services",
-    "package_name": "com.google.android.gms",
+    "img_src": "https://lh3.googleusercontent.com/7M2PyII8UNkUIkzC92Knz5HRDCo-Rce_lr6T6ROz5c8SlY92ISKjsjbdWaC05ZiKV0k=s180",
+    "name": "Phone",
+    "package_name": "com.google.android.dialer",
     "privileged": true
   },
   {
@@ -36,22 +42,16 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/oGR9I1X9No3SfFEXrq655tETtVVzI3jIphhmEVPGPEVuM5gfwh8lOGWHQFf6gjSTvw=s180",
-    "name": "Google Calendar",
-    "package_name": "com.google.android.calendar",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/1d85Nw9Iq65Ioge-zDBYnrlr-A_sA82vLKzuR7Rn7bdBJq8sUG_qUyEUno82f5kPp28=s180",
-    "name": "Google Pay: Pay with your phone and send cash",
-    "package_name": "com.google.android.apps.walletnfcrel",
-    "privileged": true
-  },
-  {
     "img_src": "https://lh3.googleusercontent.com/KwUBNPbMTk9jDXYS2AeX3illtVRTkrKVh5xR1Mg4WHd0CG2tV4mrh1z3kXi5z_warlk=s180",
     "name": "Google Chrome: Fast & Secure",
     "package_name": "com.android.chrome",
     "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/f6ZSUJrtL5uniwWCTp1OeJj8MdoDaSTqi2XFyy9A0yPv6DpBo2giisRKDpXD9qk66KE=s180",
+    "name": "Google Play services",
+    "package_name": "com.google.android.gms",
+    "privileged": true
   },
   {
     "img_src": "https://lh3.googleusercontent.com/IOAolyiGssaiu7zU7RDqoamzRzsugMaCGCDj8RteqmU3MCvp1Bel_rZVCWc0uxY3lRsP=s180",
@@ -63,24 +63,6 @@
     "img_src": "https://lh3.googleusercontent.com/k-K6mdmZJZrJiuMJCHILReDGjMl_2ljzFIz3QLULfKL1q0tWtTcAkc0RDsjg9QEuXYw=s180",
     "name": "Clock",
     "package_name": "com.google.android.deskclock",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/d6Js0wL6riInBUWbxdN5rJjuu_6uygfs-06-8RVRRhDDKC9D4Hs8ZAevLsguTngc0Vkq=s180",
-    "name": "Google Apps Device Policy",
-    "package_name": "com.google.android.apps.enterprise.dmagent",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/yv2FTUK7eKV9ZEvdIiMjmruq42wu2cgCgkygTeqkZGn_Y50MEaqlTx3tlYmTvVuo9mY=s180",
-    "name": "Android Device Policy",
-    "package_name": "com.google.android.apps.work.clouddpc",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=s180",
-    "name": "Google Fit: Health and Activity Tracking",
-    "package_name": "com.google.android.apps.fitness",
     "privileged": false
   },
   {
@@ -102,39 +84,27 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/UEhZQtc_3LCwkKIayRjHG63EfC9bsXvJjuWiFMvVRAe_tHyk0pW4ZmCBJQCENxmYlYk=s180",
-    "name": "Google Camera",
-    "package_name": "com.google.android.GoogleCamera",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/ZwkvxWr1hIyOsRMhJ3qfFN8NIcOjbDmDykJqX0u-GZ0MQbR0ZEoEUmsouwLhvKYJ-x8=s180",
-    "name": "Google Indic Keyboard",
-    "package_name": "com.google.android.apps.inputmethod.hindi",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/9ORDOmn8l9dh-j4Sg3_S7CLcy0RRAI_wWt5jZtJOPztwnEkQ4y7mmGgoSYqbFR5jTc3m=s180",
-    "name": "Google Earth",
-    "package_name": "com.google.earth",
-    "privileged": false
-  },
-  {
     "img_src": "https://lh3.googleusercontent.com/RYEyviCFtwVsRHolYDHbnuDf6s9FEttJmPT-6W0ZY0xYwcmEQsG5glDV-h2afrNIFnB_=s180",
     "name": "Google Sheets",
     "package_name": "com.google.android.apps.docs.editors.sheets",
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/7clxDYpmA-L1XXJP7wcRZMWV71MwDtZhubp1cF8Ss4cVjHFsqisncNP5vavacmMPhds=s180",
-    "name": "Google Now Launcher",
-    "package_name": "com.google.android.launcher",
+    "img_src": "https://lh3.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=s180",
+    "name": "Google Fit: Health and Activity Tracking",
+    "package_name": "com.google.android.apps.fitness",
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/xhtkIKPa1rn2nox9FGQIxAdv9MlyZUxjlqCpoS7ik4G-l00QKRPRutEdQXrG9Qt6C3E=s180",
-    "name": "Google Pinyin Input",
-    "package_name": "com.google.android.inputmethod.pinyin",
+    "img_src": "https://lh3.googleusercontent.com/UEhZQtc_3LCwkKIayRjHG63EfC9bsXvJjuWiFMvVRAe_tHyk0pW4ZmCBJQCENxmYlYk=s180",
+    "name": "Google Camera",
+    "package_name": "com.google.android.GoogleCamera",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/9ORDOmn8l9dh-j4Sg3_S7CLcy0RRAI_wWt5jZtJOPztwnEkQ4y7mmGgoSYqbFR5jTc3m=s180",
+    "name": "Google Earth",
+    "package_name": "com.google.earth",
     "privileged": false
   },
   {
@@ -150,21 +120,15 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/HQm_x5ZH-Y61Ca6Q8_TJLmkROyW4yso6DjRxqBaf3Y7yO1yfAyWkmyB5Cry5GNBx45PI=s180",
-    "name": "Google Play Music",
-    "package_name": "com.google.android.music",
+    "img_src": "https://lh3.googleusercontent.com/d6Js0wL6riInBUWbxdN5rJjuu_6uygfs-06-8RVRRhDDKC9D4Hs8ZAevLsguTngc0Vkq=s180",
+    "name": "Google Apps Device Policy",
+    "package_name": "com.google.android.apps.enterprise.dmagent",
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/-SpWCqjW5WLr_kLvVXhZN6xmk1ax67umPVqSfXgVxqcgCCwWesGgtbcIB5FRbBp58A=s180",
-    "name": "Maps - Navigate & Explore",
-    "package_name": "com.google.android.apps.maps",
-    "privileged": false
-  },
-  {
-    "img_src": "",
-    "name": "NOT FOUND",
-    "package_name": "com.google.android.apps.genie.geniewidget",
+    "img_src": "https://lh3.googleusercontent.com/yv2FTUK7eKV9ZEvdIiMjmruq42wu2cgCgkygTeqkZGn_Y50MEaqlTx3tlYmTvVuo9mY=s180",
+    "name": "Android Device Policy",
+    "package_name": "com.google.android.apps.work.clouddpc",
     "privileged": false
   },
   {
@@ -174,15 +138,39 @@
     "privileged": false
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/xhtkIKPa1rn2nox9FGQIxAdv9MlyZUxjlqCpoS7ik4G-l00QKRPRutEdQXrG9Qt6C3E=s180",
+    "name": "Google Pinyin Input",
+    "package_name": "com.google.android.inputmethod.pinyin",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/X64En0aW6jkvDnd5kr16u-YuUsoJ1W2cBzJab3CQ5lObLeQ3T61DpB7AwIoZ7uqgCn4=s180",
     "name": "Gboard - the Google Keyboard",
     "package_name": "com.google.android.inputmethod.latin",
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s180",
-    "name": "Google News: Top World & Local News Headlines",
-    "package_name": "com.google.android.apps.magazines",
+    "img_src": "https://lh3.googleusercontent.com/HQm_x5ZH-Y61Ca6Q8_TJLmkROyW4yso6DjRxqBaf3Y7yO1yfAyWkmyB5Cry5GNBx45PI=s180",
+    "name": "Google Play Music",
+    "package_name": "com.google.android.music",
+    "privileged": false
+  },
+  {
+    "img_src": "",
+    "name": "NOT FOUND",
+    "package_name": "com.google.android.apps.genie.geniewidget",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/ZwkvxWr1hIyOsRMhJ3qfFN8NIcOjbDmDykJqX0u-GZ0MQbR0ZEoEUmsouwLhvKYJ-x8=s180",
+    "name": "Google Indic Keyboard",
+    "package_name": "com.google.android.apps.inputmethod.hindi",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/7clxDYpmA-L1XXJP7wcRZMWV71MwDtZhubp1cF8Ss4cVjHFsqisncNP5vavacmMPhds=s180",
+    "name": "Google Now Launcher",
+    "package_name": "com.google.android.launcher",
     "privileged": false
   },
   {
@@ -204,27 +192,33 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/jzLrwtDjpC310krEGwechL_mIoPYxflez3hciYbl0XTPKPwJ6i9XhqRivKVv18OUi2Ej=s180",
-    "name": "Google+ for G Suite",
-    "package_name": "com.google.android.apps.plus",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/50-i3khy6z44n6xQsiJKx6WqLWK4zeb6IyXJYW2qZJGBE_2QvWSI5an09m-H7WgMlRqQ=s180",
-    "name": "Google Street View",
-    "package_name": "com.google.android.street",
-    "privileged": false
-  },
-  {
-    "img_src": "https://lh3.googleusercontent.com/fjACGhFTGaWYU_XMEoVIBdVJKSP4sFLwN2YNqiK3rKN85dZ5I7IKSsmkdcR39QyXJg=s180",
-    "name": "Google Play Movies & TV",
-    "package_name": "com.google.android.videos",
+    "img_src": "https://lh3.googleusercontent.com/szHQCpMAb0MikYIhvNG1MlruXFUggd6DJHXkMPG1H4lJPB7Lee_BkODfwxpQazxfO9mA=s180",
+    "name": "Google Play Games",
+    "package_name": "com.google.android.play.games",
     "privileged": false
   },
   {
     "img_src": "https://lh3.googleusercontent.com/xBFTJQCPqUh0i97AwiPo-tPBndyn9GWwAqeoxPgKEPLdFcCaRsqcBpr6SC4uYgJ6Ew=s180",
     "name": "Android Accessibility Suite",
     "package_name": "com.google.android.marvin.talkback",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/-SpWCqjW5WLr_kLvVXhZN6xmk1ax67umPVqSfXgVxqcgCCwWesGgtbcIB5FRbBp58A=s180",
+    "name": "Maps - Navigate & Explore",
+    "package_name": "com.google.android.apps.maps",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/jzLrwtDjpC310krEGwechL_mIoPYxflez3hciYbl0XTPKPwJ6i9XhqRivKVv18OUi2Ej=s180",
+    "name": "Google+ for G Suite",
+    "package_name": "com.google.android.apps.plus",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s180",
+    "name": "Google News: Top World & Local News Headlines",
+    "package_name": "com.google.android.apps.magazines",
     "privileged": false
   },
   {
@@ -240,9 +234,15 @@
     "privileged": false
   },
   {
-    "img_src": "https://lh3.googleusercontent.com/szHQCpMAb0MikYIhvNG1MlruXFUggd6DJHXkMPG1H4lJPB7Lee_BkODfwxpQazxfO9mA=s180",
-    "name": "Google Play Games",
-    "package_name": "com.google.android.play.games",
+    "img_src": "https://lh3.googleusercontent.com/50-i3khy6z44n6xQsiJKx6WqLWK4zeb6IyXJYW2qZJGBE_2QvWSI5an09m-H7WgMlRqQ=s180",
+    "name": "Google Street View",
+    "package_name": "com.google.android.street",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/fjACGhFTGaWYU_XMEoVIBdVJKSP4sFLwN2YNqiK3rKN85dZ5I7IKSsmkdcR39QyXJg=s180",
+    "name": "Google Play Movies & TV",
+    "package_name": "com.google.android.videos",
     "privileged": false
   }
 ]

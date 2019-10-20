@@ -91,7 +91,7 @@ def dist_csv(apps, output_path):
     with open(output_path, 'w') as outfile:
         outfile.write("Icon,Name,Package,Privileged\n")
         for app in apps:
-            outfile.write("{0},{1},{2},{3}\n".format(
+            outfile.write("{0};{1};{2};{3}\n".format(
                 app[3],
                 app[2],
                 app[0],
