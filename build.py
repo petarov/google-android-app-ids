@@ -20,6 +20,7 @@ SRC_MARKDOWN_PLACEHOLDER = '%%APPS%%'
 SRC_MARKDOWN_TIMESTAMP = '%%BUILD_TIMESTAMP%%'
 DIST_README = 'README.md'
 DIST_JSON = 'google-app-ids.json'
+APP_LINK_PLACEHOLDER = "[{0}](https://play.google.com/work/apps/details?id={1})"
 
 def csv_parse(csv_path):
     if not os.path.exists(csv_path):
@@ -51,7 +52,8 @@ def dist_readme(apps, template_path, output_path):
 
     app_contents = ''
     for app in apps:
-        line = '| ... | {0} |  {1} | {2}'.format(app[0], 'DUMMY', 
+        line = '| ... | {0} |  {1} | {2}'.format(app[0], 
+            APP_LINK_PLACEHOLDER.format('DUMMY', app[0]), 
             'Yes' if app[1] == True else 'No' )
         line += "\n"
         app_contents += line
