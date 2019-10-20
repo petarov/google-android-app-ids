@@ -20,8 +20,9 @@ from multiprocessing.pool import ThreadPool
 
 SRC_CSV_FILE = "app-ids.csv"
 SRC_MARKDOWN_FILE = "template.README.md"
-SRC_MARKDOWN_PLACEHOLDER = '%%APPS%%'
-SRC_MARKDOWN_TIMESTAMP = '%%BUILD_TIMESTAMP%%'
+SRC_APPS_PLACEHOLDER = '%%APPS%%'
+SRC_APPSCOUNT_PLACEHOLDER = '%%APPS_COUNT%%'
+SRC_TIMESTAMP_PLACEHOLDER = '%%BUILD_TIMESTAMP%%'
 DIST_README = 'README.md'
 DIST_JSON = 'google-app-ids.json'
 DIST_CSV = 'google-app-ids.csv'
@@ -117,10 +118,12 @@ def dist_readme(apps, template_path, output_path):
 
     with open(output_path, 'w') as output:
         today = datetime.today()
-        template_contents = template_contents.replace(SRC_MARKDOWN_TIMESTAMP,
+        template_contents = template_contents.replace(SRC_TIMESTAMP_PLACEHOLDER,
             today.strftime('%b %d, %Y at %H:%M:%S'))
-        template_contents = template_contents.replace(SRC_MARKDOWN_PLACEHOLDER, 
+        template_contents = template_contents.replace(SRC_APPS_PLACEHOLDER, 
             app_contents)
+        template_contents = template_contents.replace(SRC_APPSCOUNT_PLACEHOLDER, 
+            str(len(apps)))
         output.write(template_contents)
 
 #############################################################################

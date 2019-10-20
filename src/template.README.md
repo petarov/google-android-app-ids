@@ -3,15 +3,15 @@
 </p>
 <p align="center">
   <img alt="OS-Android" src="https://img.shields.io/badge/OS-Android-green?style=for-the-badge"/>
-  <img alt="AppIds" src="https://img.shields.io/badge/Android-Package%20Names-green?style=for-the-badge"/>
   <img alt="License" src="https://img.shields.io/github/license/petarov/google-app-ids?style=for-the-badge">
 </p>
 
 # Google Android Play Store Apps
 
-Built on: %%BUILD_TIMESTAMP%%
+A list of Google made Android apps (including Android System Apps) that can be found on the Play Store. Many of these come preinstalled on a new Android device.
 
-A list of Google made Android apps (a.k.a. Android System Apps) that can be found on the Play Store.
+  * Built on %%BUILD_TIMESTAMP%%
+  * **%%APPS_COUNT%%** apps total
 
 | Icon | Package Name | App Name | Privileged* |
 | --- | --- | --- | --- |
