@@ -6,6 +6,12 @@
     "privileged": false
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/drnkC46hMwqPTdRLLLufhKgy_dRhA7uNTN14-tq2NxtI3deDakYOAR_4zeHcqbGg4Q=s180",
+    "name": "Android Auto - Google Maps, Media & Messaging",
+    "package_name": "com.google.android.projection.gearhead",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/yv2FTUK7eKV9ZEvdIiMjmruq42wu2cgCgkygTeqkZGn_Y50MEaqlTx3tlYmTvVuo9mY=s180",
     "name": "Android Device Policy",
     "package_name": "com.google.android.apps.work.clouddpc",
@@ -15,6 +21,48 @@
     "img_src": "https://lh3.googleusercontent.com/yCUF0e8C0ql5wmCQC_oaQWA7V5YD8UawFXATiC9j90hj5mnEFzLenuYTc7L7I7p5Ww=s180",
     "name": "Android System WebView",
     "package_name": "com.google.android.webview",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/k9mlAHQs7g6-nTwUOfWxiV59dDrM1pH5EDkO4R_fhDQZ49O6bS_4ZzoKl1WVrV5Ukbc=s180",
+    "name": "Android TV Core Services",
+    "package_name": "com.google.android.tvrecommendations",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/kkSqoj3bYpZHnCkY46t3pMswgSwWB2t6CDjYEXVHrSW19qL95DLE1Zy5KKrWmwPMz0o=s180",
+    "name": "Android TV Home",
+    "package_name": "com.google.android.tvlauncher",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/YlZDo5FbktRrY_tLlEBL9wnj1DYY-kAlPon6ty1HN88QMBPDf4ySRAvNIyelVD0Wzuzi=s180",
+    "name": "Android TV Remote Control",
+    "package_name": "com.google.android.tv.remote",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/POgn4x_Jrz18VxrjbZC88ijwZJwmOjs2flX1KC0Kz7IF1oncFoKOMsWfFKntJjc20BRJ=s180",
+    "name": "Calculator",
+    "package_name": "com.google.android.calculator",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/OF-_SP5tzFPxK7NBoX7Y-Wsz32Woy_JliL4kZSTdkNz-PyAiHV1znVwjkQgn5vGahA=s180",
+    "name": "Cardboard",
+    "package_name": "com.google.samples.apps.cardboarddemo",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/979xjmpI6JBOlxNXQrXuyPRuW7jPOg9258hrKZ6HLXJqskTx8thI8c7EZr_rzlKUBLQ=s180",
+    "name": "Carrier Services",
+    "package_name": "com.google.android.ims",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/I4DRWoABrUQsaAIQFVSKha98q1u2ilEdrwPJBaf9Mb8KdGZnXzs5DObrwcwUZovgOA=s180",
+    "name": "Chrome Remote Desktop",
+    "package_name": "com.google.chromeremotedesktop",
     "privileged": false
   },
   {
@@ -36,6 +84,24 @@
     "privileged": true
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/d74zkuWfVBFWjyhWXz9R2d6wh-WCBWoNB4M0x8iIXHvDOvdYbXJA4ivUQBWTkUjKMso=s180",
+    "name": "Digital Wellbeing",
+    "package_name": "com.google.android.apps.wellbeing",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/1nfAdJs2Ep2q1skM7QwJ1uHooWSbpFkbIBHhAX6EmdzEKmtk42713TiTU28mWlkcFKPA=s180",
+    "name": "Files by Google: Clean up space on your phone",
+    "package_name": "com.google.android.apps.nbu.files",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/ymegw3qgqrrwF0fDDXB51J-ss5ucNCDMJGuBT3hr4AeG2DyfxWAU8iLRJGrcvwRun-Y=s180",
+    "name": "Gallery Go by Google Photos",
+    "package_name": "com.google.android.apps.photosgo",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/X64En0aW6jkvDnd5kr16u-YuUsoJ1W2cBzJab3CQ5lObLeQ3T61DpB7AwIoZ7uqgCn4=s180",
     "name": "Gboard - the Google Keyboard",
     "package_name": "com.google.android.inputmethod.latin",
@@ -54,9 +120,39 @@
     "privileged": true
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/gDLgYeTaZUTQXa9hu0f4OgxAJedWvpcz3puIj3rgWwYhUjsruRfmKWheF1Wm-oVvPgDe=s180",
+    "name": "Google Ads - Grow Your Business Online",
+    "package_name": "com.google.android.apps.adwords",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/Ac7UebUnwu5-zLt4gN1HlW5KgZhquPJbNhQk2chzdrMjoTPxKJQkxBL5FGAJgp3lCw=s180",
+    "name": "Google Analytics",
+    "package_name": "com.google.android.apps.giant",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/d6Js0wL6riInBUWbxdN5rJjuu_6uygfs-06-8RVRRhDDKC9D4Hs8ZAevLsguTngc0Vkq=s180",
     "name": "Google Apps Device Policy",
     "package_name": "com.google.android.apps.enterprise.dmagent",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/0yIxsU6mBbX1aXXWw9kmv3xu_rduwb1HO3byPuawf2Uophei8s7Xgxu4FdjOc_Bi488=s180",
+    "name": "Google Arts & Culture",
+    "package_name": "com.google.android.apps.cultural",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/ORzWxi-sIo_hCgSa6uzVvBUE4osKUqRVzHnniUUxA2WXD7BnZ95BNVpWFLUTKRyJRdU=s180",
+    "name": "Google Assistant - Get things done, hands-free",
+    "package_name": "com.google.android.apps.googleassistant",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/HPc5gptPzRw3wFhJE1ZCnTqlvEvuVFBAsV9etfouOhdRbkp-zNtYTzKUmUVPERSZ_lAL=s180",
+    "name": "Google Authenticator",
+    "package_name": "com.google.android.apps.authenticator2",
     "privileged": false
   },
   {
@@ -90,15 +186,57 @@
     "privileged": false
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/l9KG7T3GgFZtvfMeJ_aTsaofrGP8JnmQCPGuDrxhvFAfC-IpXhwGfMGeH2AihVqWBlM=s180",
+    "name": "Google Duo - High Quality Video Calls",
+    "package_name": "com.google.android.apps.tachyon",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/9ORDOmn8l9dh-j4Sg3_S7CLcy0RRAI_wWt5jZtJOPztwnEkQ4y7mmGgoSYqbFR5jTc3m=s180",
     "name": "Google Earth",
     "package_name": "com.google.earth",
     "privileged": false
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/rwPp_dwYxzs2NldnzEJWWfDljIfoAxlNK-UFth3c_7Vbf5_vA2HK5Df6pbdQ3Qnmnw=s180",
+    "name": "Google Family Link for children & teens",
+    "package_name": "com.google.android.apps.kids.familylinkhelper",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/rFAHXzQjUQwLH6vffa9rD_1gjH7dZykH7h6RjthsnoHTKGrJSNqTUw0D_TIQSC3ekg=s180",
+    "name": "Google Family Link for parents",
+    "package_name": "com.google.android.apps.kids.familylink",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/aX0ql6V6PvVotibIvaNW7CRjaJ2oUyBIX_WgSkAl36vOAaoXiw6yQufxVQ2LV_D2DLg=s180",
+    "name": "Google Find My Device",
+    "package_name": "com.google.android.apps.adm",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=s180",
     "name": "Google Fit: Health and Activity Tracking",
     "package_name": "com.google.android.apps.fitness",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/RZ5luCUwc5QtJP9xDn-ZCwEutT160GVyoh5K1eu4YJ5fD7v4LP5ptVdgR9mz4Hnr7A=s180",
+    "name": "Google Go: A lighter, faster way to search",
+    "package_name": "com.google.android.apps.searchlite",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/u3HSCgMVYDFPCGhsq0BtLZL66vjnQloig1H3TMkwPCw1fST58RDKM91xnDZtM6RfNGE=s180",
+    "name": "Google Handwriting Input",
+    "package_name": "com.google.android.apps.handwriting.ime",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/vr1isZKzTtlok9P81H6cR98iqpPhkuQHJp19Z5kPej3QlhNTnLohXpqcgMqrQpyegA=s180",
+    "name": "Google Home",
+    "package_name": "com.google.android.apps.chromecast.app",
     "privileged": false
   },
   {
@@ -120,6 +258,30 @@
     "privileged": false
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/Lf4wqYukj9swF-Gl2wvbus6cGoOoCylxbXTVmCO-6-eHWfhPNK78PngENEsWhEBiBw=s180",
+    "name": "Google Lens",
+    "package_name": "com.google.ar.lens",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/b1T7r3wg4_TlWfbwPEpfmn2p_-fSFdIZRr3uXyQpZYF9ypaXj3gWT7rl01Xs_Q9GXSI=s180",
+    "name": "Google Maps Go - Directions, Traffic & Transit",
+    "package_name": "com.google.android.apps.mapslite",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/EUQGH40jV55Dm2mcGzT9I2_vSfl_rJv88dfrR3JGJkxgQMe2j4bXoFd-tvuYLSGhFIQ=s180",
+    "name": "Google My Business - Connect with your Customers",
+    "package_name": "com.google.android.apps.vega",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/8Wxdne_aPqu3IcG8KEEQNFscPt_Lq3ufW-t03Gc5JvYDCzeETnChlMLtzyPI5GoxWg=s180",
+    "name": "Google My Maps",
+    "package_name": "com.google.android.apps.m4b",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s180",
     "name": "Google News: Top World & Local News Headlines",
     "package_name": "com.google.android.apps.magazines",
@@ -132,10 +294,28 @@
     "privileged": false
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/eENVHXXlaBEt0Nkd8smOf8YpqW4xAvLq081vt116TFaqo9YU9-QbDVI8BKtvpuspyakJ=s180",
+    "name": "Google One",
+    "package_name": "com.google.android.apps.subscriptions.red",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/yeB9XKBeHfHChSDwjsFztdBYY-jcdgUpVQwtahFE6AeoKhKHowZMm9wJ4-W8VvML2w=s180",
+    "name": "Google Opinion Rewards",
+    "package_name": "com.google.android.apps.paidtasks",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/1d85Nw9Iq65Ioge-zDBYnrlr-A_sA82vLKzuR7Rn7bdBJq8sUG_qUyEUno82f5kPp28=s180",
     "name": "Google Pay: Pay with your phone and send cash",
     "package_name": "com.google.android.apps.walletnfcrel",
     "privileged": true
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/u9ofV9e2diX3giScuXT46B4A0vxFw8tj5NzHQJVAqAKwL5b_o8CHnO-qiZZIZYHlTg=s180",
+    "name": "Google PDF Viewer",
+    "package_name": "com.google.android.apps.pdfviewer",
+    "privileged": false
   },
   {
     "img_src": "https://lh3.googleusercontent.com/JRiXMoJZE5lKvNmI6beVk73CYXouvFA1jceM5-16fLvEisZy4qsEbk8LZl4I7ONLyw=s180",
@@ -180,6 +360,18 @@
     "privileged": true
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/ugEBVDcghA1x9fVldH8oz3aEQnMLki0pEc5xfpaZTi9SQGEbQqM-Cbzb60MU4fLM9bIv=s180",
+    "name": "Google Play Services for AR",
+    "package_name": "com.google.ar.core",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/BQUYd1Th9Z_XI5wtklPQDHmiNkSOzBakOnpk-Ni8CBTyHb0E7UM5LpyjRW9BWs4fUuVD=s180",
+    "name": "Google Podcasts: Discover free & trending podcasts",
+    "package_name": "com.google.android.apps.podcasts",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/RYEyviCFtwVsRHolYDHbnuDf6s9FEttJmPT-6W0ZY0xYwcmEQsG5glDV-h2afrNIFnB_=s180",
     "name": "Google Sheets",
     "package_name": "com.google.android.apps.docs.editors.sheets",
@@ -198,9 +390,33 @@
     "privileged": false
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/62OzNxLonba70XxMFP3X3dsdNS9lvG2xf5TqfhYDaw9iFn5as9gVSU23ExfCLoZXkMWA=s180",
+    "name": "Google Tasks: Any Task, Any Goal. Get Things Done",
+    "package_name": "com.google.android.apps.tasks",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/NqWvryDAnkEWLTq36xlrdx0CJ9rzxc3jfYJmIcrlxuJ_0X0QAG7Ojch8mX8_vFRauIvH=s180",
     "name": "Google Text-to-Speech",
     "package_name": "com.google.android.tts",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/ZrNeuKthBirZN7rrXPN1JmUbaG8ICy3kZSHt-WgSnREsJzo2txzCzjIoChlevMIQEA=s180",
+    "name": "Google Translate",
+    "package_name": "com.google.android.apps.translate",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/8OYI7h34ZsWjF06t8h2h4slvdnJfzHm0xBK_yraL2f7J65rL1nRVjwSvJ-R4xbOwnA=s180",
+    "name": "Google VR Services",
+    "package_name": "com.google.vr.vrcore",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/p5kStIWYqFXMhhVKe6TcEb4qvoXnnUlvhKWZjGNK9_U89d1bzkXHslkVrfcJrSMkeVs=s180",
+    "name": "Google Wifi",
+    "package_name": "com.google.android.apps.access.wifi.consumer",
     "privileged": false
   },
   {
@@ -216,6 +432,12 @@
     "privileged": true
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/dNVT9ozasUGWx5L62LYd9qPUkx0PbrjbPZW7nrNbzV96l5n6eJnw_ygT8Mp91PWUEWlB=s180",
+    "name": "Hangouts Meet",
+    "package_name": "com.google.android.apps.meetings",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/7UM2VMuIKa5RK6_vg8D2yaeJ9FpXSuN3tj9d4KSpfN28GOZkiE2V_ZcqxRhSwB-yMA=s180",
     "name": "iWnn IME for Nexus",
     "package_name": "jp.co.omronsoft.iwnnime.ml",
@@ -225,6 +447,24 @@
     "img_src": "https://lh3.googleusercontent.com/-SpWCqjW5WLr_kLvVXhZN6xmk1ax67umPVqSfXgVxqcgCCwWesGgtbcIB5FRbBp58A=s180",
     "name": "Maps - Navigate & Explore",
     "package_name": "com.google.android.apps.maps",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/XFxOX6e9FX6R7r6fCiztCqtDZnCo3amAClpOdEGeUTqSx_SnxJx9Nx76z6i-JdA0Og=s180",
+    "name": "Measure",
+    "package_name": "com.google.tango.measure",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/udNG8QslDMGl_mcCnmfYy_wHcL6EvIjDtl4JJu_KsprzBnWIJYbQTmPg5fgNPBYRllU=s180",
+    "name": "Messages",
+    "package_name": "com.google.android.apps.messaging",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/G5wEkEgBoyIPGlsDE9Oasx1O5UDs1Jj0GD_wY0WmGxbRiFD8eRpGYhL_fOnJBnPQMpU=s180",
+    "name": "Navigation for Google Maps Go",
+    "package_name": "com.google.android.apps.navlite",
     "privileged": false
   },
   {
@@ -240,9 +480,57 @@
     "privileged": true
   },
   {
+    "img_src": "https://lh3.googleusercontent.com/J57mz_RTCqTNiqbntn7WpnhHeLD7eGc4twaFFhz1XLcSqlKErjwfyioCWWgi2hIRXbA=s180",
+    "name": "PhotoScan by Google Photos",
+    "package_name": "com.google.android.apps.photos.scanner",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/Rilq4obCk7XIl2Pjb8XT-Ydh_aI3hBNeFwro9fFXrIAuC-zPxCZ4feE4rx5fZ3jHNLw=s180",
+    "name": "Snapseed",
+    "package_name": "com.niksoftware.snapseed",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/FeOjzBn9WBZIH8WN2hugWPcZd1bY-IA4qTZI5qwtoAMa5D-XF5kHE8a6nD2DgXonlLQ=s180",
+    "name": "Sound Amplifier",
+    "package_name": "com.google.android.accessibility.soundamplifier",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/2aJfB6trLglywvIh6MSN58qh-r2b-_2GoXk4dWL5fIZmMAWdTN3f98Ugpi6U_glIm0w=s180",
+    "name": "Wallpapers",
+    "package_name": "com.google.android.apps.wallpaper",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/WmoV-m8b6x16sDRfzebu5b2vstcyBHRrpzCj6ODoh6hGuMa9Gg39EvnOk7z3qMa0_WM=s180",
+    "name": "Wear OS by Google Smartwatch (was Android Wear)",
+    "package_name": "com.google.android.wearable.app",
+    "privileged": false
+  },
+  {
     "img_src": "https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=s180",
     "name": "YouTube",
     "package_name": "com.google.android.youtube",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/S4wylkvt2jz16hnG9IG0pAZosbB82nWWy8P-rQkb54uH-SCVd5L2j7z7x1Vz5pZvIRc=s180",
+    "name": "YouTube Kids",
+    "package_name": "com.google.android.apps.youtube.kids",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/Q31Wh3SxoayYdc_MOxGuKTn-nzh5TwoJwh48svH8ZnB0HmoXwOR5SzgF-mqftIn3Clg=s180",
+    "name": "YouTube Music - Stream Songs & Music Videos",
+    "package_name": "com.google.android.apps.youtube.music",
+    "privileged": false
+  },
+  {
+    "img_src": "https://lh3.googleusercontent.com/-OeGNozxvw9RMFUP-9x_qscnCRsz6y4HI2b0JqzkNX7UNcZqR-zdHtg3Ng5zQHqRlw=s180",
+    "name": "YouTube Studio",
+    "package_name": "com.google.android.apps.youtube.creator",
     "privileged": false
   }
 ]

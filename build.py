@@ -66,14 +66,12 @@ def apps_preprocess(apps):
     pool = ThreadPool(processes=cpus)
     for app in apps:
         pool.apply_async(app_download_details, args=(app,), 
-            callback=lambda new_app : apps_new.append(new_app))
+            callback=lambda x : apps_new.append(x))
 
     pool.close()
     pool.join()
 
-    apps_new = sorted(apps_new, key=lambda x: x[2].lower())
-
-    return apps_new
+    return sorted(apps_new, key=lambda x: x[2].lower())
 
 def dist_json(apps, output_path):
     print ('Saving json file...')
