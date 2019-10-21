@@ -94,9 +94,9 @@ def dist_json(apps, output_path):
 def dist_csv(apps, output_path):
     print ('Saving csv file...')
     with open(output_path, 'w') as outfile:
-        outfile.write("Icon,Name,Package,Privileged\n")
+        outfile.write("Icon,Package,Name,Genre,Privileged\n")
         for app in apps:
-            outfile.write("{0},{1},\"{2}\",\"{3}\"\n".format(
+            outfile.write("{0},{1},\"{2}\",\"{3}\",{4}\n".format(
                 app[3], # logo
                 app[0], # package
                 app[2], # name
