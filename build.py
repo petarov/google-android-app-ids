@@ -26,7 +26,7 @@ SRC_TIMESTAMP_PLACEHOLDER = '%%BUILD_TIMESTAMP%%'
 DIST_README = 'README.md'
 DIST_JSON = 'google-app-ids.json'
 DIST_CSV = 'google-app-ids.csv'
-APP_LINK_PLACEHOLDER = "[{0}](https://play.google.com/work/apps/details?id={1})"
+APP_LINK_PLACEHOLDER = "[{0}](https://play.google.com/store/apps/details?id={1})"
 
 def csv_parse(csv_path):
     print ('Parsing apps from CSV file...')
@@ -46,14 +46,16 @@ def apps_preprocess(apps):
     def app_download_details(app):
         print ('|--Downloading ', app[0])
         html_contents = requests.get(
-            'https://play.google.com/work/apps/details?id={0}'.format(app[0]))
+            'https://play.google.com/store/apps/details?id={0}'.format(app[0]))
         soup = BeautifulSoup(html_contents.text, 'html.parser')
         logo_img = soup.find('img' ,attrs={'itemprop':'image',
             'alt': 'Cover art'})
+        logo_src = logo_img['src'] if logo_img else ''
         title = soup.find('h1' ,attrs={'itemprop':'name'})
         title_text = title.text if title else 'NOT FOUND'
-        logo_src = logo_img['src'] if logo_img else ''        
-        return [app[0], app[1], title_text, logo_src]
+        cat = soup.find('a' ,attrs={'itemprop':'genre'})
+        cat_text = cat.text if cat else 'NOT FOUND'
+        return [app[0], app[1], title_text, logo_src, cat_text]
 
     try:
         cpus = max(min(multiprocessing.cpu_count(), 8), 2)
@@ -79,8 +81,9 @@ def dist_json(apps, output_path):
     for app in apps:
         obj = {
             'img_src': app[3],
-            'name': app[2],
             'package_name': app[0],
+            'name': app[2],
+            'genre': app[4],
             'privileged': app[1]
             }
         json_data.append(obj)
@@ -93,11 +96,12 @@ def dist_csv(apps, output_path):
     with open(output_path, 'w') as outfile:
         outfile.write("Icon;Name;Package;Privileged\n")
         for app in apps:
-            outfile.write("{0};{1};{2};{3}\n".format(
-                app[3],
-                app[2],
-                app[0],
-                app[1])
+            outfile.write("{0};{1};\"{2}\";{3}\n".format(
+                app[3], # logo
+                app[0], # package
+                app[2], # name
+                app[4], # category
+                app[1]) # privileged
             )
 
 def dist_readme(apps, template_path, output_path):
@@ -108,8 +112,9 @@ def dist_readme(apps, template_path, output_path):
     app_contents = ''
     for app in apps:
         logo_src = app[3].replace('=s180', '=s64') if len(app) > 3 else ''
-        line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, app[0], 
+        line = '| ![App Logo]({0}) | {1} |  {2} | {3} | {4}'.format(logo_src, app[0], 
             APP_LINK_PLACEHOLDER.format(app[2], app[0]), 
+            app[4],
             'Yes' if app[1] == True else 'No' )
         line += "\n"
         app_contents += line
