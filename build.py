@@ -56,7 +56,7 @@ def apps_preprocess(apps):
         return [app[0], app[1], title_text, logo_src]
 
     try:
-        cpus = min(multiprocessing.cpu_count(), 8)
+        cpus = max(min(multiprocessing.cpu_count(), 8), 2)
     except NotImplementedError:
         cpus = 2    # default
     
