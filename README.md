@@ -10,7 +10,8 @@
 
 A list of Google made Android apps (including Android System Apps) that can be found on the Play Store. Many of these come preinstalled on a new Android device.
 
-  * Built on Mar 30, 2021 at 21:10:46
+  * v1.0.0
+  * Built on Mar 30, 2021 at 21:20:45
   * **131** apps total
 
 | Icon | Package Name | App Name | Genre | Privileged* |

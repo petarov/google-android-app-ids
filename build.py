@@ -23,6 +23,7 @@ SRC_MARKDOWN_FILE = "template.README.md"
 SRC_APPS_PLACEHOLDER = '%%APPS%%'
 SRC_APPSCOUNT_PLACEHOLDER = '%%APPS_COUNT%%'
 SRC_TIMESTAMP_PLACEHOLDER = '%%BUILD_TIMESTAMP%%'
+SRC_VERSION_PLACEHOLDER = '%%VERSION%%'
 DIST_README = 'README.md'
 DIST_JSON = 'google-app-ids.json'
 DIST_CSV = 'google-app-ids.csv'
@@ -104,7 +105,7 @@ def dist_csv(apps, output_path):
                 app[1]) # privileged
             )
 
-def dist_readme(apps, template_path, output_path):
+def dist_readme(apps, template_path, package_path, output_path):
     print ('Saving Markdown file...')
     with open(template_path, 'r') as template:
         template_contents = template.read()
@@ -119,8 +120,13 @@ def dist_readme(apps, template_path, output_path):
         line += "\n"
         app_contents += line
 
+    with open(package_path) as json_file:
+        package = json.load(json_file)
+
     with open(output_path, 'w') as output:
         today = datetime.today()
+        template_contents = template_contents.replace(SRC_VERSION_PLACEHOLDER, 
+            package['version'])
         template_contents = template_contents.replace(SRC_TIMESTAMP_PLACEHOLDER,
             today.strftime('%b %d, %Y at %H:%M:%S'))
         template_contents = template_contents.replace(SRC_APPS_PLACEHOLDER, 
@@ -138,6 +144,7 @@ if __name__ == "__main__":
 
         apps = apps_preprocess(csv_parse(csv_path))
         dist_readme(apps, os.path.join(cur_path, 'src', SRC_MARKDOWN_FILE), 
+            os.path.join(cur_path, 'package.json'),
             os.path.join(cur_path, DIST_README))
         dist_json(apps, os.path.join(cur_path, 'dist', DIST_JSON))
         dist_csv(apps, os.path.join(cur_path, 'dist', DIST_CSV))
