@@ -20,11 +20,19 @@ A list of Google made Android apps (including Android System Apps) that can be f
 
 **Privileged*** - Privileged apps are system apps that are located in a **priv-app** directory on one of the system image partitions. [Documentation](https://source.android.com/devices/tech/config/perms-whitelist).
 
-# Editing
+# Installation
+
+Install and update [using npm](https://github.com/petarov/google-android-app-ids/pull/1#issuecomment-809714435):
+
+    npm install github:petarov/google-android-app-ids
+
+Or just use the compiled `csv` and `json` files from `dist/`.
+
+# Contributing
 
 To add or modify an app open and edit the [app-ids.csv](src/app-ids.csv) file.
 
-You may now open a [pull request](https://github.com/petarov/google-app-ids/pulls), or preferably rebuild the dist files as described below and then open a PR.
+You may now open a [pull request](https://github.com/petarov/google-app-ids/pulls), or preferably rebuild the `dist` files as described below and then open a PR.
 
 # Building
 
