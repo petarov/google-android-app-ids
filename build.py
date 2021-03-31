@@ -69,7 +69,8 @@ def apps_preprocess(apps):
     pool = ThreadPool(processes=cpus)
     for app in apps:
         pool.apply_async(app_download_details, args=(app,), 
-            callback=lambda x : apps_new.append(x))
+            callback=lambda x : apps_new.append(x) if x[2] != 'NOT FOUND' \
+                else print ("|----> NOT FOUND"))
 
     pool.close()
     pool.join()
