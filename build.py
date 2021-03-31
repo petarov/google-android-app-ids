@@ -36,7 +36,7 @@ def csv_parse(csv_path):
 
     apps = []
     with open(csv_path, 'r') as csvfile:
-        reader = csv.reader(csvfile, delimiter=';', quotechar='|')
+        reader = csv.reader(csvfile, delimiter=',', quotechar='|')
         for row in reader:
             apps.append([row[0], row[1] == 'true'])
     return apps[1:]
