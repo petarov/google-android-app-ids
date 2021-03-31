@@ -10,9 +10,9 @@
 
 A list of Google made Android apps (including Android System Apps) that can be found on the Play Store. Many of these come preinstalled on a new Android device.
 
-  * v1.0.1
-  * Built on Mar 30, 2021 at 21:35:22
-  * **131** apps total
+  * v1.0.2
+  * Built on Mar 31, 2021 at 10:10:15
+  * **126** apps total
 
 | Icon | Package Name | App Name | Genre | Privileged* |
 | --- | --- | --- | --- | --- |
@@ -123,11 +123,6 @@ A list of Google made Android apps (including Android System Apps) that can be f
 | ![App Logo](https://play-lh.googleusercontent.com/XFxOX6e9FX6R7r6fCiztCqtDZnCo3amAClpOdEGeUTqSx_SnxJx9Nx76z6i-JdA0Og=s64) | com.google.tango.measure |  [Measure](https://play.google.com/store/apps/details?id=com.google.tango.measure) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/OY4rxeNTPaHwyOTZ-RUooqJvPnO5QUYmQcw0dhD90Mu6UWItOSZfQv7ks_FscbBow0M=s64) | com.google.android.apps.messaging |  [Messages](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging) | Communication | No
 | ![App Logo](https://play-lh.googleusercontent.com/3PSQmZ0QImgp4yLhpezISlGst1qdiXDHGS9V2w86SDXn_hLIiL5x1cYKTjHBeTtn1Lh6=s64) | com.google.android.apps.navlite |  [Navigation for Google Maps Go](https://play.google.com/store/apps/details?id=com.google.android.apps.navlite) | Travel & Local | No
-| ![App Logo]() | com.google.android.apps.cloudprint |  [NOT FOUND](https://play.google.com/store/apps/details?id=com.google.android.apps.cloudprint) | NOT FOUND | No
-| ![App Logo]() | com.google.android.launcher |  [NOT FOUND](https://play.google.com/store/apps/details?id=com.google.android.launcher) | NOT FOUND | No
-| ![App Logo]() | com.google.android.apps.genie.geniewidget |  [NOT FOUND](https://play.google.com/store/apps/details?id=com.google.android.apps.genie.geniewidget) | NOT FOUND | No
-| ![App Logo]() | com.google.android.apps.pdfviewer |  [NOT FOUND](https://play.google.com/store/apps/details?id=com.google.android.apps.pdfviewer) | NOT FOUND | No
-| ![App Logo]() | com.google.android.apps.handwriting.ime |  [NOT FOUND](https://play.google.com/store/apps/details?id=com.google.android.apps.handwriting.ime) | NOT FOUND | No
 | ![App Logo](https://play-lh.googleusercontent.com/TBVqYK-yC0Voog9fegaEUkoKEULi0c9fUjSI6VIIb2OVPyvMR9paFcPqMAHOuSWumWMu=s64) | com.google.android.apps.safetyhub |  [Personal Safety](https://play.google.com/store/apps/details?id=com.google.android.apps.safetyhub) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/7M2PyII8UNkUIkzC92Knz5HRDCo-Rce_lr6T6ROz5c8SlY92ISKjsjbdWaC05ZiKV0k=s64) | com.google.android.dialer |  [Phone by Google - Caller ID & Spam Protection](https://play.google.com/store/apps/details?id=com.google.android.dialer) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/J57mz_RTCqTNiqbntn7WpnhHeLD7eGc4twaFFhz1XLcSqlKErjwfyioCWWgi2hIRXbA=s64) | com.google.android.apps.photos.scanner |  [PhotoScan by Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos.scanner) | Photography | No

@@ -749,41 +749,6 @@
     "privileged": false
   },
   {
-    "img_src": "",
-    "package_name": "com.google.android.apps.cloudprint",
-    "name": "NOT FOUND",
-    "genre": "NOT FOUND",
-    "privileged": false
-  },
-  {
-    "img_src": "",
-    "package_name": "com.google.android.launcher",
-    "name": "NOT FOUND",
-    "genre": "NOT FOUND",
-    "privileged": false
-  },
-  {
-    "img_src": "",
-    "package_name": "com.google.android.apps.genie.geniewidget",
-    "name": "NOT FOUND",
-    "genre": "NOT FOUND",
-    "privileged": false
-  },
-  {
-    "img_src": "",
-    "package_name": "com.google.android.apps.pdfviewer",
-    "name": "NOT FOUND",
-    "genre": "NOT FOUND",
-    "privileged": false
-  },
-  {
-    "img_src": "",
-    "package_name": "com.google.android.apps.handwriting.ime",
-    "name": "NOT FOUND",
-    "genre": "NOT FOUND",
-    "privileged": false
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/TBVqYK-yC0Voog9fegaEUkoKEULi0c9fUjSI6VIIb2OVPyvMR9paFcPqMAHOuSWumWMu=s180",
     "package_name": "com.google.android.apps.safetyhub",
     "name": "Personal Safety",
