@@ -28,6 +28,39 @@ DIST_README = 'README.md'
 DIST_JSON = 'google-app-ids.json'
 DIST_CSV = 'google-app-ids.csv'
 APP_LINK_PLACEHOLDER = "[{0}](https://play.google.com/store/apps/details?id={1})"
+PLAYSTORE_URL = 'https://play.google.com'
+PLAYSTORE_GOOGLE_LLC_DEV_ID = 5700313618786177705
+
+def playtore_parse():
+    print ('|--Parsing Google LLC apps from Play Store ')
+    google_dev_link =  '{0}/store/apps/dev?id={1}'.format(PLAYSTORE_URL, 
+        PLAYSTORE_GOOGLE_LLC_DEV_ID)
+    html_contents = requests.get(google_dev_link)
+    soup = BeautifulSoup(html_contents.text, 'html.parser')
+    load_more_anchor = soup.find('a' ,attrs={'data-uitype':'290'})
+    if load_more_anchor:
+        load_more_path = load_more_anchor['href']
+        html_contents = requests.get('{0}{1}'.format(PLAYSTORE_URL, load_more_path))
+        soup = BeautifulSoup(html_contents.text, 'html.parser')
+        found = soup.find_all('a', href=True)
+        result = {}
+        for link in found:
+            key = link['href']
+            if '/store/apps/details' in key:
+                if key in result:
+                    if len(result[key]['title']) == 0:
+                        result[key]['title'] = link.text
+                    else:
+                        result[key]['desc'] = link.text
+                else:
+                    print(key)
+                    result[key] = {
+                        'title': link.text,
+                        'desc': ''
+                    }
+        return result
+    else:
+        raise Exception('Cannot find load more button element on page {}'.format(google_dev_link))
 
 def csv_parse(csv_path):
     print ('Parsing apps from CSV file...')
@@ -47,7 +80,7 @@ def apps_preprocess(apps):
     def app_download_details(app):
         print ('|--Downloading ', app[0])
         html_contents = requests.get(
-            'https://play.google.com/store/apps/details?id={0}'.format(app[0]))
+            '{0}/store/apps/details?id={1}'.format(PLAYSTORE_URL, app[0]))
         soup = BeautifulSoup(html_contents.text, 'html.parser')
         logo_img = soup.find('img' ,attrs={'itemprop':'image',
             'alt': 'Cover art'})
@@ -143,12 +176,16 @@ if __name__ == "__main__":
         cur_path = os.path.dirname(os.path.realpath(__file__))
         csv_path = os.path.join(cur_path, 'src', SRC_CSV_FILE)
 
-        apps = apps_preprocess(csv_parse(csv_path))
-        dist_readme(apps, os.path.join(cur_path, 'src', SRC_MARKDOWN_FILE), 
-            os.path.join(cur_path, 'package.json'),
-            os.path.join(cur_path, DIST_README))
-        dist_json(apps, os.path.join(cur_path, 'dist', DIST_JSON))
-        dist_csv(apps, os.path.join(cur_path, 'dist', DIST_CSV))
+        apps = playtore_parse()
+        print(apps)
+        print(len(apps))
+
+        # apps = apps_preprocess(csv_parse(csv_path))
+        # dist_readme(apps, os.path.join(cur_path, 'src', SRC_MARKDOWN_FILE), 
+        #     os.path.join(cur_path, 'package.json'),
+        #     os.path.join(cur_path, DIST_README))
+        # dist_json(apps, os.path.join(cur_path, 'dist', DIST_JSON))
+        # dist_csv(apps, os.path.join(cur_path, 'dist', DIST_CSV))
 
         print ('Done.')
     except Exception as e:
