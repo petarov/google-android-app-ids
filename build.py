@@ -70,7 +70,7 @@ def apps_preprocess(apps):
     for app in apps:
         pool.apply_async(app_download_details, args=(app,), 
             callback=lambda x : apps_new.append(x) if x[2] != 'NOT FOUND' \
-                else print ("|----> NOT FOUND"))
+                else print ("|----> NOT FOUND: {}".format(x[0])))
 
     pool.close()
     pool.join()
