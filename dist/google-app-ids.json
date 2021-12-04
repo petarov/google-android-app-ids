@@ -23,7 +23,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/drnkC46hMwqPTdRLLLufhKgy_dRhA7uNTN14-tq2NxtI3deDakYOAR_4zeHcqbGg4Q=s180",
     "package_name": "com.google.android.projection.gearhead",
-    "name": "Android Auto - Google Maps, Media & Messaging",
+    "name": "Android Auto",
     "genre": "Auto & Vehicles",
     "privileged": false
   },
@@ -70,13 +70,6 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/qHIKDKpr36ZlDENZDLpYZl342ZAgwOiuJGgOTlhthB70aO4ADAgwsnxap_8rhosW71S_=s180",
-    "package_name": "com.google.android.apps.nbu.smartconnect.tv",
-    "name": "Android TV Data Saver",
-    "genre": "Tools",
-    "privileged": false
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/kkSqoj3bYpZHnCkY46t3pMswgSwWB2t6CDjYEXVHrSW19qL95DLE1Zy5KKrWmwPMz0o=s180",
     "package_name": "com.google.android.tvlauncher",
     "name": "Android TV Home",
@@ -87,13 +80,6 @@
     "img_src": "https://play-lh.googleusercontent.com/awItARXnEpTdEoCP7o3aDtMkzRSC5MeLjFHYt5LiUnvtdG0c94f7_2qDeSVEeB_syA=s180",
     "package_name": "com.google.android.leanbacklauncher",
     "name": "Android TV Launcher",
-    "genre": "Tools",
-    "privileged": false
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/YlZDo5FbktRrY_tLlEBL9wnj1DYY-kAlPon6ty1HN88QMBPDf4ySRAvNIyelVD0Wzuzi=s180",
-    "package_name": "com.google.android.tv.remote",
-    "name": "Android TV Remote Control",
     "genre": "Tools",
     "privileged": false
   },
@@ -196,7 +182,7 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/Hp9bDo6e4Mor152EnM_PB6Ppnj0fYgON2rt9i2VqbbPBu1ZvtxFkXbBvdGefdIh-Xk8=s180",
+    "img_src": "https://play-lh.googleusercontent.com/XmiAY8lW8WYSutAr6OsIMeHmXQ2NNyYWEAwycPhCM62qKm8wjQnzloxyaiICsqdEc8Bl=s180",
     "package_name": "com.google.android.apps.plus",
     "name": "Currents",
     "genre": "Social",
@@ -233,28 +219,28 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/b1DEBARCtfv3gIcv6ZSe4qpPpG_09MFdVYlkZkQQD1r9VOB2-GkEKJFBwmxGKzonKEY=s180",
     "package_name": "com.google.android.apps.camera.poseidon",
-    "name": "Dive Case Connector for Google Camera",
+    "name": "Dive Case Connector for Pixel",
     "genre": "Photography",
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/7J4jAmS69Lhdc0y_CQ5LX3mWQWbTGB70P8r1YHKiYL9gQhlD0y31RzCzy0VL94WKWm4=s180",
-    "package_name": "com.google.vr.expeditions",
-    "name": "Expeditions",
-    "genre": "Education",
+    "img_src": "https://play-lh.googleusercontent.com/rwPp_dwYxzs2NldnzEJWWfDljIfoAxlNK-UFth3c_7Vbf5_vA2HK5Df6pbdQ3Qnmnw=s180",
+    "package_name": "com.google.android.apps.kids.familylinkhelper",
+    "name": "Family Link child and teen",
+    "genre": "Tools",
     "privileged": false
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/1nfAdJs2Ep2q1skM7QwJ1uHooWSbpFkbIBHhAX6EmdzEKmtk42713TiTU28mWlkcFKPA=s180",
     "package_name": "com.google.android.apps.nbu.files",
-    "name": "Files by Google: Clean up space on your phone",
+    "name": "Files by Google",
     "genre": "Tools",
     "privileged": false
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/ymegw3qgqrrwF0fDDXB51J-ss5ucNCDMJGuBT3hr4AeG2DyfxWAU8iLRJGrcvwRun-Y=s180",
     "package_name": "com.google.android.apps.photosgo",
-    "name": "Gallery Go by Google Photos",
+    "name": "Gallery Go",
     "genre": "Photography",
     "privileged": false
   },
@@ -273,7 +259,7 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/DKoidc0T3T1KvYC2stChcX9zwmjKj1pgmg3hXzGBDQXM8RG_7JjgiuS0CLOh8DUa7as=s180",
+    "img_src": "https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1=s180",
     "package_name": "com.google.android.googlequicksearchbox",
     "name": "Google",
     "genre": "Tools",
@@ -324,7 +310,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/ORzWxi-sIo_hCgSa6uzVvBUE4osKUqRVzHnniUUxA2WXD7BnZ95BNVpWFLUTKRyJRdU=s180",
     "package_name": "com.google.android.apps.googleassistant",
-    "name": "Google Assistant - Get things done, hands-free",
+    "name": "Google Assistant",
     "genre": "Productivity",
     "privileged": false
   },
@@ -378,7 +364,7 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/3Zj7wWKri9Wodet8r_wMM3VO0iumF483k1PH2FoLfJI89wmaWyhYr_sD6TDgft4I4L0=s180",
+    "img_src": "https://play-lh.googleusercontent.com/RyoQTmHnxsxPYabsETmWVXHtLorVh_yOO48hsdv2VmI-Uki4qt5c5vV1cicJODV56A4=s180",
     "package_name": "com.google.android.apps.cloudconsole",
     "name": "Google Cloud Console",
     "genre": "Tools",
@@ -392,7 +378,7 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/uFAlmfmhz9p4KSueKwT6FwwreGiDXSgNeo65oF4F5ynnJucMvAJfsb7A507gOABg4yY=s180",
+    "img_src": "https://play-lh.googleusercontent.com/emmbClh_hm0WpWZqJ0X59B8Pz1mKoB9HVLkYMktxhGE6_-30SdGoa-BmYW73RJ8MGZQ=s180",
     "package_name": "com.google.android.apps.docs.editors.docs",
     "name": "Google Docs",
     "genre": "Productivity",
@@ -408,7 +394,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/l9KG7T3GgFZtvfMeJ_aTsaofrGP8JnmQCPGuDrxhvFAfC-IpXhwGfMGeH2AihVqWBlM=s180",
     "package_name": "com.google.android.apps.tachyon",
-    "name": "Google Duo - High Quality Video Calls",
+    "name": "Google Duo",
     "genre": "Communication",
     "privileged": false
   },
@@ -420,16 +406,9 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/rwPp_dwYxzs2NldnzEJWWfDljIfoAxlNK-UFth3c_7Vbf5_vA2HK5Df6pbdQ3Qnmnw=s180",
-    "package_name": "com.google.android.apps.kids.familylinkhelper",
-    "name": "Google Family Link for children & teens",
-    "genre": "Tools",
-    "privileged": false
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/rFAHXzQjUQwLH6vffa9rD_1gjH7dZykH7h6RjthsnoHTKGrJSNqTUw0D_TIQSC3ekg=s180",
     "package_name": "com.google.android.apps.kids.familylink",
-    "name": "Google Family Link for parents",
+    "name": "Google Family Link",
     "genre": "Tools",
     "privileged": false
   },
@@ -443,7 +422,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=s180",
     "package_name": "com.google.android.apps.fitness",
-    "name": "Google Fit: Health and Activity Tracking",
+    "name": "Google Fit: Activity Tracking",
     "genre": "Health & Fitness",
     "privileged": false
   },
@@ -469,17 +448,10 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/vwYLyEsFHjEwLIN9KofhW4V_eJwzJ3hhUWMwMh1bLbhO4fCnTK8Y7q6UVbryNx8TJA=s180",
+    "img_src": "https://play-lh.googleusercontent.com/9bJoeaPbGTB8Tz_h4N-p-6ReRd8vSS-frZb2tmJulaGIoTKElKj3zpmcFJvnS96ANZP5=s180",
     "package_name": "com.google.android.keep",
     "name": "Google Keep - Notes and Lists",
     "genre": "Productivity",
-    "privileged": false
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/bcDEooi1AUQRCIUuewKlY-Yg98rV3BDXBJJdfku2oUuxPXWnTyQqqU3DJ11Y3UzPMg=s180",
-    "package_name": "com.google.android.inputmethod.korean",
-    "name": "Google Korean Input",
-    "genre": "Tools",
     "privileged": false
   },
   {
@@ -492,42 +464,35 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/Kf8WTct65hFJxBUDm5E-EpYsiDoLQiGGbnuyP6HBNax43YShXti9THPon1YKB6zPYpA=s180",
     "package_name": "com.google.android.apps.maps",
-    "name": "Google Maps - Navigate & Explore",
+    "name": "Google Maps",
     "genre": "Travel & Local",
     "privileged": false
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/0uRNRSe4iS6nhvfbBcoScHcBTx1PMmxkCx8rrEsI2UQcQeZ5ByKz8fkhwRqR3vttOg=s180",
     "package_name": "com.google.android.apps.mapslite",
-    "name": "Google Maps Go - Directions, Traffic & Transit",
+    "name": "Google Maps Go",
     "genre": "Travel & Local",
     "privileged": false
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/GBYSf20osBl2CRHbjGOyaOG5kQ3G4xbRau-dzScU9ozuXQJtnUZPkR3IqEDOo5OiVgU=s180",
     "package_name": "com.google.android.apps.meetings",
-    "name": "Google Meet - Secure Video Meetings",
+    "name": "Google Meet",
     "genre": "Business",
     "privileged": false
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/EUQGH40jV55Dm2mcGzT9I2_vSfl_rJv88dfrR3JGJkxgQMe2j4bXoFd-tvuYLSGhFIQ=s180",
     "package_name": "com.google.android.apps.vega",
-    "name": "Google My Business - Connect with your Customers",
+    "name": "Google My Business",
     "genre": "Business",
-    "privileged": false
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/8Wxdne_aPqu3IcG8KEEQNFscPt_Lq3ufW-t03Gc5JvYDCzeETnChlMLtzyPI5GoxWg=s180",
-    "package_name": "com.google.android.apps.m4b",
-    "name": "Google My Maps",
-    "genre": "Productivity",
     "privileged": false
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s180",
     "package_name": "com.google.android.apps.magazines",
-    "name": "Google News - Top world & local news headlines",
+    "name": "Google News - Daily Headlines",
     "genre": "News & Magazines",
     "privileged": false
   },
@@ -548,7 +513,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/HNlca01K9XLSJ8EYzY655EOsV8Nw90vFwmhjQzpLbLacQIRP2kDHfcugxL0a3H58BAX0=s180",
     "package_name": "com.google.android.apps.walletnfcrel",
-    "name": "Google Pay (old app)",
+    "name": "Google Pay",
     "genre": "Finance",
     "privileged": false
   },
@@ -557,13 +522,6 @@
     "package_name": "com.google.android.apps.photos",
     "name": "Google Photos",
     "genre": "Photography",
-    "privileged": false
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/xhtkIKPa1rn2nox9FGQIxAdv9MlyZUxjlqCpoS7ik4G-l00QKRPRutEdQXrG9Qt6C3E=s180",
-    "package_name": "com.google.android.inputmethod.pinyin",
-    "name": "Google Pinyin Input",
-    "genre": "Tools",
     "privileged": false
   },
   {
@@ -576,7 +534,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/DglqS-eYHQYXnj8M8tmzh3JcKDXcidSo3IzgyCZzci8ZTV9Pmuk8vvIFh9XHOztC3Q=s180",
     "package_name": "com.google.android.apps.books",
-    "name": "Google Play Books - Ebooks, Audiobooks, and Comics",
+    "name": "Google Play Books & Audiobooks",
     "genre": "Books & Reference",
     "privileged": false
   },
@@ -585,13 +543,6 @@
     "package_name": "com.google.android.play.games",
     "name": "Google Play Games",
     "genre": "Entertainment",
-    "privileged": false
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/HQm_x5ZH-Y61Ca6Q8_TJLmkROyW4yso6DjRxqBaf3Y7yO1yfAyWkmyB5Cry5GNBx45PI=s180",
-    "package_name": "com.google.android.music",
-    "name": "Google Play Music",
-    "genre": "Music & Audio",
     "privileged": false
   },
   {
@@ -611,19 +562,19 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/BQUYd1Th9Z_XI5wtklPQDHmiNkSOzBakOnpk-Ni8CBTyHb0E7UM5LpyjRW9BWs4fUuVD=s180",
     "package_name": "com.google.android.apps.podcasts",
-    "name": "Google Podcasts: Discover free & trending podcasts",
+    "name": "Google Podcasts",
     "genre": "Music & Audio",
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/ueGpEvJks4AbMSYUhACHbrFCQKQIC2fDCVjo4dCA5sr_NBJb6u1TEn_BV3OuWlJL6ETA=s180",
+    "img_src": "https://play-lh.googleusercontent.com/keE2gN0Hqh8-Tsf_RYZ_-yS2uo6ToqYVyRBv_UZaLXsgeeHBd2YPcEUWEF4DEtfGyb1h=s180",
     "package_name": "com.google.android.apps.docs.editors.sheets",
     "name": "Google Sheets",
     "genre": "Productivity",
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/kEI1GV9EsN6CzXyU9Ot1j4Tor7a7JsXIcs-2PQS1Guyy-MpnA6VibtOXnoOfJ6wZwMrp=s180",
+    "img_src": "https://play-lh.googleusercontent.com/DG-zbXPr8LItYD8F2nD4aR_SK_jpkipLBK77YWY-F0cdJt67VFgCHZtRtjsakzTw3EM=s180",
     "package_name": "com.google.android.apps.docs.editors.slides",
     "name": "Google Slides",
     "genre": "Productivity",
@@ -644,17 +595,10 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/62OzNxLonba70XxMFP3X3dsdNS9lvG2xf5TqfhYDaw9iFn5as9gVSU23ExfCLoZXkMWA=s180",
+    "img_src": "https://play-lh.googleusercontent.com/pjUulZ-Vdo7qPKxk3IRhnk8SORPlgSydSyYEjm7fGcoXO8wDyYisWXwQqEjMryZ_sqK2=s180",
     "package_name": "com.google.android.apps.tasks",
-    "name": "Google Tasks: Any Task, Any Goal. Get Things Done",
+    "name": "Google Tasks",
     "genre": "Productivity",
-    "privileged": false
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/NqWvryDAnkEWLTq36xlrdx0CJ9rzxc3jfYJmIcrlxuJ_0X0QAG7Ojch8mX8_vFRauIvH=s180",
-    "package_name": "com.google.android.tts",
-    "name": "Google Text-to-Speech",
-    "genre": "Tools",
     "privileged": false
   },
   {
@@ -667,7 +611,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/ueI8EVWy8As6GEwg4KG9m2q_NtCTMZMCpsTXktthX0j3sSMVTMbUFqKg3QGON2V_pR4=s180",
     "package_name": "com.google.android.videos",
-    "name": "Google TV (previously Play Movies & TV)",
+    "name": "Google TV",
     "genre": "Video Players & Editors",
     "privileged": false
   },
@@ -679,16 +623,9 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/p5kStIWYqFXMhhVKe6TcEb4qvoXnnUlvhKWZjGNK9_U89d1bzkXHslkVrfcJrSMkeVs=s180",
-    "package_name": "com.google.android.apps.access.wifi.consumer",
-    "name": "Google Wifi",
-    "genre": "Communication",
-    "privileged": false
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/cw5dsfacor9mV5qSyU3c2UcPHbp2XP_N3OA1-297kN_0K8yZrEMo6qaWraF1m6eRV2Y=s180",
     "package_name": "com.area120.grasshopper",
-    "name": "Grasshopper: Learn to Code for Free",
+    "name": "Grasshopper: Learn to Code",
     "genre": "Education",
     "privileged": false
   },
@@ -697,13 +634,6 @@
     "package_name": "com.google.android.talk",
     "name": "Hangouts",
     "genre": "Communication",
-    "privileged": false
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/7UM2VMuIKa5RK6_vg8D2yaeJ9FpXSuN3tj9d4KSpfN28GOZkiE2V_ZcqxRhSwB-yMA=s180",
-    "package_name": "jp.co.omronsoft.iwnnime.ml",
-    "name": "iWnn IME for Nexus",
-    "genre": "Tools",
     "privileged": false
   },
   {
@@ -721,17 +651,10 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/Qa5YMrOxX1Prj5-U5kVr5SE1rMERyB_R8dOkj4q42PsEcGecK2NKA6GtyiaW-RRLcQ=s180",
+    "img_src": "https://play-lh.googleusercontent.com/3MkDibPEhwEXy6ChCqPdTOQK_pRSABJvNMtolrMFra4I0G5U91K2jU4roMj8Up6vQRDI=s180",
     "package_name": "com.google.android.apps.accessibility.reveal",
     "name": "Lookout by Google",
-    "genre": "Tools",
-    "privileged": false
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/XFxOX6e9FX6R7r6fCiztCqtDZnCo3amAClpOdEGeUTqSx_SnxJx9Nx76z6i-JdA0Og=s180",
-    "package_name": "com.google.tango.measure",
-    "name": "Measure",
-    "genre": "Tools",
+    "genre": "Productivity",
     "privileged": false
   },
   {
@@ -758,7 +681,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/7M2PyII8UNkUIkzC92Knz5HRDCo-Rce_lr6T6ROz5c8SlY92ISKjsjbdWaC05ZiKV0k=s180",
     "package_name": "com.google.android.dialer",
-    "name": "Phone by Google - Caller ID & Spam Protection",
+    "name": "Phone by Google",
     "genre": "Tools",
     "privileged": false
   },
@@ -805,6 +728,13 @@
     "privileged": false
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/NqWvryDAnkEWLTq36xlrdx0CJ9rzxc3jfYJmIcrlxuJ_0X0QAG7Ojch8mX8_vFRauIvH=s180",
+    "package_name": "com.google.android.tts",
+    "name": "Speech Services by Google",
+    "genre": "Tools",
+    "privileged": false
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/R-dJcIvmUhdrwD7tlR4rQ-k8fWYzfXINb2cleVYH3b0y70qcvHCl55UvuhlA_Jc4CGI=s180",
     "package_name": "com.google.toontastic",
     "name": "Toontastic 3D",
@@ -835,7 +765,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/WmoV-m8b6x16sDRfzebu5b2vstcyBHRrpzCj6ODoh6hGuMa9Gg39EvnOk7z3qMa0_WM=s180",
     "package_name": "com.google.android.wearable.app",
-    "name": "Wear OS by Google Smartwatch (was Android Wear)",
+    "name": "Wear OS by Google Smartwatch",
     "genre": "Communication",
     "privileged": false
   },
@@ -863,7 +793,14 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/GnYnNfKBr2nysHBYgYRCQtcv_RRNN0Sosn47F5ArKJu89DMR3_jHRAazoIVsPUoaMg=s180",
     "package_name": "com.google.android.apps.youtube.music",
-    "name": "YouTube Music - Stream Songs & Music Videos",
+    "name": "YouTube Music",
+    "genre": "Music & Audio",
+    "privileged": false
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/GnYnNfKBr2nysHBYgYRCQtcv_RRNN0Sosn47F5ArKJu89DMR3_jHRAazoIVsPUoaMg=s180",
+    "package_name": "com.google.android.apps.youtube.music",
+    "name": "YouTube Music",
     "genre": "Music & Audio",
     "privileged": false
   },
@@ -875,7 +812,7 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/-OeGNozxvw9RMFUP-9x_qscnCRsz6y4HI2b0JqzkNX7UNcZqR-zdHtg3Ng5zQHqRlw=s180",
+    "img_src": "https://play-lh.googleusercontent.com/SM1nwJaePNm9Q6vVgU0CvvmR1uozbZYU8ohKfBCIndZy0sSGtwmObhpBcUkTOqcyYg=s180",
     "package_name": "com.google.android.apps.youtube.creator",
     "name": "YouTube Studio",
     "genre": "Video Players & Editors",
