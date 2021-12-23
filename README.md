@@ -11,8 +11,8 @@
 A list of Google made Android apps (including Android System Apps) that can be found on the Play Store. Many of these come preinstalled on a new Android device.
 
   * v1.0.3
-  * Built on Dec 04, 2021 at 10:17:45
-  * **117** apps total
+  * Built on Dec 23, 2021 at 20:51:44
+  * **120** apps total
 
 | Icon | Package Name | App Name | Genre | Privileged* |
 | --- | --- | --- | --- | --- |
@@ -40,9 +40,11 @@ A list of Google made Android apps (including Android System Apps) that can be f
 | ![App Logo](https://play-lh.googleusercontent.com/I4DRWoABrUQsaAIQFVSKha98q1u2ilEdrwPJBaf9Mb8KdGZnXzs5DObrwcwUZovgOA=s64) | com.google.chromeremotedesktop |  [Chrome Remote Desktop](https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/Kd9NIuzYgDvL40q_lMVUH1vSGXwHsD3G8Un2uDw8K3g0jBuXbUkJ1JSLoJIHjSDJqA=s64) | com.google.android.apps.mediashell |  [Chromecast built-in](https://play.google.com/store/apps/details?id=com.google.android.apps.mediashell) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/k-K6mdmZJZrJiuMJCHILReDGjMl_2ljzFIz3QLULfKL1q0tWtTcAkc0RDsjg9QEuXYw=s64) | com.google.android.deskclock |  [Clock](https://play.google.com/store/apps/details?id=com.google.android.deskclock) | Tools | No
+| ![App Logo](https://play-lh.googleusercontent.com/ljrAb3j0jZ4WnOmwvkU_32vdAJ5mjMkXHAXe2NLRIVPKF7zlHkQE8dxQorl2bkeW29Mc=s64) | androidx.compose.material.catalog |  [Compose Material Catalog](https://play.google.com/store/apps/details?id=androidx.compose.material.catalog) | Libraries & Demo | No
 | ![App Logo](https://play-lh.googleusercontent.com/D-haUsSx771Pt4brCyFEJUNKZaC8NUsD2bMB-ZL_yE2LnYdmt3YbgfZwDDM9B-wBHw=s64) | com.google.android.contacts |  [Contacts](https://play.google.com/store/apps/details?id=com.google.android.contacts) | Communication | No
 | ![App Logo](https://play-lh.googleusercontent.com/mR_90d6G3yG85wtSqaIm2NhHNTpXQFDdr0kGyU6JPJ0B0emm1LNmBI_rNcQ-khwcuMeE=s64) | com.google.android.apps.village.boond |  [Crowdsource](https://play.google.com/store/apps/details?id=com.google.android.apps.village.boond) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/XmiAY8lW8WYSutAr6OsIMeHmXQ2NNyYWEAwycPhCM62qKm8wjQnzloxyaiICsqdEc8Bl=s64) | com.google.android.apps.plus |  [Currents](https://play.google.com/store/apps/details?id=com.google.android.apps.plus) | Social | No
+| ![App Logo](https://play-lh.googleusercontent.com/7vcafwoxDSOI87n4F9kFCeeS11F9hujbl2EEqXNSH_3uWR6t8ofsQxLMOv05x1WazQ=s64) | com.google.android.apps.restore |  [Data Restore Tool](https://play.google.com/store/apps/details?id=com.google.android.apps.restore) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/RDTbzYdc5l5wR_s_WkzaGmWed7pwM8sobk1AJCBWkYWWtttLHbv4MtnXMfnaU14_1rM=s64) | com.google.android.apps.pixelmigrate |  [Data Transfer Tool](https://play.google.com/store/apps/details?id=com.google.android.apps.pixelmigrate) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/jmjFyy5UIa5cXSbK2BZunF8VLMsUyM0tHCIkc6qanfYP6WsBgm0pep-6z9U_0PpCudFI=s64) | com.google.android.vr.home |  [Daydream](https://play.google.com/store/apps/details?id=com.google.android.vr.home) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/CtuXFD8EWTpuCJUY90bT830uUTbwYctJrQipLE29tsr23Y5U7H6c6ddeFBhBN51UQg=s64) | com.google.android.vr.inputmethod |  [Daydream Keyboard](https://play.google.com/store/apps/details?id=com.google.android.vr.inputmethod) | Tools | No
@@ -78,7 +80,7 @@ A list of Google made Android apps (including Android System Apps) that can be f
 | ![App Logo](https://play-lh.googleusercontent.com/aX0ql6V6PvVotibIvaNW7CRjaJ2oUyBIX_WgSkAl36vOAaoXiw6yQufxVQ2LV_D2DLg=s64) | com.google.android.apps.adm |  [Google Find My Device](https://play.google.com/store/apps/details?id=com.google.android.apps.adm) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=s64) | com.google.android.apps.fitness |  [Google Fit: Activity Tracking](https://play.google.com/store/apps/details?id=com.google.android.apps.fitness) | Health & Fitness | No
 | ![App Logo](https://play-lh.googleusercontent.com/RZ5luCUwc5QtJP9xDn-ZCwEutT160GVyoh5K1eu4YJ5fD7v4LP5ptVdgR9mz4Hnr7A=s64) | com.google.android.apps.searchlite |  [Google Go: A lighter, faster way to search](https://play.google.com/store/apps/details?id=com.google.android.apps.searchlite) | Tools | No
-| ![App Logo](https://play-lh.googleusercontent.com/vr1isZKzTtlok9P81H6cR98iqpPhkuQHJp19Z5kPej3QlhNTnLohXpqcgMqrQpyegA=s64) | com.google.android.apps.chromecast.app |  [Google Home](https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app) | Lifestyle | No
+| ![App Logo](https://play-lh.googleusercontent.com/vr1isZKzTtlok9P81H6cR98iqpPhkuQHJp19Z5kPej3QlhNTnLohXpqcgMqrQpyegA=s128) | com.google.android.apps.chromecast.app |  [Google Home](https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app) | Lifestyle | No
 | ![App Logo](https://play-lh.googleusercontent.com/ZwkvxWr1hIyOsRMhJ3qfFN8NIcOjbDmDykJqX0u-GZ0MQbR0ZEoEUmsouwLhvKYJ-x8=s64) | com.google.android.apps.inputmethod.hindi |  [Google Indic Keyboard](https://play.google.com/store/apps/details?id=com.google.android.apps.inputmethod.hindi) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/9bJoeaPbGTB8Tz_h4N-p-6ReRd8vSS-frZb2tmJulaGIoTKElKj3zpmcFJvnS96ANZP5=s64) | com.google.android.keep |  [Google Keep - Notes and Lists](https://play.google.com/store/apps/details?id=com.google.android.keep) | Productivity | No
 | ![App Logo](https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU=s64) | com.google.ar.lens |  [Google Lens](https://play.google.com/store/apps/details?id=com.google.ar.lens) | Tools | No
@@ -117,6 +119,7 @@ A list of Google made Android apps (including Android System Apps) that can be f
 | ![App Logo](https://play-lh.googleusercontent.com/J57mz_RTCqTNiqbntn7WpnhHeLD7eGc4twaFFhz1XLcSqlKErjwfyioCWWgi2hIRXbA=s64) | com.google.android.apps.photos.scanner |  [PhotoScan by Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos.scanner) | Photography | No
 | ![App Logo](https://play-lh.googleusercontent.com/51WYc0ZPB34cGDB8MCkDc0ymv6iBf0r-kSZV_H5pXVDHvdVCA12TWUWQtS54zg-RodI=s64) | com.google.android.apps.seekh |  [Read Along by Google: A fun reading app](https://play.google.com/store/apps/details?id=com.google.android.apps.seekh) | Education | No
 | ![App Logo](https://play-lh.googleusercontent.com/OfRwK6rMr4i7gu1AKeNbK-qnYPuL6EVQ5j6AYYQc0ge-I-NPYoBUsweVPuJLSOtHYag=s64) | com.google.android.apps.recorder |  [Recorder](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder) | Tools | No
+| ![App Logo](https://play-lh.googleusercontent.com/q1pnafzDxfvAOhzJYj4PqYJB9PuVK9L8kisgTrb85IdzDRIK65eUDS5LlQz2f5oBUg=s64) | com.google.android.apps.security.securityhub |  [Security Hub](https://play.google.com/store/apps/details?id=com.google.android.apps.security.securityhub) | Tools | No
 | ![App Logo](https://play-lh.googleusercontent.com/Rilq4obCk7XIl2Pjb8XT-Ydh_aI3hBNeFwro9fFXrIAuC-zPxCZ4feE4rx5fZ3jHNLw=s64) | com.niksoftware.snapseed |  [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) | Photography | No
 | ![App Logo](https://play-lh.googleusercontent.com/vCFjyJz8fmJTR0wCJik4p2ZwM-UUkdXmBQadKDxQQWcLWNn6zHjTXUknm9HahBVBq_AJ=s64) | com.google.socratic |  [Socratic by Google](https://play.google.com/store/apps/details?id=com.google.socratic) | Education | No
 | ![App Logo](https://play-lh.googleusercontent.com/FeOjzBn9WBZIH8WN2hugWPcZd1bY-IA4qTZI5qwtoAMa5D-XF5kHE8a6nD2DgXonlLQ=s64) | com.google.android.accessibility.soundamplifier |  [Sound Amplifier](https://play.google.com/store/apps/details?id=com.google.android.accessibility.soundamplifier) | Communication | No

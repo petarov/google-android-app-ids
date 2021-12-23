@@ -168,6 +168,13 @@
     "privileged": false
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/ljrAb3j0jZ4WnOmwvkU_32vdAJ5mjMkXHAXe2NLRIVPKF7zlHkQE8dxQorl2bkeW29Mc=s180",
+    "package_name": "androidx.compose.material.catalog",
+    "name": "Compose Material Catalog",
+    "genre": "Libraries & Demo",
+    "privileged": false
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/D-haUsSx771Pt4brCyFEJUNKZaC8NUsD2bMB-ZL_yE2LnYdmt3YbgfZwDDM9B-wBHw=s180",
     "package_name": "com.google.android.contacts",
     "name": "Contacts",
@@ -186,6 +193,13 @@
     "package_name": "com.google.android.apps.plus",
     "name": "Currents",
     "genre": "Social",
+    "privileged": false
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/7vcafwoxDSOI87n4F9kFCeeS11F9hujbl2EEqXNSH_3uWR6t8ofsQxLMOv05x1WazQ=s180",
+    "package_name": "com.google.android.apps.restore",
+    "name": "Data Restore Tool",
+    "genre": "Tools",
     "privileged": false
   },
   {
@@ -434,7 +448,7 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/vr1isZKzTtlok9P81H6cR98iqpPhkuQHJp19Z5kPej3QlhNTnLohXpqcgMqrQpyegA=s180",
+    "img_src": "https://play-lh.googleusercontent.com/vr1isZKzTtlok9P81H6cR98iqpPhkuQHJp19Z5kPej3QlhNTnLohXpqcgMqrQpyegA=s128",
     "package_name": "com.google.android.apps.chromecast.app",
     "name": "Google Home",
     "genre": "Lifestyle",
@@ -703,6 +717,13 @@
     "img_src": "https://play-lh.googleusercontent.com/OfRwK6rMr4i7gu1AKeNbK-qnYPuL6EVQ5j6AYYQc0ge-I-NPYoBUsweVPuJLSOtHYag=s180",
     "package_name": "com.google.android.apps.recorder",
     "name": "Recorder",
+    "genre": "Tools",
+    "privileged": false
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/q1pnafzDxfvAOhzJYj4PqYJB9PuVK9L8kisgTrb85IdzDRIK65eUDS5LlQz2f5oBUg=s180",
+    "package_name": "com.google.android.apps.security.securityhub",
+    "name": "Security Hub",
     "genre": "Tools",
     "privileged": false
   },
