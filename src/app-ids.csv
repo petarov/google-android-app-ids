@@ -8,7 +8,6 @@ com.google.android.apps.walletnfcrel,TRUE
 com.google.android.apps.books,FALSE
 com.google.android.calendar,FALSE
 com.android.chrome,FALSE
-com.google.android.apps.cloudprint,FALSE
 com.google.android.deskclock,FALSE
 com.google.android.apps.enterprise.dmagent,FALSE
 com.google.android.apps.work.clouddpc,FALSE
