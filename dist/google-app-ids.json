@@ -28,6 +28,13 @@
     "privileged": false
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/Zi0RZFKtIFVuDy-BaXkkoU6g_4c_jpYxo4oIrlJQcGeircu0cMowGXBa7NajTydJhw=s180",
+    "package_name": "com.google.android.projection.gearhead.phonescreen",
+    "name": "Android Auto for phone screens",
+    "genre": "Auto & Vehicles",
+    "privileged": false
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/yv2FTUK7eKV9ZEvdIiMjmruq42wu2cgCgkygTeqkZGn_Y50MEaqlTx3tlYmTvVuo9mY=s180",
     "package_name": "com.google.android.apps.work.clouddpc",
     "name": "Android Device Policy",
@@ -91,6 +98,13 @@
     "privileged": false
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/5vDnNvm80Wc8OjhaTTMH8P-fdiXGpDqfTIlMUBGwkql3YRvPxH3Xz8uDEISvDTyUFw=s180",
+    "package_name": "com.google.android.backdrop",
+    "name": "Backdrop Daydream",
+    "genre": "Tools",
+    "privileged": false
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/cWG9-bk2_zLdKsN9vsYEdbCReVfzgXU6FeHUmLI8a24FoZ05TpOLYXInCQ278FTwCw=s180",
     "package_name": "com.google.android.apps.blogger",
     "name": "Blogger",
@@ -102,13 +116,6 @@
     "package_name": "com.google.android.calculator",
     "name": "Calculator",
     "genre": "Tools",
-    "privileged": false
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/iEVVIzoiU_qC51gJ9CUH--TUA5_jlWPKqfdAkbYZSPVN1icDNinx1t6PahSU5LxRm4kP=s180",
-    "package_name": "com.google.android.apps.cameos",
-    "name": "Cameos on Google",
-    "genre": "Entertainment",
     "privileged": false
   },
   {
@@ -179,6 +186,13 @@
     "package_name": "com.google.android.contacts",
     "name": "Contacts",
     "genre": "Communication",
+    "privileged": false
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/Pmtk0ExFZOzSA8zaolSlvYxN5D4Eg7MBYzRBsN8j_bqJjNJLPKf8kgH40rQFSKYHM-5S=s180",
+    "package_name": "com.google.android.apps.audition",
+    "name": "Creative Preview",
+    "genre": "Tools",
     "privileged": false
   },
   {
@@ -294,6 +308,13 @@
     "privileged": false
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/yK-SsIOXq8RnwDC18ZZMsBNK3LMi4_3Ztj4_9UMR-LaE-_jOfhtS0KGLM491ZKF_kk8=s180",
+    "package_name": "com.google.android.apps.aiy",
+    "name": "Google AIY Projects",
+    "genre": "Education",
+    "privileged": false
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/Ac7UebUnwu5-zLt4gN1HlW5KgZhquPJbNhQk2chzdrMjoTPxKJQkxBL5FGAJgp3lCw=s180",
     "package_name": "com.google.android.apps.giant",
     "name": "Google Analytics",
@@ -340,6 +361,13 @@
     "package_name": "com.google.android.apps.automotive.inputmethod",
     "name": "Google Automotive Keyboard",
     "genre": "Productivity",
+    "privileged": false
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/GjSPJKc8gioL0QTnmKoIftnEMxMb5oHu_dQ8Qa5cOCynQvoNTcEjFBRAzcQj7VOzYZQ=s180",
+    "package_name": "com.googlecode.eyesfree.brailleback",
+    "name": "Google BrailleBack",
+    "genre": "Tools",
     "privileged": false
   },
   {
@@ -448,17 +476,17 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/vr1isZKzTtlok9P81H6cR98iqpPhkuQHJp19Z5kPej3QlhNTnLohXpqcgMqrQpyegA=s128",
+    "img_src": "https://play-lh.googleusercontent.com/vr1isZKzTtlok9P81H6cR98iqpPhkuQHJp19Z5kPej3QlhNTnLohXpqcgMqrQpyegA=s180",
     "package_name": "com.google.android.apps.chromecast.app",
     "name": "Google Home",
     "genre": "Lifestyle",
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/ZwkvxWr1hIyOsRMhJ3qfFN8NIcOjbDmDykJqX0u-GZ0MQbR0ZEoEUmsouwLhvKYJ-x8=s180",
-    "package_name": "com.google.android.apps.inputmethod.hindi",
-    "name": "Google Indic Keyboard",
-    "genre": "Tools",
+    "img_src": "https://play-lh.googleusercontent.com/JqxLmzV-ETe1HbrKHw970E16_r4PUMipwoEAXYIPIB3LAv0GF-Ynlx88q8ouRPo1rjc=s180",
+    "package_name": "com.google.samples.apps.iosched",
+    "name": "Google I/O 2019",
+    "genre": "Books & Reference",
     "privileged": false
   },
   {
@@ -595,6 +623,13 @@
     "privileged": false
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/fRRySCOTp4voXvK2DKfHJ6bWF_VTXMVynnli-HZJNVP3HWFnRfRRCWTxcZDbwa-JRy0=s180",
+    "package_name": "com.google.android.spotlightstories",
+    "name": "Google Spotlight Stories",
+    "genre": "Entertainment",
+    "privileged": false
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/50-i3khy6z44n6xQsiJKx6WqLWK4zeb6IyXJYW2qZJGBE_2QvWSI5an09m-H7WgMlRqQ=s180",
     "package_name": "com.google.android.street",
     "name": "Google Street View",
@@ -644,13 +679,6 @@
     "privileged": false
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/5puZavg4x2pThSTJgos1sARWoARea7tzr_B8AWEwn2lV05RoXo9M8BM2XwcvwG6nIGc=s180",
-    "package_name": "com.google.android.talk",
-    "name": "Hangouts",
-    "genre": "Communication",
-    "privileged": false
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/-LLcx5FJk4ZDPFbDZTHaSoYvaJLQByYoGciA0_LwGMVla2nhOFl7ZPxY8WdcBQht6VE=s180",
     "package_name": "com.google.android.apps.jam",
     "name": "Jamboard",
@@ -667,7 +695,7 @@
   {
     "img_src": "https://play-lh.googleusercontent.com/3MkDibPEhwEXy6ChCqPdTOQK_pRSABJvNMtolrMFra4I0G5U91K2jU4roMj8Up6vQRDI=s180",
     "package_name": "com.google.android.apps.accessibility.reveal",
-    "name": "Lookout by Google",
+    "name": "Lookout - Assisted vision",
     "genre": "Productivity",
     "privileged": false
   },
@@ -707,9 +735,16 @@
     "privileged": false
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/jI4AKfnY2KgWLLHNgRMAGOjnuQ5WZupStylzIxz5wAmxwlJS2sE4SF-wxkB9hRjXWMrZ=s180",
+    "package_name": "com.google.intelligence.sense",
+    "name": "Pixel Ambient Services",
+    "genre": "Tools",
+    "privileged": false
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/51WYc0ZPB34cGDB8MCkDc0ymv6iBf0r-kSZV_H5pXVDHvdVCA12TWUWQtS54zg-RodI=s180",
     "package_name": "com.google.android.apps.seekh",
-    "name": "Read Along by Google: A fun reading app",
+    "name": "Read Along by Google",
     "genre": "Education",
     "privileged": false
   },
@@ -760,6 +795,13 @@
     "package_name": "com.google.toontastic",
     "name": "Toontastic 3D",
     "genre": "Educational",
+    "privileged": false
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/yArQ1Rwc1gcRibO2ahajebs2VTIQ9AmdWZMHMjArnSZYSCd9RwHkuGWDDUK3OvGzmQ=s180",
+    "package_name": "com.google.android.tungsten.setupwraith",
+    "name": "TV Setup",
+    "genre": "Tools",
     "privileged": false
   },
   {
