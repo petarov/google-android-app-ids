@@ -115,7 +115,16 @@ com.google.android.apps.automotive.inputmethod,FALSE
 com.google.android.apps.wearables.maestro.companion,FALSE
 com.google.android.apps.safetyhub,FALSE
 com.google.android.apps.cameos,FALSE
+com.google.intelligence.sense,FALSE
 com.google.android.apps.accessibility.reveal,FALSE
 com.google.android.apps.security.securityhub,FALSE
 androidx.compose.material.catalog,FALSE
 com.google.android.apps.restore,FALSE
+com.google.android.projection.gearhead.phonescreen,FALSE
+com.google.android.spotlightstories,FALSE
+com.googlecode.eyesfree.brailleback,FALSE
+com.google.android.apps.aiy,FALSE
+com.google.android.backdrop,FALSE
+com.google.samples.apps.iosched,FALSE
+com.google.android.apps.audition,FALSE
+com.google.android.tungsten.setupwraith,FALSE
