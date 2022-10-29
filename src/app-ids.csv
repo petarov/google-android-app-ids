@@ -40,7 +40,6 @@ com.google.android.apps.translate,FALSE
 com.google.android.projection.gearhead,FALSE
 com.google.android.apps.chromecast.app,FALSE
 com.google.android.apps.tachyon,FALSE
-com.google.android.apps.vega,FALSE
 com.google.android.apps.wellbeing,FALSE
 com.google.android.apps.kids.familylink,FALSE
 com.google.ar.lens,FALSE
@@ -101,7 +100,6 @@ com.google.android.apps.seekh,FALSE
 com.google.enterprise.topaz.mobile.android,FALSE
 com.google.android.apps.pixelmigrate,FALSE
 com.google.android.apps.accessibility.maui.actionblocks,FALSE
-com.google.vr.cardboard.apps.designlab,FALSE
 com.google.ar.unity.ddelements,FALSE
 com.google.android.leanbacklauncher,FALSE
 com.google.android.apps.actionsservice,FALSE
@@ -119,9 +117,6 @@ com.google.android.apps.accessibility.reveal,FALSE
 com.google.android.apps.security.securityhub,FALSE
 androidx.compose.material.catalog,FALSE
 com.google.android.apps.restore,FALSE
-com.google.android.projection.gearhead.phonescreen,FALSE
-com.google.android.spotlightstories,FALSE
-com.googlecode.eyesfree.brailleback,FALSE
 com.google.android.apps.aiy,FALSE
 com.google.android.backdrop,FALSE
 com.google.samples.apps.iosched,FALSE
