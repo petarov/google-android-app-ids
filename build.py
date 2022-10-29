@@ -50,8 +50,9 @@ def apps_preprocess(apps):
             'https://play.google.com/store/apps/details?id={0}'.format(app[0]))
         soup = BeautifulSoup(html_contents.text, 'html.parser')
         logo_img = soup.find('img' ,attrs={'itemprop':'image',
-            'alt': 'Cover art'})
+            'alt': 'Icon image'})
         logo_src = logo_img['src'] if logo_img else ''
+        logo_src = logo_src.replace('w240','w100')
         title = soup.find('h1' ,attrs={'itemprop':'name'})
         title_text = title.text if title else 'NOT FOUND'
         cat = soup.find('a' ,attrs={'itemprop':'genre'})
