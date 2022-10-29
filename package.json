@@ -1,7 +1,7 @@
 {
   "name": "google-android-app-ids",
   "displayName": "Google Android Play Store Apps",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A list of Google made Android apps (including Android system apps) that can be found on the Play Store. Many of these come preinstalled on Android devices.",
   "repository": {
     "type": "git",
