@@ -49,14 +49,16 @@ def apps_preprocess(apps):
         html_contents = requests.get(
             'https://play.google.com/store/apps/details?id={0}'.format(app[0]))
         soup = BeautifulSoup(html_contents.text, 'html.parser')
-        logo_img = soup.find('img' ,attrs={'itemprop':'image',
+        logo_img = soup.find('img', attrs={'itemprop':'image',
             'alt': 'Icon image'})
         logo_src = logo_img['src'] if logo_img else ''
-        title = soup.find('h1' ,attrs={'itemprop':'name'})
+        title = soup.find('h1', attrs={'itemprop':'name'})
         title_text = title.text if title else 'NOT FOUND'
-        cat = soup.find('a' ,attrs={'itemprop':'genre'})
-        cat_text = cat.text if cat else 'NOT FOUND'
-        return [app[0], title_text, logo_src, cat_text]
+        cats = []
+        for ahref in soup.select('div[itemprop=genre] > a[aria-label]'):
+            cats.append(ahref['aria-label'])
+        cat_text = ''
+        return [app[0], title_text, logo_src, cats]
 
     try:
         cpus = max(min(multiprocessing.cpu_count(), 8), 2)
@@ -85,8 +87,8 @@ def dist_json(apps, output_path):
             'img_src': app[2],
             'package_name': app[0],
             'name': app[1],
-            'genre': app[3]
-            }
+            'genres': app[3]
+        }
         json_data.append(obj)
 
     with open(output_path, 'w') as outfile:
@@ -98,10 +100,10 @@ def dist_csv(apps, output_path):
         outfile.write("Icon,Package,Name,Genre\n")
         for app in apps:
             outfile.write("{0},{1},\"{2}\",\"{3}\"\n".format(
-                app[2], # logo
-                app[0], # package
-                app[1], # name
-                app[3]  # category
+                app[2],             # logo
+                app[0],             # package
+                app[1],             # name
+                ','.join(app[3])    # categories
             ))
 
 def dist_readme(apps, template_path, package_path, output_path):
@@ -114,7 +116,7 @@ def dist_readme(apps, template_path, package_path, output_path):
         logo_src = app[2].replace('=w240', '=w80') if len(app) > 3 else ''
         line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, app[0], 
             APP_LINK_PLACEHOLDER.format(app[1], app[0]), 
-            app[3])
+            ', '.join(app[3]))
         line += "\n"
         app_contents += line
 
