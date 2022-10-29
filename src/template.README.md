@@ -14,11 +14,9 @@ A list of Google made Android apps (including Android System Apps) that can be f
   * Built on %%BUILD_TIMESTAMP%%
   * **%%APPS_COUNT%%** apps total
 
-| Icon | Package Name | App Name | Genre | Privileged* |
-| --- | --- | --- | --- | --- |
+| Icon | Package Name | App Name | Genre |
+| --- | --- | --- | --- |
 %%APPS%%
-
-**Privileged*** - Privileged apps are system apps that are located in a **priv-app** directory on one of the system image partitions. [Documentation](https://source.android.com/devices/tech/config/perms-whitelist).
 
 # Installation
 

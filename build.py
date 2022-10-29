@@ -38,7 +38,7 @@ def csv_parse(csv_path):
     with open(csv_path, 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
         for row in reader:
-            apps.append([row[0], row[1] == 'true'])
+            apps.append([row[0]])
     return apps[1:]
 
 def apps_preprocess(apps):
@@ -52,12 +52,11 @@ def apps_preprocess(apps):
         logo_img = soup.find('img' ,attrs={'itemprop':'image',
             'alt': 'Icon image'})
         logo_src = logo_img['src'] if logo_img else ''
-        logo_src = logo_src.replace('w240','w100')
         title = soup.find('h1' ,attrs={'itemprop':'name'})
         title_text = title.text if title else 'NOT FOUND'
         cat = soup.find('a' ,attrs={'itemprop':'genre'})
         cat_text = cat.text if cat else 'NOT FOUND'
-        return [app[0], app[1], title_text, logo_src, cat_text]
+        return [app[0], title_text, logo_src, cat_text]
 
     try:
         cpus = max(min(multiprocessing.cpu_count(), 8), 2)
@@ -83,11 +82,10 @@ def dist_json(apps, output_path):
     json_data = []
     for app in apps:
         obj = {
-            'img_src': app[3],
+            'img_src': app[2],
             'package_name': app[0],
-            'name': app[2],
-            'genre': app[4],
-            'privileged': app[1]
+            'name': app[1],
+            'genre': app[3]
             }
         json_data.append(obj)
 
@@ -97,15 +95,14 @@ def dist_json(apps, output_path):
 def dist_csv(apps, output_path):
     print ('Saving csv file...')
     with open(output_path, 'w') as outfile:
-        outfile.write("Icon,Package,Name,Genre,Privileged\n")
+        outfile.write("Icon,Package,Name,Genre\n")
         for app in apps:
-            outfile.write("{0},{1},\"{2}\",\"{3}\",{4}\n".format(
-                app[3], # logo
+            outfile.write("{0},{1},\"{2}\",\"{3}\"\n".format(
+                app[2], # logo
                 app[0], # package
-                app[2], # name
-                app[4], # category
-                app[1]) # privileged
-            )
+                app[1], # name
+                app[3]  # category
+            ))
 
 def dist_readme(apps, template_path, package_path, output_path):
     print ('Saving Markdown file...')
@@ -114,11 +111,10 @@ def dist_readme(apps, template_path, package_path, output_path):
 
     app_contents = ''
     for app in apps:
-        logo_src = app[3].replace('=s180', '=s64') if len(app) > 3 else ''
-        line = '| ![App Logo]({0}) | {1} |  {2} | {3} | {4}'.format(logo_src, app[0], 
-            APP_LINK_PLACEHOLDER.format(app[2], app[0]), 
-            app[4],
-            'Yes' if app[1] == True else 'No' )
+        logo_src = app[2].replace('=w240', '=w80') if len(app) > 3 else ''
+        line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, app[0], 
+            APP_LINK_PLACEHOLDER.format(app[1], app[0]), 
+            app[3])
         line += "\n"
         app_contents += line
 
