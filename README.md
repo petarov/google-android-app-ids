@@ -8,7 +8,7 @@
 
 # Google Android Play Store Apps
 
-A list of Google made Android apps that can be found on the Play Store. Many of these come preinstalled on a new Android device.
+A list of the Play Store-available Android applications developed by Google.. Many of these come preinstalled on a new Android device.
 
   * v1.0.7
   * Built on Oct 30, 2022 at 12:35:02
