@@ -57,7 +57,6 @@ def apps_preprocess(apps):
         cats = []
         for ahref in soup.select('div[itemprop=genre] > a[aria-label]'):
             cats.append(ahref['aria-label'])
-        cat_text = ''
         return [app[0], title_text, logo_src, cats]
 
     try:
@@ -77,7 +76,7 @@ def apps_preprocess(apps):
     pool.close()
     pool.join()
 
-    return sorted(apps_new, key=lambda x: x[2].lower())
+    return sorted(apps_new, key=lambda x: x[1].lower())
 
 def dist_json(apps, output_path):
     print ('Saving json file...')
