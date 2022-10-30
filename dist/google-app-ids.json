@@ -28,6 +28,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/-sYKBafnoGcIJGbxKThRU3FHTd8_z4VMim6z_DL-hDjCSamxioIcJblijgGlX0ciLfW-=w240-h480",
+    "name": "Stadia",
+    "package_name": "com.google.stadia.android",
+    "genres": [
+      "Entertainment"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/0uRNRSe4iS6nhvfbBcoScHcBTx1PMmxkCx8rrEsI2UQcQeZ5ByKz8fkhwRqR3vttOg=w240-h480",
     "name": "Google Maps Go",
     "package_name": "com.google.android.apps.mapslite",
@@ -49,6 +57,14 @@
     "package_name": "com.google.enterprise.topaz.mobile.android",
     "genres": [
       "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/1n7Ji4W5wkKh2nehEzBmrbgzZ4n4YJabNyM8er78EYkkx7ORQga6ft5hCQqEmYJxlTw=w240-h480",
+    "name": "Pixel Camera Services",
+    "package_name": "com.google.android.apps.camera.services",
+    "genres": [
+      "Photography"
     ]
   },
   {
@@ -143,6 +159,22 @@
     "package_name": "com.google.android.apps.tachyon",
     "genres": [
       "Communication"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/76AjYITcB0dI0sFqdQjNgXQxRMlDIswbp0BAU_O5Oob-73b6cqKggVlAiNXQAW5Bl1g=w240-h480",
+    "name": "YouTube Music",
+    "package_name": "com.google.android.youtube.tvmusic",
+    "genres": [
+      "Music & Audio"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/7TSAVgxqsGv39nEa1I0eXYFPdUn0AgcolI3z2D29lA-wwMFKY7zGV1JJ-60mbInhzQ=w240-h480",
+    "name": "Google Pixel Watch Services",
+    "package_name": "com.google.android.wearable.fitbit.mcu.data",
+    "genres": [
+      "Tools"
     ]
   },
   {
@@ -255,6 +287,14 @@
     "package_name": "com.google.android.apps.magazines",
     "genres": [
       "News & Magazines"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/BFUCX9VRX4mmpN1DWDGfQYritsX6GhqwP_WDlgLsQVv-q8TOQJd-2S12tw6k3YX8yw=w240-h480",
+    "name": "Google Fi",
+    "package_name": "com.google.android.apps.tycho",
+    "genres": [
+      "Tools"
     ]
   },
   {
@@ -496,6 +536,22 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/GzBTPDfbsCFDP31USwZQeRiU2p5iRYbPGSSfzDjnd16DxXkGU-okOuH81OJ6pK5Fsfc=w240-h480",
+    "name": "Assistant",
+    "package_name": "com.google.android.wearable.assistant",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/HRhU-Op-AGE_TE0cP-GGPxpVfDWqXD8c2jiqto8_qWn-o0a21_y-VBr4wkzMekuSpg=w240-h480",
+    "name": "Google Play Console",
+    "package_name": "com.google.android.apps.playconsole",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/HstUa1VemLGLop_1ad8aAviAqEBPynQVqaZAff_0ZiKiAfmPw0DlB7_PWz8X90Kd38w=w240-h480",
     "name": "Accessibility Scanner",
     "package_name": "com.google.android.apps.accessibility.auditor",
@@ -509,6 +565,14 @@
     "package_name": "com.google.chromeremotedesktop",
     "genres": [
       "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/iMc1P4fc7bMSVvQaztKcoQ5MS1J7OLu0bOkz2kVnXZTYkiJ_k3AluzkvOAntYCthgOXQ=w240-h480",
+    "name": "YouTube Kids for Android TV",
+    "package_name": "com.google.android.youtube.tvkids",
+    "genres": [
+      "Entertainment"
     ]
   },
   {
@@ -693,6 +757,14 @@
     "package_name": "com.google.android.apps.recorder",
     "genres": [
       "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/OHxxGuksA1u4TI8dVimX8zftmfeEBYcYUGVn76s_1AY6YM8I8FjQvEONDzX6EqxKwdjz=w240-h480",
+    "name": "Weather",
+    "package_name": "com.google.android.wearable.weather",
+    "genres": [
+      "Weather"
     ]
   },
   {
@@ -918,6 +990,14 @@
     "package_name": "com.google.android.apps.safetyhub",
     "genres": [
       "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/tsx52SHHoz8JwgdgbGP9a3NoE4fK_CRDk4-N86boDi8P4d8mCjm1hExcV2k17nXAyV5e=w240-h480",
+    "name": "Stadia for Android TV",
+    "package_name": "com.google.stadia.androidtv",
+    "genres": [
+      "Entertainment"
     ]
   },
   {
