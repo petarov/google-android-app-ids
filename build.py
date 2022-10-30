@@ -85,8 +85,8 @@ def dist_json(apps, output_path):
     for app in apps:
         obj = {
             'img_src': app[2],
-            'package_name': app[0],
             'name': app[1],
+            'package_name': app[0],
             'genres': app[3]
         }
         json_data.append(obj)
@@ -97,12 +97,12 @@ def dist_json(apps, output_path):
 def dist_csv(apps, output_path):
     print ('Saving csv file...')
     with open(output_path, 'w') as outfile:
-        outfile.write("Icon,Package,Name,Genre\n")
+        outfile.write("Icon,Name,Package,Genre\n")
         for app in apps:
             outfile.write("{0},{1},\"{2}\",\"{3}\"\n".format(
                 app[2],             # logo
-                app[0],             # package
                 app[1],             # name
+                app[0],             # package
                 ','.join(app[3])    # categories
             ))
 
@@ -114,8 +114,8 @@ def dist_readme(apps, template_path, package_path, output_path):
     app_contents = ''
     for app in apps:
         logo_src = app[2].replace('=w240', '=w80') if len(app) > 3 else ''
-        line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, app[0], 
-            APP_LINK_PLACEHOLDER.format(app[1], app[0]), 
+        line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, 
+            APP_LINK_PLACEHOLDER.format(app[1], app[0]), app[0], 
             ', '.join(app[3]))
         line += "\n"
         app_contents += line

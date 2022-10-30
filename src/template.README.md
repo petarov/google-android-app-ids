@@ -14,7 +14,7 @@ A list of Google made Android apps (including Android System Apps) that can be f
   * Built on %%BUILD_TIMESTAMP%%
   * **%%APPS_COUNT%%** apps total
 
-| Icon | Package Name | App Name | Genre |
+| Icon | App Name | Package Name | Genre |
 | --- | --- | --- | --- |
 %%APPS%%
 
