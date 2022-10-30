@@ -140,3 +140,13 @@ com.google.android.wearable.watchface.rwf
 com.google.android.wearable.sysui
 com.google.android.apps.automotive.templates.host
 com.google.android.embedded.projection
+com.google.android.apps.tycho
+com.google.android.apps.camera.services
+com.google.android.apps.playconsole
+com.google.android.wearable.assistant
+com.google.android.wearable.fitbit.mcu.data
+com.google.android.wearable.weather
+com.google.android.youtube.tvkids
+com.google.android.youtube.tvmusic
+com.google.stadia.android
+com.google.stadia.androidtv
