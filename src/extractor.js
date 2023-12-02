@@ -17,7 +17,9 @@ const fnExtr = () => {
     const rows = ["PackageName"];
     const ahrefs = document.querySelectorAll("a[jslog]");
     for (const ahref of ahrefs) {
-        rows.push(ahref.href.replace('https://play.google.com/store/apps/details?id=',''));
+        const pkg = ahref.href.replace('https://play.google.com/store/apps/details?id=', '')
+            .replace('/store/apps/details?id=', '');
+        rows.push(pkg);
     }
     console.info('Apps found: ', rows.length);
     setTimeout(() => {
