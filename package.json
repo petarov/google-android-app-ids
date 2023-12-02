@@ -1,8 +1,8 @@
 {
   "name": "google-android-app-ids",
   "displayName": "Google Android Play Store Apps",
-  "version": "1.0.7",
-  "description": "Google Android apps found on the Play Store. A list of package names, links and genres.",
+  "version": "1.0.8",
+  "description": "Google-made Android apps found on the Play Store: A list of package names, links and genres.",
   "repository": {
     "type": "git",
     "url": "git://github.com/petarov/google-android-app-ids.git"
