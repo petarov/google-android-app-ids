@@ -36,13 +36,9 @@ After that open a [pull request](https://github.com/petarov/google-app-ids/pulls
 
 Requires Python `3.x` and working Internet connection.
 
-Install build dependencies:
+Run the following to install dependencies, build all `dist/` files and generate a new `README.md` file:
 
     ./make
-
-Run the `build.py` script in order to build all the `dist/` output files and a new `README.md` file. 
-
-    ./build.py
 
 # License
 
