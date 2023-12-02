@@ -8,7 +8,7 @@
 
 # Google Android Play Store Apps
 
-A list of Google made Android apps that can be found on the Play Store. Many of these come preinstalled on a new Android device.
+A list of Google-made Android apps that can be found on the Play Store. Many of these come preinstalled on Android devices.
 
   * v%%VERSION%%
   * Built on %%BUILD_TIMESTAMP%%
@@ -24,13 +24,13 @@ Install and update [using npm](https://github.com/petarov/google-android-app-ids
 
     npm install github:petarov/google-android-app-ids
 
-Or just use the compiled `csv` and `json` files from `dist/`.
+Or just use the compiled `csv` and `json` files from `dist/`
 
 # Contributing
 
-To add or modify an app open and edit the [app-ids.csv](src/app-ids.csv) file.
+To add or modify an app, open and edit the [app-ids.csv](src/app-ids.csv) file.
 
-You may now open a [pull request](https://github.com/petarov/google-app-ids/pulls), or preferably rebuild the `dist` files as described below and then open a PR.
+After that open a [pull request](https://github.com/petarov/google-app-ids/pulls) or preferably rebuild the `dist/` folder files as described below and then open a PR.
 
 # Building
 
