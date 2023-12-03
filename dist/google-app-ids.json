@@ -46,7 +46,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/sMzCSERY-5_8VZ2z9v0kvzM3ZA21uRHMrVGSYMPP499ecagswyzFYUMbfU02wwDnL1k=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/-s7qEc5rMxbFyKzjQjYXiPfit1oGLF3Q-3i9D1onMHsIZOUTx-zVr14a9J3s6uiKEd4=w240-h480",
     "name": "Android System WebView",
     "package_name": "com.google.android.webview",
     "genres": [
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/fRsSM8h8e9hRvPR2IO-Ht-K5D_9ufnnMDeV4wl691zMiALFoNTS6NBqA2JQqydclkNr-=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/RVXy97H8ZVeJ-SUyVfNbqWFedHdTXeu8oYKNqzN1U-KgzD9hb1VeWDtaC4ZPmjd2V_o=w240-h480",
     "name": "Android System WebView Beta",
     "package_name": "com.google.android.webview.beta",
     "genres": [
@@ -62,7 +62,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/S-wMzJLgCULrqVJPwIzO5QFNGL-2RUqg1d40mj4ObbioHqj3BruFZOWT_3DC6Bp65Q=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/-goa1DeaKlZ8xtEXrWjs9aOrKlrNfwUkm613-268hDtPLw-6o9JNapC5Su5nweMWyHQ=w240-h480",
     "name": "Android System WebView Canary",
     "package_name": "com.google.android.webview.canary",
     "genres": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/NfIH6s4kxDVbL7RZSmd168hz-gDhelWpa0qZT-XVXXhLOMdfas2-itIDTdRl_1jEeQ=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/XjsVvwGYjOKyAuYgvBKEfjPJLuRFxZpSo1v7iRkmZjM7CIP7aQOyCdLNkSqEdhHwP2c=w240-h480",
     "name": "Android System WebView Dev",
     "package_name": "com.google.android.webview.dev",
     "genres": [
@@ -105,14 +105,6 @@
     "img_src": "https://play-lh.googleusercontent.com/Pjx2eKo82oZKmsTYzt65EiGd_vniikZEAPBVV73p9GR8ZT3DMLbj4bcnP2dRwK9E-dc=w240-h480",
     "name": "Android TV Remote Service",
     "package_name": "com.google.android.tv.remote.service",
-    "genres": [
-      "Tools"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/gbcQLTXdDNlPY1J0davvLFka_T_EJoPYcpTnqMRTSS7ehvmHUcBwF1h_09zQ3ptElLQ=w240-h480",
-    "name": "ARCore Elements",
-    "package_name": "com.google.ar.unity.ddelements",
     "genres": [
       "Tools"
     ]
@@ -230,7 +222,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/Pmtk0ExFZOzSA8zaolSlvYxN5D4Eg7MBYzRBsN8j_bqJjNJLPKf8kgH40rQFSKYHM-5S=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/vNlyOf4W7A09te1Q1l8fmJ4uEA92DpG6dCs43-pwL_L6Veef0CooSG_35Bh0_TCh_V15=w240-h480",
     "name": "Creative Preview",
     "package_name": "com.google.android.apps.audition",
     "genres": [
@@ -246,14 +238,6 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/XmiAY8lW8WYSutAr6OsIMeHmXQ2NNyYWEAwycPhCM62qKm8wjQnzloxyaiICsqdEc8Bl=w240-h480",
-    "name": "Currents",
-    "package_name": "com.google.android.apps.plus",
-    "genres": [
-      "Social"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/7vcafwoxDSOI87n4F9kFCeeS11F9hujbl2EEqXNSH_3uWR6t8ofsQxLMOv05x1WazQ=w240-h480",
     "name": "Data Restore Tool",
     "package_name": "com.google.android.apps.restore",
@@ -265,22 +249,6 @@
     "img_src": "https://play-lh.googleusercontent.com/RDTbzYdc5l5wR_s_WkzaGmWed7pwM8sobk1AJCBWkYWWtttLHbv4MtnXMfnaU14_1rM=w240-h480",
     "name": "Data Transfer Tool",
     "package_name": "com.google.android.apps.pixelmigrate",
-    "genres": [
-      "Tools"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/jmjFyy5UIa5cXSbK2BZunF8VLMsUyM0tHCIkc6qanfYP6WsBgm0pep-6z9U_0PpCudFI=w240-h480",
-    "name": "Daydream",
-    "package_name": "com.google.android.vr.home",
-    "genres": [
-      "Tools"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/CtuXFD8EWTpuCJUY90bT830uUTbwYctJrQipLE29tsr23Y5U7H6c6ddeFBhBN51UQg=w240-h480",
-    "name": "Daydream Keyboard",
-    "package_name": "com.google.android.vr.inputmethod",
     "genres": [
       "Tools"
     ]
@@ -311,8 +279,16 @@
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/_EV676kwxmDSI15qP9TeVSqqBtwMufcUNQCf8coouVkvPtBCl5d333gL544B-rOkO4qs=w240-h480",
-    "name": "Family Link child and teen",
+    "name": "Family Link parental controls",
     "package_name": "com.google.android.apps.kids.familylinkhelper",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/tIXMM44lrfu9vnFTuOtkduxu4Y2ZIlkSXbEP3HhhGUJoA2Ji1I0fDO2Z4S8ISg4zxQ=w240-h480",
+    "name": "Fast Pair Validator",
+    "package_name": "com.google.location.nearby.apps.fastpair.validator",
     "genres": [
       "Tools"
     ]
@@ -331,6 +307,14 @@
     "package_name": "com.google.android.apps.photosgo",
     "genres": [
       "Photography"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/CDppgr3pkIlo8S2OVEu75ikZTfCeQ5TNghSTEaAI0kooWw2KKhvfT1LP6GE2CFbLZPc=w240-h480",
+    "name": "GameSnacks",
+    "package_name": "com.google.android.apps.automotive.gamesnacks",
+    "genres": [
+      "Casual"
     ]
   },
   {
@@ -406,15 +390,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/d6Js0wL6riInBUWbxdN5rJjuu_6uygfs-06-8RVRRhDDKC9D4Hs8ZAevLsguTngc0Vkq=w240-h480",
-    "name": "Google Apps Device Policy",
-    "package_name": "com.google.android.apps.enterprise.dmagent",
-    "genres": [
-      "Productivity"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/0yIxsU6mBbX1aXXWw9kmv3xu_rduwb1HO3byPuawf2Uophei8s7Xgxu4FdjOc_Bi488=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/X8lyk2T91SvTGsaLTf9oWL2LmBmgNlsn8Nm-ykXAuYKuTpGIoX9ZuKnMxlNzqfuKcg=w240-h480",
     "name": "Google Arts & Culture",
     "package_name": "com.google.android.apps.cultural",
     "genres": [
@@ -430,7 +406,15 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/oMv9o-L-mNKdyL3Hp6fvNwrhAyIYB1iP3p644hxN03oFU0R2oevnmxmCLF6FewjzZXU=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/IO9Ygb0FTLzvT91cPcd1iSy4brbuZimoV11VWKx6EUhUkZxDKEEr3waBu7_PqROmfPs=w240-h480",
+    "name": "Google Assistant Go",
+    "package_name": "com.google.android.apps.assistant",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/NntMALIH4odanPPYSqUOXsX8zy_giiK2olJiqkcxwFIOOspVrhMi9Miv6LYdRnKIg-3R=w240-h480",
     "name": "Google Authenticator",
     "package_name": "com.google.android.apps.authenticator2",
     "genres": [
@@ -454,7 +438,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/Jsbb0EeesKUbDTl3UyDKO6sNz45RCMh7gnoI6giQcQz1f5Mj0J4TRh7Psyu53vShh-qm=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/_bh6XK3B7TAk7kBXC1GHC0j9eS9cw9wQo2K7fiP7FDGAQlcOqgUPT2lx3WgZ0JlOJh8=w240-h480",
     "name": "Google Calendar",
     "package_name": "com.google.android.calendar",
     "genres": [
@@ -462,15 +446,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/UEhZQtc_3LCwkKIayRjHG63EfC9bsXvJjuWiFMvVRAe_tHyk0pW4ZmCBJQCENxmYlYk=w240-h480",
-    "name": "Google Camera",
-    "package_name": "com.google.android.GoogleCamera",
-    "genres": [
-      "Photography"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/cF_oWC9Io_I9smEBhjhUHkOO6vX5wMbZJgFpGny4MkMMtz25iIJEh2wASdbbEN7jseAx=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/1fsgjNK5GmFDCLc75sx1N1_b5APyy2hOFarMTl1UAM_IdeChSdT_fiTx3pkStwcJnl4=w240-h480",
     "name": "Google Chat",
     "package_name": "com.google.android.apps.dynamite",
     "genres": [
@@ -542,15 +518,15 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/BFUCX9VRX4mmpN1DWDGfQYritsX6GhqwP_WDlgLsQVv-q8TOQJd-2S12tw6k3YX8yw=w240-h480",
-    "name": "Google Fi",
+    "img_src": "https://play-lh.googleusercontent.com/QA0eHnkG-0h4u3oZ0AKqt_nvuJ7ruDo25FdiBziKdtGu_fEMy0eRGV7sVPKAINck8i4=w240-h480",
+    "name": "Google Fi Wireless",
     "package_name": "com.google.android.apps.tycho",
     "genres": [
       "Tools"
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/aX0ql6V6PvVotibIvaNW7CRjaJ2oUyBIX_WgSkAl36vOAaoXiw6yQufxVQ2LV_D2DLg=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/GCsSBgR93cedwf2weP7s6VPsBitwir9ioOO0DYjLydIjdCkfQEv0GQzK34ky96L6XMc=w240-h480",
     "name": "Google Find My Device",
     "package_name": "com.google.android.apps.adm",
     "genres": [
@@ -571,6 +547,14 @@
     "package_name": "com.google.android.apps.searchlite",
     "genres": [
       "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/Na_5OX4c15YrYDAHGQ900gR7--RF9N4o0nbk1WqT8BAty1b8J8oRhAMud6BdD42AwfQ=w240-h480",
+    "name": "Google Health Studies",
+    "package_name": "com.google.android.apps.health.research.studies",
+    "genres": [
+      "Health & Fitness"
     ]
   },
   {
@@ -598,7 +582,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/BDWTTN85mBETnnPg_qekwlk1uCxnbl4wtnVE8cz_WyMHEntEJgQsdJaT4uA0_N0VWg=w240-h480",
     "name": "Google Lens",
     "package_name": "com.google.ar.lens",
     "genres": [
@@ -638,19 +622,19 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/6wvcwcC_v4bBwA7K1eDoKw_PDtvdpHwhKAisZftnoY_Jn94Rjh7u7YSV0IEn9uZM2A=w240-h480",
-    "name": "Google Meet",
-    "package_name": "com.google.android.apps.tachyon",
-    "genres": [
-      "Communication"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/DjOehhj7NQVdm1dmBAGdmxgoNR76IxZPG5lHoDx0EAKv8NGgvgxm4GuzQ-iTOk1nMQ=w240-h480",
     "name": "Google Meet (original)",
     "package_name": "com.google.android.apps.meetings",
     "genres": [
       "Business"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/9AZOTXU_CpreTFAXUPAmJNkm8VGCb1C90fjJ9pHGcVmpGMDSTq3cUbaQJdBT9Tdp9A=w240-h480",
+    "name": "Google Messages",
+    "package_name": "com.google.android.apps.messaging",
+    "genres": [
+      "Communication"
     ]
   },
   {
@@ -662,7 +646,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/DGAleS46qOedNzJGsB3e29QLpL6Qi6EwIDze95nBvxMAMGEmbE6KOW__2haEkHVDs4Y=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/B5AENJqFOd91t5cWZLTQbVUm7iDWzYVM1n0Pe2RI_46dhlWMtVAUBioUvy4YMXWdwA=w240-h480",
     "name": "Google One",
     "package_name": "com.google.android.apps.subscriptions.red",
     "genres": [
@@ -675,6 +659,14 @@
     "package_name": "com.google.android.apps.paidtasks",
     "genres": [
       "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/HArtbyi53u0jnqhnnxkQnMx9dHOERNcprZyKnInd2nrfM7Wd9ivMNTiz7IJP6-mSpwk=w240-h480",
+    "name": "Google Pay: Save and Pay",
+    "package_name": "com.google.android.apps.nbu.paisa.user",
+    "genres": [
+      "Finance"
     ]
   },
   {
@@ -718,7 +710,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/DglqS-eYHQYXnj8M8tmzh3JcKDXcidSo3IzgyCZzci8ZTV9Pmuk8vvIFh9XHOztC3Q=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/CwOLEx-Vxk7UG5l2WxUdLAn85SAVG5_63bAyOtiEw58fatNEDBwCjEeuUWj4yfemLPU=w240-h480",
     "name": "Google Play Books & Audiobooks",
     "package_name": "com.google.android.apps.books",
     "genres": [
@@ -726,7 +718,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/HRhU-Op-AGE_TE0cP-GGPxpVfDWqXD8c2jiqto8_qWn-o0a21_y-VBr4wkzMekuSpg=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/4_RW0mQ5mJhGGJVydTlQsQ0pnqAYq9UoTVm2_gElrgRM13Q02w43HPgYVaMFy4b4smmF=w240-h480",
     "name": "Google Play Console",
     "package_name": "com.google.android.apps.playconsole",
     "genres": [
@@ -734,7 +726,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/szHQCpMAb0MikYIhvNG1MlruXFUggd6DJHXkMPG1H4lJPB7Lee_BkODfwxpQazxfO9mA=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/wpRQkfqbkPztp1US6HDr8E41We8GyY-B4CG1PMmWI3WKDk9OeYh4ehXwKIfZB7dm-sc=w240-h480",
     "name": "Google Play Games",
     "package_name": "com.google.android.play.games",
     "genres": [
@@ -782,14 +774,6 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/50-i3khy6z44n6xQsiJKx6WqLWK4zeb6IyXJYW2qZJGBE_2QvWSI5an09m-H7WgMlRqQ=w240-h480",
-    "name": "Google Street View",
-    "package_name": "com.google.android.street",
-    "genres": [
-      "Travel & Local"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/RmKOdKf0NzKV2m6jW_wKaOByWBIv7syFxf4Me0UQEsbs63UH9em7pYwFfYEzbveCz-s=w240-h480",
     "name": "Google Support Services",
     "package_name": "com.google.android.apps.helprtc",
@@ -814,7 +798,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/ueI8EVWy8As6GEwg4KG9m2q_NtCTMZMCpsTXktthX0j3sSMVTMbUFqKg3QGON2V_pR4=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/qaXTXjbeuD0m-JDrJ2Y76_5Ghr_UDGQOJRmuYfLGekbMK0s5VXkGFjNCHS4tUJxumQ=w240-h480",
     "name": "Google TV",
     "package_name": "com.google.android.videos",
     "genres": [
@@ -830,14 +814,6 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/8OYI7h34ZsWjF06t8h2h4slvdnJfzHm0xBK_yraL2f7J65rL1nRVjwSvJ-R4xbOwnA=w240-h480",
-    "name": "Google VR Services",
-    "package_name": "com.google.vr.vrcore",
-    "genres": [
-      "Tools"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/DHBlQKvUNbopIS-VjQb3fUKQ_QH0Em-Q66AwG6LwD1Sach3lUvEWDb6hh8xNvKGmctU=w240-h480",
     "name": "Google Wallet",
     "package_name": "com.google.android.apps.walletnfcrel",
@@ -846,16 +822,8 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/cw5dsfacor9mV5qSyU3c2UcPHbp2XP_N3OA1-297kN_0K8yZrEMo6qaWraF1m6eRV2Y=w240-h480",
-    "name": "Grasshopper: Learn to Code",
-    "package_name": "com.area120.grasshopper",
-    "genres": [
-      "Education"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/EbzDx68RZddtIMvs8H8MLcO-KOiBqEYJbi_kRjEdXved0p3KXr0nwUnLUgitZ5kQVWVZ=w240-h480",
-    "name": "Health Connect by Android",
+    "name": "Health Connect (Beta)",
     "package_name": "com.google.android.apps.healthdata",
     "genres": [
       "Health & Fitness"
@@ -867,14 +835,6 @@
     "package_name": "com.google.android.wearable.healthservices",
     "genres": [
       "Health & Fitness"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/sP0rG4gtfU7ZBORuW4Sejb3k9J8YlsJYDCmiAtNIGyC9LXsz9BijUdCq01VkEfFuTw=w240-h480",
-    "name": "Jacquard™ by Google",
-    "package_name": "com.google.android.apps.jacquard",
-    "genres": [
-      "Communication"
     ]
   },
   {
@@ -894,17 +854,25 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/lEHoMZRVQkUJynaNLUmG2f6cxHpL7I03afYruxq-wR35JdC7bkf3lvCesynZk3LWcw=w240-h480",
+    "name": "Looker Studio",
+    "package_name": "com.google.android.apps.cloud.cloudbi",
+    "genres": [
+      "Business"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/3MkDibPEhwEXy6ChCqPdTOQK_pRSABJvNMtolrMFra4I0G5U91K2jU4roMj8Up6vQRDI=w240-h480",
     "name": "Lookout - Assisted vision",
     "package_name": "com.google.android.apps.accessibility.reveal",
     "genres": []
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/9AZOTXU_CpreTFAXUPAmJNkm8VGCb1C90fjJ9pHGcVmpGMDSTq3cUbaQJdBT9Tdp9A=w240-h480",
-    "name": "Messages",
-    "package_name": "com.google.android.apps.messaging",
+    "img_src": "https://play-lh.googleusercontent.com/epcbk_wy3sd-VMuEeTtYdQB1z5962aevrRy_rurQ_O3ZB03tStlZmGkEaWQE4B9j6_ns=w240-h480",
+    "name": "Magnifier",
+    "package_name": "com.google.android.apps.accessibility.magnifier",
     "genres": [
-      "Communication"
+      "Tools"
     ]
   },
   {
@@ -924,16 +892,12 @@
     ]
   },
   {
-    "img_src": "",
-    "name": "NOT FOUND",
-    "package_name": "com.google.android.talk",
-    "genres": []
-  },
-  {
-    "img_src": "",
-    "name": "NOT FOUND",
-    "package_name": "com.google.android.apps.genie.geniewidget",
-    "genres": []
+    "img_src": "https://play-lh.googleusercontent.com/rKD0Grx9rAKagHvKIrhGsnWmP4PS8JkWP-Bf2zk6E-cKNQXuJuasKNn7Oz4HhqO8wA=w240-h480",
+    "name": "Online Insights Study",
+    "package_name": "com.google.android.apps.onlineinsightspanel",
+    "genres": [
+      "Tools"
+    ]
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/TBVqYK-yC0Voog9fegaEUkoKEULi0c9fUjSI6VIIb2OVPyvMR9paFcPqMAHOuSWumWMu=w240-h480",
@@ -960,11 +924,11 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/jI4AKfnY2KgWLLHNgRMAGOjnuQ5WZupStylzIxz5wAmxwlJS2sE4SF-wxkB9hRjXWMrZ=w240-h480",
-    "name": "Pixel Ambient Services",
-    "package_name": "com.google.intelligence.sense",
+    "img_src": "https://play-lh.googleusercontent.com/UEhZQtc_3LCwkKIayRjHG63EfC9bsXvJjuWiFMvVRAe_tHyk0pW4ZmCBJQCENxmYlYk=w240-h480",
+    "name": "Pixel Camera",
+    "package_name": "com.google.android.GoogleCamera",
     "genres": [
-      "Tools"
+      "Photography"
     ]
   },
   {
@@ -976,9 +940,41 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/O-7F6uiQOUbCPpfa80BldoKEiNDUekj5NBXYiJvx8fpZxT_Uuw0iAYHIKNa7yUXHbbs=w240-h480",
-    "name": "Pixel Launcher",
-    "package_name": "com.google.android.apps.nexuslauncher",
+    "img_src": "https://play-lh.googleusercontent.com/ZMKanMJdz5TtYrnlFBAd7ahy0iZlgroCh-RxJiNTCzcweTTtG3Sa3lkTRx_wxOjlUg=w240-h480",
+    "name": "Pixel Thermometer",
+    "package_name": "com.google.android.apps.pixel.health",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/i80GhOr7hiWCG-xvm9JTZnkAlzqP6ATaLyExZ6HrJJU9TIjYDQ5XmoF87t2Vzt6zoHws=w240-h480",
+    "name": "Pixel Watch Management Service",
+    "package_name": "com.google.android.wearable.pixel.pdms",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/ho2pQTKdvNZyRvOLnNBFU3ddeSuc-EXniEWm1Bas-CWsv2OaW6hS_a0dNtOkrNtkudg=w240-h480",
+    "name": "Project Baseline",
+    "package_name": "com.google.android.apps.baselinestudy",
+    "genres": [
+      "Medical"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/FLPQCZg7UqhHMoPvJS5HJh0A6WJQ843XyvZrf7a2gTFa68jC35CWUzviiihVK_jzpDN1=w240-h480",
+    "name": "Project Relate",
+    "package_name": "com.google.research.projectrelate",
+    "genres": [
+      "Communication"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/Q31Xe3kY-btrr_fsAWNc62q-RHz4zEfuvUupj8W_BPZOrT0iguXYzVNpCnwe1YUT4829=w240-h480",
+    "name": "ProtoLayout Renderer",
+    "package_name": "com.google.android.wearable.protolayout.renderer",
     "genres": [
       "Tools"
     ]
@@ -992,6 +988,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/7QfOm9Xbcvm3KXhrXmMcrvYPHpThBMU7yl7MAutUCSe3J4W8tcRxoJzbRPyy8RUgCTNM=w240-h480",
+    "name": "Reading mode",
+    "package_name": "com.google.android.accessibility.reader",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/OfRwK6rMr4i7gu1AKeNbK-qnYPuL6EVQ5j6AYYQc0ge-I-NPYoBUsweVPuJLSOtHYag=w240-h480",
     "name": "Recorder",
     "package_name": "com.google.android.apps.recorder",
@@ -1000,9 +1004,25 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/BB1BDce5FFdqNv9ZX3fSXFpUQcbp9uk8-pEZsqKBJB5OiZAJBDFoiMXGcl7n09b47wI=w240-h480",
+    "name": "Screenwise Meter",
+    "package_name": "com.google.android.apps.userpanel",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/q1pnafzDxfvAOhzJYj4PqYJB9PuVK9L8kisgTrb85IdzDRIK65eUDS5LlQz2f5oBUg=w240-h480",
     "name": "Security Hub",
     "package_name": "com.google.android.apps.security.securityhub",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/yqNOTnSePidrOtAfbclUro1zfRpAupsKmJXytfMQhWIqxGkChj6gg53H2V04FrRnYJA=w240-h480",
+    "name": "SIM Manager",
+    "package_name": "com.google.android.euicc",
     "genres": [
       "Tools"
     ]
@@ -1031,26 +1051,18 @@
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/NqWvryDAnkEWLTq36xlrdx0CJ9rzxc3jfYJmIcrlxuJ_0X0QAG7Ojch8mX8_vFRauIvH=w240-h480",
-    "name": "Speech Services by Google",
+    "name": "Speech Recognition & Synthesis",
     "package_name": "com.google.android.tts",
     "genres": [
       "Tools"
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/-sYKBafnoGcIJGbxKThRU3FHTd8_z4VMim6z_DL-hDjCSamxioIcJblijgGlX0ciLfW-=w240-h480",
-    "name": "Stadia",
-    "package_name": "com.google.stadia.android",
+    "img_src": "https://play-lh.googleusercontent.com/D86qHJkiNiv5ICuWgt4ZEOj67kk_VrSsuRcGKou1LWAp9URtq54px6hfYApOZr-AvOk=w240-h480",
+    "name": "Switch Access",
+    "package_name": "com.google.android.accessibility.switchaccess",
     "genres": [
-      "Entertainment"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/tsx52SHHoz8JwgdgbGP9a3NoE4fK_CRDk4-N86boDi8P4d8mCjm1hExcV2k17nXAyV5e=w240-h480",
-    "name": "Stadia for Android TV",
-    "package_name": "com.google.stadia.androidtv",
-    "genres": [
-      "Entertainment"
+      "Tools"
     ]
   },
   {
@@ -1059,6 +1071,7 @@
     "package_name": "com.google.toontastic",
     "genres": [
       "Simulation",
+      "Life",
       "Casual"
     ]
   },
@@ -1127,6 +1140,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/0rFPSSOXHasVTEk-iSbpa5sSOSE4ky36kQ10I1DLzYDopvLExFld-xZeuPk0UrvIrRY=w240-h480",
+    "name": "YouTube Create",
+    "package_name": "com.google.android.apps.youtube.producer",
+    "genres": [
+      "Video Players & Editors"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/Qolm5gr9jnabjk-0z79srjYC1XPVExribNz5kbDmGJeEtmRlo0UQoQEIkKMHRyt5paw=w240-h480",
     "name": "YouTube for Android TV",
     "package_name": "com.google.android.youtube.tv",
@@ -1148,14 +1169,6 @@
     "package_name": "com.google.android.youtube.tvkids",
     "genres": [
       "Entertainment"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/GnYnNfKBr2nysHBYgYRCQtcv_RRNN0Sosn47F5ArKJu89DMR3_jHRAazoIVsPUoaMg=w240-h480",
-    "name": "YouTube Music",
-    "package_name": "com.google.android.apps.youtube.music",
-    "genres": [
-      "Music & Audio"
     ]
   },
   {
@@ -1191,9 +1204,17 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/Wf3UJfOhpLqzm73SkK-ficqnqEUx1LmNSfQQDOa3ESNaEtRKX4FWLhtALoRn6ulU_K0=w240-h480",
-    "name": "YouTube VR",
-    "package_name": "com.google.android.apps.youtube.vr",
+    "img_src": "https://play-lh.googleusercontent.com/gk-WYYED1OJNr0G28ucBPUTPric5QCLwW2q_rNcYg-XTQCbPkhcp3CqVJ-1dHiBql10=w240-h480",
+    "name": "YouTube TV: Live TV & more",
+    "package_name": "com.google.android.apps.youtube.unplugged",
+    "genres": [
+      "Entertainment"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/HPyYXe-ToibRPGtFd4Ni4gi7RVfpkj4s8HwtC6fhDPqO7JfkF1-ld2SYFdzOQh-9zXU=w240-h480",
+    "name": "YouTube TV: Live TV & more",
+    "package_name": "com.google.android.youtube.tvunplugged",
     "genres": [
       "Entertainment"
     ]
