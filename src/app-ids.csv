@@ -1,7 +1,6 @@
 PackageName
 androidx.compose.material.catalog
 com.android.chrome
-com.area120.grasshopper
 com.chrome.beta
 com.chrome.canary
 com.chrome.dev
@@ -25,6 +24,7 @@ com.google.android.apps.authenticator2
 com.google.android.apps.automotive.gamesnacks
 com.google.android.apps.automotive.inputmethod
 com.google.android.apps.automotive.templates.host
+com.google.android.apps.baselinestudy
 com.google.android.apps.blogger
 com.google.android.apps.books
 com.google.android.apps.camera.poseidon
@@ -40,15 +40,13 @@ com.google.android.apps.docs.editors.sheets
 com.google.android.apps.docs.editors.slides
 com.google.android.apps.dynamite
 com.google.android.apps.enterprise.cpanel
-com.google.android.apps.enterprise.dmagent
 com.google.android.apps.fitness
-com.google.android.apps.genie.geniewidget
 com.google.android.apps.giant
 com.google.android.apps.googleassistant
 com.google.android.apps.googlevoice
+com.google.android.apps.health.research.studies
 com.google.android.apps.healthdata
 com.google.android.apps.helprtc
-com.google.android.apps.jacquard
 com.google.android.apps.jam
 com.google.android.apps.kids.familylink
 com.google.android.apps.kids.familylinkhelper
@@ -61,7 +59,8 @@ com.google.android.apps.messaging
 com.google.android.apps.motionsense.bridge
 com.google.android.apps.navlite
 com.google.android.apps.nbu.files
-com.google.android.apps.nexuslauncher
+com.google.android.apps.nbu.paisa.user
+com.google.android.apps.onlineinsightspanel
 com.google.android.apps.paidtasks
 com.google.android.apps.photos
 com.google.android.apps.photos.scanner
@@ -69,7 +68,6 @@ com.google.android.apps.photosgo
 com.google.android.apps.pixel.health
 com.google.android.apps.pixelmigrate
 com.google.android.apps.playconsole
-com.google.android.apps.plus
 com.google.android.apps.podcasts
 com.google.android.apps.recorder
 com.google.android.apps.restore
@@ -82,6 +80,7 @@ com.google.android.apps.tachyon
 com.google.android.apps.tasks
 com.google.android.apps.translate
 com.google.android.apps.tycho
+com.google.android.apps.userpanel
 com.google.android.apps.village.boond
 com.google.android.apps.walletnfcrel
 com.google.android.apps.wallpaper
@@ -95,7 +94,7 @@ com.google.android.apps.youtube.kids
 com.google.android.apps.youtube.music
 com.google.android.apps.youtube.music.pwa
 com.google.android.apps.youtube.producer
-com.google.android.apps.youtube.vr
+com.google.android.apps.youtube.unplugged
 com.google.android.backdrop
 com.google.android.calculator
 com.google.android.calendar
@@ -103,6 +102,7 @@ com.google.android.contacts
 com.google.android.deskclock
 com.google.android.dialer
 com.google.android.embedded.projection
+com.google.android.euicc
 com.google.android.gm
 com.google.android.gm.lite
 com.google.android.gms
@@ -115,8 +115,6 @@ com.google.android.leanbacklauncher
 com.google.android.marvin.talkback
 com.google.android.play.games
 com.google.android.projection.gearhead
-com.google.android.street
-com.google.android.talk
 com.google.android.tts
 com.google.android.tungsten.setupwraith
 com.google.android.tv
@@ -124,8 +122,6 @@ com.google.android.tv.remote.service
 com.google.android.tvlauncher
 com.google.android.tvrecommendations
 com.google.android.videos
-com.google.android.vr.home
-com.google.android.vr.inputmethod
 com.google.android.wearable.app
 com.google.android.wearable.assistant
 com.google.android.wearable.fitbit.mcu.data
@@ -143,19 +139,16 @@ com.google.android.youtube
 com.google.android.youtube.tv
 com.google.android.youtube.tvkids
 com.google.android.youtube.tvmusic
+com.google.android.youtube.tvunplugged
 com.google.ar.core
 com.google.ar.lens
-com.google.ar.unity.ddelements
 com.google.chromeremotedesktop
 com.google.earth
 com.google.enterprise.topaz.mobile.android
-com.google.intelligence.sense
 com.google.location.nearby.apps.fastpair.validator
+com.google.research.projectrelate
 com.google.samples.apps.cardboarddemo
 com.google.samples.apps.iosched
 com.google.socratic
-com.google.stadia.android
-com.google.stadia.androidtv
 com.google.toontastic
-com.google.vr.vrcore
 com.niksoftware.snapseed
