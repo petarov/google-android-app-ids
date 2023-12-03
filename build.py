@@ -18,6 +18,8 @@ from bs4 import BeautifulSoup
 import multiprocessing
 from multiprocessing.pool import ThreadPool
 
+LOCATION="us"
+LANG="en"
 SRC_CSV_FILE = "app-ids.csv"
 SRC_MARKDOWN_FILE = "template.README.md"
 SRC_APPS_PLACEHOLDER = '%%APPS%%'
@@ -27,7 +29,7 @@ SRC_VERSION_PLACEHOLDER = '%%VERSION%%'
 DIST_README = 'README.md'
 DIST_JSON = 'google-app-ids.json'
 DIST_CSV = 'google-app-ids.csv'
-APP_LINK_PLACEHOLDER = "[{0}](https://play.google.com/store/apps/details?id={1})"
+APP_LINK_PLACEHOLDER = "[{0}](https://play.google.com/store/apps/details?id={1}&hl={2}&gl={3})"
 
 def csv_parse(csv_path):
     print ('Parsing apps from CSV file...')
@@ -47,7 +49,7 @@ def apps_preprocess(apps):
     def app_download_details(app):
         print ('|--Downloading ', app[0])
         html_contents = requests.get(
-            'https://play.google.com/store/apps/details?id={0}'.format(app[0]))
+            'https://play.google.com/store/apps/details?id={0}&hl={1}&gl={2}'.format(app[0], LANG, LOCATION))
         soup = BeautifulSoup(html_contents.text, 'html.parser')
         logo_img = soup.find('img', attrs={'itemprop':'image',
             'alt': 'Icon image'})
@@ -114,7 +116,7 @@ def dist_readme(apps, template_path, package_path, output_path):
     for app in apps:
         logo_src = app[2].replace('=w240', '=w80') if len(app) > 3 else ''
         line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, 
-            APP_LINK_PLACEHOLDER.format(app[1], app[0]), app[0], 
+            APP_LINK_PLACEHOLDER.format(app[1], app[0], LANG, LOCATION), app[0], 
             ', '.join(app[3]))
         line += "\n"
         app_contents += line
