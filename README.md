@@ -12,8 +12,8 @@ Google-made Android apps that can be found on the Play Store. Many of these come
 
 Please note that currently only `English`-language apps in the `US` Google Play Store are listed.
 
-  * v1.0.8
-  * Built on Oct 08, 2024 at 23:22:02
+  * v1.0.9
+  * Built on Oct 08, 2024 at 23:24:40
   * **149** apps total
 
 | Icon | App Name | Package Name | Genre |
