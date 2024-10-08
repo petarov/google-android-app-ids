@@ -54,7 +54,7 @@ def apps_preprocess(apps):
         logo_img = soup.find('img', attrs={'itemprop':'image',
             'alt': 'Icon image'})
         logo_src = logo_img['src'] if logo_img else ''
-        title = soup.find('h1', attrs={'itemprop':'name'})
+        title = soup.find('span', attrs={'itemprop':'name'})
         title_text = title.text if title else 'NOT FOUND'
         cats = []
         for ahref in soup.select('div[itemprop=genre] > a[aria-label]'):
