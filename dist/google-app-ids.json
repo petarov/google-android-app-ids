@@ -158,7 +158,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/XZB1L7nFZVsMyBGbV1qmf139ijkQLdeyQH-Bh5P9D2mU3vY2oEfoP2mwz0hItjxyxZo=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/CSKh8N3G5NGaG9XiJfxYuA6oLTx9R_9H1CifQqRDmkIVFWXlUMyCQvBaF8k0PtioLOam=w240-h480",
     "name": "Chrome Beta",
     "package_name": "com.chrome.beta",
     "genres": [
@@ -166,7 +166,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/-Ch-mlIAoDWCeXdJ-bc8aVSKnwg5xto87Y9tk8BO_p39P5Iu_ORQu7dMO19ngOHvdzQ=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/bcQttOwH6sH71M0RIj-Tr8tFXL3i5EUas1d0uodFgA6KxNzNp3vPg5AisYwr6Awmmic=w240-h480",
     "name": "Chrome Canary (Unstable)",
     "package_name": "com.chrome.canary",
     "genres": [
@@ -174,7 +174,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/zgIgoUjQeJgf9gMaPauMAHSZK1Ru84PD9uEDAdR8mGDmt7peM8NYHq-APU5KquEOnbI=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/D5hlit2lOX9u9J4WB5Fum-4pOwNkxBR-wOn7a2u6cPp8UYY-yALjHTBwhlyVPfqHoDA=w240-h480",
     "name": "Chrome Dev",
     "package_name": "com.chrome.dev",
     "genres": [
@@ -446,7 +446,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/1fsgjNK5GmFDCLc75sx1N1_b5APyy2hOFarMTl1UAM_IdeChSdT_fiTx3pkStwcJnl4=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/yC17R-QYEZLmTMB7hD8KRjnWu6pJ4qNsdNQibLw8Z07kyY08IRbS89z7kATx75SR9A=w240-h480",
     "name": "Google Chat",
     "package_name": "com.google.android.apps.dynamite",
     "genres": [
@@ -454,8 +454,8 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/KwUBNPbMTk9jDXYS2AeX3illtVRTkrKVh5xR1Mg4WHd0CG2tV4mrh1z3kXi5z_warlk=w240-h480",
-    "name": "Google Chrome: Fast & Secure",
+    "img_src": "https://play-lh.googleusercontent.com/QRRGW2tMZ4-FNw0XWk6WWiXHaQCGxuwM-92HrBhlA4WOd_AGmjVmQkiHyAqQjW2yByc=w240-h480",
+    "name": "Google Chrome",
     "package_name": "com.android.chrome",
     "genres": [
       "Communication"
@@ -510,7 +510,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/rFAHXzQjUQwLH6vffa9rD_1gjH7dZykH7h6RjthsnoHTKGrJSNqTUw0D_TIQSC3ekg=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/rfQsLTQvlTitGF915EPBDlCH8UsuAk649xftN-GPi_s_ORnfVLSCX9MEs1AGflbNOGo=w240-h480",
     "name": "Google Family Link",
     "package_name": "com.google.android.apps.kids.familylink",
     "genres": [
@@ -619,14 +619,6 @@
     "package_name": "com.google.android.apps.tachyon",
     "genres": [
       "Communication"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/DjOehhj7NQVdm1dmBAGdmxgoNR76IxZPG5lHoDx0EAKv8NGgvgxm4GuzQ-iTOk1nMQ=w240-h480",
-    "name": "Google Meet (original)",
-    "package_name": "com.google.android.apps.meetings",
-    "genres": [
-      "Business"
     ]
   },
   {
@@ -750,14 +742,6 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/BQUYd1Th9Z_XI5wtklPQDHmiNkSOzBakOnpk-Ni8CBTyHb0E7UM5LpyjRW9BWs4fUuVD=w240-h480",
-    "name": "Google Podcasts",
-    "package_name": "com.google.android.apps.podcasts",
-    "genres": [
-      "Music & Audio"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/keE2gN0Hqh8-Tsf_RYZ_-yS2uo6ToqYVyRBv_UZaLXsgeeHBd2YPcEUWEF4DEtfGyb1h=w240-h480",
     "name": "Google Sheets",
     "package_name": "com.google.android.apps.docs.editors.sheets",
@@ -823,7 +807,7 @@
   },
   {
     "img_src": "https://play-lh.googleusercontent.com/EbzDx68RZddtIMvs8H8MLcO-KOiBqEYJbi_kRjEdXved0p3KXr0nwUnLUgitZ5kQVWVZ=w240-h480",
-    "name": "Health Connect (Beta)",
+    "name": "Health Connect",
     "package_name": "com.google.android.apps.healthdata",
     "genres": [
       "Health & Fitness"
@@ -835,14 +819,6 @@
     "package_name": "com.google.android.wearable.healthservices",
     "genres": [
       "Health & Fitness"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/-LLcx5FJk4ZDPFbDZTHaSoYvaJLQByYoGciA0_LwGMVla2nhOFl7ZPxY8WdcBQht6VE=w240-h480",
-    "name": "Jamboard",
-    "package_name": "com.google.android.apps.jam",
-    "genres": [
-      "Tools"
     ]
   },
   {
@@ -1033,14 +1009,6 @@
     "package_name": "com.niksoftware.snapseed",
     "genres": [
       "Photography"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/vCFjyJz8fmJTR0wCJik4p2ZwM-UUkdXmBQadKDxQQWcLWNn6zHjTXUknm9HahBVBq_AJ=w240-h480",
-    "name": "Socratic by Google",
-    "package_name": "com.google.socratic",
-    "genres": [
-      "Education"
     ]
   },
   {
