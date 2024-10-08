@@ -47,14 +47,12 @@ com.google.android.apps.googlevoice
 com.google.android.apps.health.research.studies
 com.google.android.apps.healthdata
 com.google.android.apps.helprtc
-com.google.android.apps.jam
 com.google.android.apps.kids.familylink
 com.google.android.apps.kids.familylinkhelper
 com.google.android.apps.magazines
 com.google.android.apps.maps
 com.google.android.apps.mapslite
 com.google.android.apps.mediashell
-com.google.android.apps.meetings
 com.google.android.apps.messaging
 com.google.android.apps.motionsense.bridge
 com.google.android.apps.navlite
@@ -68,7 +66,6 @@ com.google.android.apps.photosgo
 com.google.android.apps.pixel.health
 com.google.android.apps.pixelmigrate
 com.google.android.apps.playconsole
-com.google.android.apps.podcasts
 com.google.android.apps.recorder
 com.google.android.apps.restore
 com.google.android.apps.safetyhub
@@ -149,6 +146,5 @@ com.google.location.nearby.apps.fastpair.validator
 com.google.research.projectrelate
 com.google.samples.apps.cardboarddemo
 com.google.samples.apps.iosched
-com.google.socratic
 com.google.toontastic
 com.niksoftware.snapseed
