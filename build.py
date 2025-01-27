@@ -9,7 +9,6 @@ from datetime import datetime
 import os
 import sys
 import traceback
-import re
 import csv
 import json
 from operator import itemgetter
@@ -129,7 +128,7 @@ def dist_readme(apps, template_path, package_path, output_path):
         template_contents = template_contents.replace(SRC_VERSION_PLACEHOLDER, 
             package['version'])
         template_contents = template_contents.replace(SRC_TIMESTAMP_PLACEHOLDER,
-            today.strftime('%b %d, %Y at %H:%M:%S'))
+            today.strftime('%b %d, %Y at %H:%M'))
         template_contents = template_contents.replace(SRC_APPS_PLACEHOLDER, 
             app_contents)
         template_contents = template_contents.replace(SRC_APPSCOUNT_PLACEHOLDER, 
@@ -154,3 +153,4 @@ if __name__ == "__main__":
     except Exception as e:
         traceback.print_exc(file=sys.stdout)
         print ("[ERROR] {0}".format(e))
+        sys.exit(1)
