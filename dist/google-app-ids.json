@@ -46,6 +46,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/hcBdxU50cE5uT_FdUy5oLLvG_YlCZILSxCmnyU-JDh3wpWhEsf9SZGqf83Ar4dN8sA=w240-h480",
+    "name": "Android Switch",
+    "package_name": "com.google.android.apps.restore",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/-s7qEc5rMxbFyKzjQjYXiPfit1oGLF3Q-3i9D1onMHsIZOUTx-zVr14a9J3s6uiKEd4=w240-h480",
     "name": "Android System WebView",
     "package_name": "com.google.android.webview",
@@ -233,14 +241,6 @@
     "img_src": "https://play-lh.googleusercontent.com/mR_90d6G3yG85wtSqaIm2NhHNTpXQFDdr0kGyU6JPJ0B0emm1LNmBI_rNcQ-khwcuMeE=w240-h480",
     "name": "Crowdsource",
     "package_name": "com.google.android.apps.village.boond",
-    "genres": [
-      "Tools"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/7vcafwoxDSOI87n4F9kFCeeS11F9hujbl2EEqXNSH_3uWR6t8ofsQxLMOv05x1WazQ=w240-h480",
-    "name": "Data Restore Tool",
-    "package_name": "com.google.android.apps.restore",
     "genres": [
       "Tools"
     ]
@@ -587,14 +587,6 @@
     "package_name": "com.google.ar.lens",
     "genres": [
       "Tools"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/qonAlUqTpjH0mOG7LKUm9IRhFdtmRFuiF_Sb166VMcsCp1IgyfAMe6ThkEy1G_af7g=w240-h480",
-    "name": "Google Local Services Ads",
-    "package_name": "com.google.android.apps.ads.homeservices",
-    "genres": [
-      "Business"
     ]
   },
   {
@@ -1100,7 +1092,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/6am0i3walYwNLc08QOOhRJttQENNGkhlKajXSERf3JnPVRQczIyxw2w3DxeMRTOSdsY=w240-h480",
     "name": "YouTube",
     "package_name": "com.google.android.youtube",
     "genres": [
@@ -1124,7 +1116,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/S4wylkvt2jz16hnG9IG0pAZosbB82nWWy8P-rQkb54uH-SCVd5L2j7z7x1Vz5pZvIRc=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/OxNGx8LU6gm8aLfJcwcJxunvj2a7zDgDyPOD4J9HRSIc6N_1O1iZ2dLr3xQMbuMy_wE=w240-h480",
     "name": "YouTube Kids",
     "package_name": "com.google.android.apps.youtube.kids",
     "genres": [
@@ -1140,7 +1132,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/GnYnNfKBr2nysHBYgYRCQtcv_RRNN0Sosn47F5ArKJu89DMR3_jHRAazoIVsPUoaMg=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/zD8UA5CRdiPzbvTwGKtzR4KjQpxqEK6X0tGDpzEaOo0xPEvG6HUiC_0qkpTfzpuMTqU=w240-h480",
     "name": "YouTube Music",
     "package_name": "com.google.android.apps.youtube.music",
     "genres": [
@@ -1156,7 +1148,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/NRYG47CkEiVmMA2Ojlk0_X4HRtQ1ybv7bTbS1O1_ZvjSfjpP0dXtaDMecBX6eXtFrxA=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/hy3ttrmYOWArqWHDRT_bRP-uoLpjXRMlVtnf1VzHMcrF1Gn1_0EvFI5ag-TpIVOD0t4=w240-h480",
     "name": "YouTube Music for Chromebook",
     "package_name": "com.google.android.apps.youtube.music.pwa",
     "genres": [
@@ -1164,7 +1156,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/SM1nwJaePNm9Q6vVgU0CvvmR1uozbZYU8ohKfBCIndZy0sSGtwmObhpBcUkTOqcyYg=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/YA5XLQwLfrZG7_yv3n00wkJ8wLE3pkyy9dlAkZb7lGNoZOssQqE-f_2w4WMmTwnP974z=w240-h480",
     "name": "YouTube Studio",
     "package_name": "com.google.android.apps.youtube.creator",
     "genres": [
@@ -1172,7 +1164,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/gk-WYYED1OJNr0G28ucBPUTPric5QCLwW2q_rNcYg-XTQCbPkhcp3CqVJ-1dHiBql10=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/C-fxk_9e65qoZ9V9rb5uU8udyAnJU3IWnSldnoMqfFzk3wm4jCM9drsO2afVXGwXKyU=w240-h480",
     "name": "YouTube TV: Live TV & more",
     "package_name": "com.google.android.apps.youtube.unplugged",
     "genres": [
@@ -1180,7 +1172,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/HPyYXe-ToibRPGtFd4Ni4gi7RVfpkj4s8HwtC6fhDPqO7JfkF1-ld2SYFdzOQh-9zXU=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/5zpYRYi0mRIQi56FyDibKR3sWi-UfkD2QFKRdhZzK7Hh3e9l_9y5i0z3lQWhmJmUzh4=w240-h480",
     "name": "YouTube TV: Live TV & more",
     "package_name": "com.google.android.youtube.tvunplugged",
     "genres": [

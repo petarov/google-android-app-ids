@@ -12,9 +12,7 @@ Google-made Android apps that can be found on the Play Store. Many of these come
 
 Please note that currently only `English`-language apps in the `US` Google Play Store are listed.
 
-  * v%%VERSION%%
-  * Built on %%BUILD_TIMESTAMP%%
-  * **%%APPS_COUNT%%** apps total
+  * **%%APPS_COUNT%%** apps - v%%VERSION%% - built on %%BUILD_TIMESTAMP%%
 
 | Icon | App Name | Package Name | Genre |
 | --- | --- | --- | --- |
