@@ -12,7 +12,7 @@ Google-made Android apps that can be found on the Play Store. Many of these come
 
 Please note that currently only `English`-language apps in the `US` Google Play Store are listed.
 
-  * **148** apps - v1.0.10 - built on Jan 27, 2025 at 23:52 | See also :point_right: [Apple Bundle IDs](https://github.com/petarov/apple-bundle-ids)
+**148** apps - v1.0.10 - built on Jan 27, 2025 at 23:52 | See also :point_right: [Apple Bundle IDs](https://github.com/petarov/apple-bundle-ids)
 
 | Icon | App Name | Package Name | Genre |
 | --- | --- | --- | --- |
