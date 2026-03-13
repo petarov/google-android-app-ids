@@ -14,12 +14,16 @@ const fnClick = () => {
     }
 };
 const fnExtr = () => {
+    const seen = new Set();
     const rows = ["PackageName"];
-    const ahrefs = document.querySelectorAll("a[jslog]");
+    const ahrefs = document.querySelectorAll('a[href*="/store/apps/details?id="]');
     for (const ahref of ahrefs) {
-        const pkg = ahref.href.replace('https://play.google.com/store/apps/details?id=', '')
-            .replace('/store/apps/details?id=', '');
-        rows.push(pkg);
+        const url = new URL(ahref.href);
+        const pkg = url.searchParams.get("id");
+        if (pkg && !seen.has(pkg)) {
+            seen.add(pkg);
+            rows.push(pkg);
+        }
     }
     console.info('Apps found: ', rows.length);
     setTimeout(() => {
