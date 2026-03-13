@@ -4,10 +4,11 @@ com.android.chrome
 com.chrome.beta
 com.chrome.canary
 com.chrome.dev
-com.google.android.GoogleCamera
+com.fitbit.FitbitMobile
 com.google.android.accessibility.reader
 com.google.android.accessibility.soundamplifier
 com.google.android.accessibility.switchaccess
+com.google.android.aicore
 com.google.android.apps.accessibility.auditor
 com.google.android.apps.accessibility.magnifier
 com.google.android.apps.accessibility.maui.actionblocks
@@ -16,6 +17,7 @@ com.google.android.apps.accessibility.voiceaccess
 com.google.android.apps.actionsservice
 com.google.android.apps.adm
 com.google.android.apps.adwords
+com.google.android.apps.agentspace
 com.google.android.apps.aiy
 com.google.android.apps.assistant
 com.google.android.apps.audition
@@ -23,7 +25,8 @@ com.google.android.apps.authenticator2
 com.google.android.apps.automotive.gamesnacks
 com.google.android.apps.automotive.inputmethod
 com.google.android.apps.automotive.templates.host
-com.google.android.apps.baselinestudy
+com.google.android.apps.automotive.youtube
+com.google.android.apps.bard
 com.google.android.apps.blogger
 com.google.android.apps.books
 com.google.android.apps.camera.poseidon
@@ -32,6 +35,7 @@ com.google.android.apps.chromecast.app
 com.google.android.apps.classroom
 com.google.android.apps.cloud.cloudbi
 com.google.android.apps.cloudconsole
+com.google.android.apps.credentialmanager
 com.google.android.apps.cultural
 com.google.android.apps.docs
 com.google.android.apps.docs.editors.docs
@@ -43,18 +47,17 @@ com.google.android.apps.fitness
 com.google.android.apps.giant
 com.google.android.apps.googleassistant
 com.google.android.apps.googlevoice
-com.google.android.apps.health.research.studies
 com.google.android.apps.healthdata
 com.google.android.apps.helprtc
 com.google.android.apps.kids.familylink
 com.google.android.apps.kids.familylinkhelper
+com.google.android.apps.labs.language.tailwind
 com.google.android.apps.magazines
 com.google.android.apps.maps
 com.google.android.apps.mapslite
 com.google.android.apps.mediashell
 com.google.android.apps.messaging
 com.google.android.apps.motionsense.bridge
-com.google.android.apps.navlite
 com.google.android.apps.nbu.files
 com.google.android.apps.nbu.paisa.user
 com.google.android.apps.onlineinsightspanel
@@ -62,8 +65,11 @@ com.google.android.apps.paidtasks
 com.google.android.apps.photos
 com.google.android.apps.photos.scanner
 com.google.android.apps.photosgo
+com.google.android.apps.pixel.aurelius
 com.google.android.apps.pixel.health
+com.google.android.apps.pixel.nowplaying
 com.google.android.apps.pixelmigrate
+com.google.android.apps.play.billingtestcompanion
 com.google.android.apps.playconsole
 com.google.android.apps.recorder
 com.google.android.apps.restore
@@ -82,6 +88,7 @@ com.google.android.apps.walletnfcrel
 com.google.android.apps.wallpaper
 com.google.android.apps.wear.companion
 com.google.android.apps.wearables.maestro.companion
+com.google.android.apps.weather
 com.google.android.apps.wellbeing
 com.google.android.apps.wifisetup.app
 com.google.android.apps.work.clouddpc
@@ -96,12 +103,14 @@ com.google.android.calculator
 com.google.android.calendar
 com.google.android.contacts
 com.google.android.deskclock
+com.google.android.desktop.camera
 com.google.android.dialer
 com.google.android.embedded.projection
 com.google.android.euicc
 com.google.android.gm
 com.google.android.gm.lite
 com.google.android.gms
+com.google.android.GoogleCamera
 com.google.android.googlequicksearchbox
 com.google.android.ims
 com.google.android.inputmethod.latin
@@ -114,6 +123,7 @@ com.google.android.projection.gearhead
 com.google.android.tts
 com.google.android.tungsten.setupwraith
 com.google.android.tv
+com.google.android.tv.dfuservice
 com.google.android.tv.remote.service
 com.google.android.tvlauncher
 com.google.android.tvrecommendations
@@ -133,7 +143,6 @@ com.google.android.webview.canary
 com.google.android.webview.dev
 com.google.android.youtube
 com.google.android.youtube.tv
-com.google.android.youtube.tvkids
 com.google.android.youtube.tvmusic
 com.google.android.youtube.tvunplugged
 com.google.ar.core
@@ -144,6 +153,6 @@ com.google.enterprise.topaz.mobile.android
 com.google.location.nearby.apps.fastpair.validator
 com.google.research.projectrelate
 com.google.samples.apps.cardboarddemo
-com.google.samples.apps.iosched
 com.google.toontastic
+com.microblink.photomath
 com.niksoftware.snapseed

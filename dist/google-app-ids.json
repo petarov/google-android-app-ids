@@ -22,6 +22,14 @@
     "genres": []
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/-Tw9WZu1rNbGwFQ86l2zenflwivR4NBguyvr2R8lH4DmBJSFZRfq84wkPkktjyaZ9w=w240-h480",
+    "name": "Android AICore",
+    "package_name": "com.google.android.aicore",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/drnkC46hMwqPTdRLLLufhKgy_dRhA7uNTN14-tq2NxtI3deDakYOAR_4zeHcqbGg4Q=w240-h480",
     "name": "Android Auto",
     "package_name": "com.google.android.projection.gearhead",
@@ -118,14 +126,6 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/GzBTPDfbsCFDP31USwZQeRiU2p5iRYbPGSSfzDjnd16DxXkGU-okOuH81OJ6pK5Fsfc=w240-h480",
-    "name": "Assistant",
-    "package_name": "com.google.android.wearable.assistant",
-    "genres": [
-      "Tools"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/5vDnNvm80Wc8OjhaTTMH8P-fdiXGpDqfTIlMUBGwkql3YRvPxH3Xz8uDEISvDTyUFw=w240-h480",
     "name": "Backdrop Daydream",
     "package_name": "com.google.android.backdrop",
@@ -198,14 +198,6 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/Kd9NIuzYgDvL40q_lMVUH1vSGXwHsD3G8Un2uDw8K3g0jBuXbUkJ1JSLoJIHjSDJqA=w240-h480",
-    "name": "Chromecast built-in",
-    "package_name": "com.google.android.apps.mediashell",
-    "genres": [
-      "Tools"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/k-K6mdmZJZrJiuMJCHILReDGjMl_2ljzFIz3QLULfKL1q0tWtTcAkc0RDsjg9QEuXYw=w240-h480",
     "name": "Clock",
     "package_name": "com.google.android.deskclock",
@@ -254,11 +246,27 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/QRTS8KtVtKOGO1f1tYatbLPHdG_g3M2i4pmSBFY-_eq7poKPgvWgItgjOPOKprU4DWg=w240-h480",
+    "name": "Desktop Camera",
+    "package_name": "com.google.android.desktop.camera",
+    "genres": [
+      "Photography"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/CPyW3M9UC_NR8IvcArOxull74LWiKL3WqfPfjfqZnWVhYR-aErm3PIDut6Q970xJkOI=w240-h480",
     "name": "Device Utility",
     "package_name": "com.google.android.apps.wifisetup.app",
     "genres": [
       "Lifestyle"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/2_XrbQ5TkE6uNsBVIDY5pl8kMa803G9xqkOq0pTeDs2WXJuJCu78MXSeReBV9-5zXg=w240-h480",
+    "name": "DfuService",
+    "package_name": "com.google.android.tv.dfuservice",
+    "genres": [
+      "Tools"
     ]
   },
   {
@@ -302,6 +310,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/QhMCymTyxJbzRiwMBA-GYooS-nVKm3fHg2CSRyKHvhmC-e5vOibfST73y1MmScvtPw=w240-h480",
+    "name": "Fitbit",
+    "package_name": "com.fitbit.FitbitMobile",
+    "genres": [
+      "Health & Fitness"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/pmEnTOeRvosC1yOXFVwo15zS2uAdB9nijugU93NbrmFBYt61IVCZBzg7EZ00YTqmLw=w240-h480",
     "name": "Gallery",
     "package_name": "com.google.android.apps.photosgo",
@@ -342,7 +358,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/Eh-N9HKWJgQ4Oa5wmhaE5RbHkB3m3Ud9tsW6saUHis05BL7Xnpubi5iamR5lDKd-Ew=w240-h480",
     "name": "Google",
     "package_name": "com.google.android.googlequicksearchbox",
     "genres": [
@@ -446,6 +462,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/Kd9NIuzYgDvL40q_lMVUH1vSGXwHsD3G8Un2uDw8K3g0jBuXbUkJ1JSLoJIHjSDJqA=w240-h480",
+    "name": "Google Cast",
+    "package_name": "com.google.android.apps.mediashell",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/yC17R-QYEZLmTMB7hD8KRjnWu6pJ4qNsdNQibLw8Z07kyY08IRbS89z7kATx75SR9A=w240-h480",
     "name": "Google Chat",
     "package_name": "com.google.android.apps.dynamite",
@@ -526,19 +550,35 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/GCsSBgR93cedwf2weP7s6VPsBitwir9ioOO0DYjLydIjdCkfQEv0GQzK34ky96L6XMc=w240-h480",
-    "name": "Google Find My Device",
-    "package_name": "com.google.android.apps.adm",
-    "genres": [
-      "Tools"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=w240-h480",
     "name": "Google Fit: Activity Tracking",
     "package_name": "com.google.android.apps.fitness",
     "genres": [
       "Health & Fitness"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/bTpNtZ6rYYX2SeI-wC4cnr7MJnOh2hjtgYu3UIrSxE09lM3GPl_Uhf9_Ih2Smje2bc0V=w240-h480",
+    "name": "Google Gemini",
+    "package_name": "com.google.android.apps.bard",
+    "genres": [
+      "Productivity"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/-ChQHcYeV8Iq9rmGW2qVbdYWLYNuOImYl-ftoRx8zDowX5crg7TjO9BftvZ29J65qhM=w240-h480",
+    "name": "Google Gemini Enterprise",
+    "package_name": "com.google.android.apps.agentspace",
+    "genres": [
+      "Productivity"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/HJrAROni64wTRtIDlf7aWxz7ojfne6-k47usFoPqZD_itKHJg4S5aqIookImJoRmFwE=w240-h480",
+    "name": "Google Gemini on Wear OS",
+    "package_name": "com.google.android.wearable.assistant",
+    "genres": [
+      "Tools"
     ]
   },
   {
@@ -550,15 +590,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/Na_5OX4c15YrYDAHGQ900gR7--RF9N4o0nbk1WqT8BAty1b8J8oRhAMud6BdD42AwfQ=w240-h480",
-    "name": "Google Health Studies",
-    "package_name": "com.google.android.apps.health.research.studies",
-    "genres": [
-      "Health & Fitness"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/vr1isZKzTtlok9P81H6cR98iqpPhkuQHJp19Z5kPej3QlhNTnLohXpqcgMqrQpyegA=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/-UJfyCGXOGNlA_7ys13IRTRxnrA5NGick84oQx-dBTr2swpki2xGIlHPcQaF46H21-u4=w240-h480",
     "name": "Google Home",
     "package_name": "com.google.android.apps.chromecast.app",
     "genres": [
@@ -566,16 +598,8 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/JqxLmzV-ETe1HbrKHw970E16_r4PUMipwoEAXYIPIB3LAv0GF-Ynlx88q8ouRPo1rjc=w240-h480",
-    "name": "Google I/O 2019",
-    "package_name": "com.google.samples.apps.iosched",
-    "genres": [
-      "Books & Reference"
-    ]
-  },
-  {
     "img_src": "https://play-lh.googleusercontent.com/9bJoeaPbGTB8Tz_h4N-p-6ReRd8vSS-frZb2tmJulaGIoTKElKj3zpmcFJvnS96ANZP5=w240-h480",
-    "name": "Google Keep - Notes and Lists",
+    "name": "Google Keep - Notes and lists",
     "package_name": "com.google.android.keep",
     "genres": [
       "Productivity"
@@ -590,7 +614,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/Kf8WTct65hFJxBUDm5E-EpYsiDoLQiGGbnuyP6HBNax43YShXti9THPon1YKB6zPYpA=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/BCmZ2LyUTKKdLhbQp1n49nKhPtDpNjLl_qT6Uctdtnux9s1sds5c_sWeEcGirhFV5dc=w240-h480",
     "name": "Google Maps",
     "package_name": "com.google.android.apps.maps",
     "genres": [
@@ -598,7 +622,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/0uRNRSe4iS6nhvfbBcoScHcBTx1PMmxkCx8rrEsI2UQcQeZ5ByKz8fkhwRqR3vttOg=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/lVxRvn3j0HXaElWC28P7qONf1bem-WTus1i0KHKeb4Zwxuq8tbLnYKQGM61fu0P9qco=w240-h480",
     "name": "Google Maps Go",
     "package_name": "com.google.android.apps.mapslite",
     "genres": [
@@ -630,6 +654,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/qWDLmYCI4Lqzq8J-LhtvWvp1HIPkJb2lqkHjduXM7tnCo7N1tmKxnYdaX7CS2_5pkDuW=w240-h480",
+    "name": "Google NotebookLM",
+    "package_name": "com.google.android.apps.labs.language.tailwind",
+    "genres": [
+      "Productivity"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/B5AENJqFOd91t5cWZLTQbVUm7iDWzYVM1n0Pe2RI_46dhlWMtVAUBioUvy4YMXWdwA=w240-h480",
     "name": "Google One",
     "package_name": "com.google.android.apps.subscriptions.red",
@@ -646,6 +678,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/bMv1fe7CBt4KJjgCW2Va1x9YgA76E5kR2Pwp2RUdQN7Hy4lf-RqinzifC5hlQGCCiMk=w240-h480",
+    "name": "Google Password Manager",
+    "package_name": "com.google.android.apps.credentialmanager",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/HArtbyi53u0jnqhnnxkQnMx9dHOERNcprZyKnInd2nrfM7Wd9ivMNTiz7IJP6-mSpwk=w240-h480",
     "name": "Google Pay: Save and Pay",
     "package_name": "com.google.android.apps.nbu.paisa.user",
@@ -654,7 +694,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/y1yV7oGqfPvaEiA2-wGxj54g6pznm_dkWOISrn_ZuamPO-EsSwJpePLX1eHkDpEyrhk=w240-h480",
     "name": "Google Photos",
     "package_name": "com.google.android.apps.photos",
     "genres": [
@@ -670,7 +710,7 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/ZhtjS9VDhz8PMNAOQ-Y51qriphkZQc6LmZo2g3G6i5mdFBC1_lfqvOAHVIDd6nmcyF4=w240-h480",
+    "img_src": "https://play-lh.googleusercontent.com/9dD51V4wIe9Aj2BJJra09ON2bqDqR95Cktp-MTDzu3n6gYy5pIyQApPYj7WZ5f2oAA=w240-h480",
     "name": "Google Pixel Watch",
     "package_name": "com.google.android.apps.wear.companion",
     "genres": [
@@ -798,6 +838,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/GCsSBgR93cedwf2weP7s6VPsBitwir9ioOO0DYjLydIjdCkfQEv0GQzK34ky96L6XMc=w240-h480",
+    "name": "Google’s Find Hub",
+    "package_name": "com.google.android.apps.adm",
+    "genres": [
+      "Tools"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/EbzDx68RZddtIMvs8H8MLcO-KOiBqEYJbi_kRjEdXved0p3KXr0nwUnLUgitZ5kQVWVZ=w240-h480",
     "name": "Health Connect",
     "package_name": "com.google.android.apps.healthdata",
@@ -814,6 +862,14 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/L3OMdYRtNT_mvY9eqOaXIIg5mGxAUSG_IeTpuLOy494KyXkvQZwqW9XEUWEjcr6-_PQ=w240-h480",
+    "name": "Journal",
+    "package_name": "com.google.android.apps.pixel.aurelius",
+    "genres": [
+      "Lifestyle"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/eNYOraC9zc8Po9DFe41g1WzF-JSXqigWAM2IUWjeRHaJRb3JQbc34y9IvehplQE2uAAp=w240-h480",
     "name": "Live Channels",
     "package_name": "com.google.android.tv",
@@ -822,8 +878,8 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/lEHoMZRVQkUJynaNLUmG2f6cxHpL7I03afYruxq-wR35JdC7bkf3lvCesynZk3LWcw=w240-h480",
-    "name": "Looker Studio",
+    "img_src": "https://play-lh.googleusercontent.com/7m6tWuvazdJQBoMtz4-UuHvl46APqRczwLQ0-Bq7QULjSGcgnljFpCswdvZkc4VTpw=w240-h480",
+    "name": "Looker",
     "package_name": "com.google.android.apps.cloud.cloudbi",
     "genres": [
       "Business"
@@ -852,11 +908,11 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/3PSQmZ0QImgp4yLhpezISlGst1qdiXDHGS9V2w86SDXn_hLIiL5x1cYKTjHBeTtn1Lh6=w240-h480",
-    "name": "Navigation for Google Maps Go",
-    "package_name": "com.google.android.apps.navlite",
+    "img_src": "https://play-lh.googleusercontent.com/e1n07XdLoZAayPkJeZUPDo6BCDwu9aJSatchXKWfnTa8ZhCySBExBY3QdnYSPbz7GAufCPhBBfWKu6Pf1rz4=w240-h480",
+    "name": "Now Playing",
+    "package_name": "com.google.android.apps.pixel.nowplaying",
     "genres": [
-      "Travel & Local"
+      "Tools"
     ]
   },
   {
@@ -881,6 +937,14 @@
     "package_name": "com.google.android.dialer",
     "genres": [
       "Tools"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/Ma_HEbK1LzEoayR0tE0ZXqLopug69-dPspfCV36zzHOSuC0_i6mu5ulKz1eY7en-UM4=w240-h480",
+    "name": "Photomath",
+    "package_name": "com.microblink.photomath",
+    "genres": [
+      "Education"
     ]
   },
   {
@@ -924,11 +988,11 @@
     ]
   },
   {
-    "img_src": "https://play-lh.googleusercontent.com/ho2pQTKdvNZyRvOLnNBFU3ddeSuc-EXniEWm1Bas-CWsv2OaW6hS_a0dNtOkrNtkudg=w240-h480",
-    "name": "Project Baseline",
-    "package_name": "com.google.android.apps.baselinestudy",
+    "img_src": "https://play-lh.googleusercontent.com/83FzITG3Jy-se3JwGoCDpk5MHYIzEq0TIjqAZ0nfHVW4gdSHh_sS9FKcKKhhvZLHtQ=w240-h480",
+    "name": "Play Billing Lab",
+    "package_name": "com.google.android.apps.play.billingtestcompanion",
     "genres": [
-      "Medical"
+      "Tools"
     ]
   },
   {
@@ -1084,11 +1148,27 @@
     ]
   },
   {
+    "img_src": "https://play-lh.googleusercontent.com/yM8U4LUbenEtZRZNEx0W-U7-HegBS87z5p1Xc6wkTsnel0JBcfJckBkEj3bJMf44Aio=w240-h480",
+    "name": "Weather",
+    "package_name": "com.google.android.apps.weather",
+    "genres": [
+      "Weather"
+    ]
+  },
+  {
     "img_src": "https://play-lh.googleusercontent.com/OHxxGuksA1u4TI8dVimX8zftmfeEBYcYUGVn76s_1AY6YM8I8FjQvEONDzX6EqxKwdjz=w240-h480",
     "name": "Weather",
     "package_name": "com.google.android.wearable.weather",
     "genres": [
       "Weather"
+    ]
+  },
+  {
+    "img_src": "https://play-lh.googleusercontent.com/6MtUcsS5i95q92P6NbHTGzJT6hs6cJANaMHXfW5nco5_hDOnF1AC3A5lgH3Ik3MARAry=w240-h480",
+    "name": "YouTube",
+    "package_name": "com.google.android.apps.automotive.youtube",
+    "genres": [
+      "Entertainment"
     ]
   },
   {
@@ -1119,14 +1199,6 @@
     "img_src": "https://play-lh.googleusercontent.com/OxNGx8LU6gm8aLfJcwcJxunvj2a7zDgDyPOD4J9HRSIc6N_1O1iZ2dLr3xQMbuMy_wE=w240-h480",
     "name": "YouTube Kids",
     "package_name": "com.google.android.apps.youtube.kids",
-    "genres": [
-      "Entertainment"
-    ]
-  },
-  {
-    "img_src": "https://play-lh.googleusercontent.com/iMc1P4fc7bMSVvQaztKcoQ5MS1J7OLu0bOkz2kVnXZTYkiJ_k3AluzkvOAntYCthgOXQ=w240-h480",
-    "name": "YouTube Kids for Android TV",
-    "package_name": "com.google.android.youtube.tvkids",
     "genres": [
       "Entertainment"
     ]
